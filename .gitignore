@@ -26,5 +26,8 @@ data/body_fetch/
 # --- Local scratch ---
 *.bak
 *.bak2
+*.pre_retraction
+*.pre_*.json
+*pre_onset_registry*
 *STALE*
 *SUPERSEDED*
