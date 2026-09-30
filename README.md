@@ -62,6 +62,7 @@ analysis/       metric aggregation, figure generation, manifest generation
 validation/     ground truth (gt_events.json), date protocol, scoring functions
 prompts/        the three extraction prompt templates (v1, v2 temporal, EDGAR)
 results/        derived artifacts: MANIFEST.json, per-cell metrics, signal JSONL
+                and cross_model_summary.json (see "What is not shipped")
 data/           ground-truth-facing inputs (see "Data included" below)
 reports/        onset provenance notes
 ```
@@ -78,26 +79,53 @@ in the manuscript is read from it rather than typed by hand.
 | `data/by_event_v3/*.jsonl` | GDELT items for the pre-registered subset | yes |
 | `data/edgar/*.jsonl` | SEC EDGAR filing text for the twelve Chapter 11 firms | yes (U.S. government work) |
 | `data/annotation/` | blind human labels and annotation guidelines | yes |
-| `results/**` | extracted signals and derived metrics | yes |
+| `results/q38_*`, `results/_background` | the four scored cells and the negative-control pools | yes |
+| `results/cross_model_summary.json` | per-model and per-event cross-model numbers | yes |
 
-## Data excluded, and why
+## What is not shipped
 
-The article bodies fetched from publisher sites and web archives
-(`data/by_event_body/`, `data/body_fetch/`) are **not** included. The underlying
-text is third-party copyright content and is not redistributed here or in the
-manuscript.
+Two classes of material are withheld. Neither affects whether a reported number
+can be checked.
+
+**Third-party article text.** The bodies fetched from publisher sites and web
+archives (`data/by_event_body/`, `data/body_fetch/`) are not included, here or in
+the manuscript. The underlying text is publisher copyright.
 
 Everything needed to reconstitute the corpus is included: `data/by_event/` gives
 the URL, slug and date of every item in the keyword pool, so the bodies can be
-re-fetched from the publishers or from the public archives named in the paper.
-The retrieval stage is `pipeline/fetch_background.py` for GDELT item collection
-and `pipeline/free_archives.py` plus the `fetch_bodies_pass*.py` scripts for body
-recovery.
+re-fetched. The retrieval stage is `pipeline/fetch_background.py` for GDELT item
+collection and `pipeline/free_archives.py` plus the `fetch_bodies_pass*.py`
+scripts for body recovery. The full-text results in the paper are a *subset* of
+the corpus, since the body fetch succeeded for 92.5% of rows, so re-running on a
+different day reproduces the slug-side numbers exactly and the body-side numbers
+only approximately, because archive availability drifts.
 
-Note that the full-text results in the paper are a *subset* of the corpus, since
-the body fetch succeeded for 92.5% of rows. Re-running on a different day will
-therefore reproduce the slug-side numbers exactly and the body-side numbers only
-approximately, because archive availability drifts.
+**Raw per-model extraction output.** The cross-model robustness check ran the
+same prompt through four models, producing one JSONL of extracted signals per
+event per model, about 300 files in total. Those are not shipped. In their place
+`results/cross_model_summary.json` carries, for every model, the pre-onset signal
+count, true positives, false positives, precision, hit events and pooled FWGS,
+plus per-event true-positive counts and the quoted precision range. That is the
+level at which the paper's cross-model claim is made ("four models ... produce
+pre-onset precision between 0.67 and 0.81"), so the claim is checkable against
+the summary without shipping the extractions.
+
+`analysis/cross_model_summary.py` regenerates the summary when the raw
+directories are present:
+
+```
+python3 analysis/cross_model_summary.py           # regenerate
+python3 analysis/cross_model_summary.py --check   # compare against the shipped copy
+```
+
+The following scripts read the withheld raw directories and will not run from
+this snapshot: `analysis/cross_model_4way.py`, `analysis/aggregate_cross_model.py`,
+`analysis/export_annotation.py`, `analysis/fig_swimlane.py`, `analysis/_fig_utils.py`,
+`analysis/fwgs_ablation_18.py`, `analysis/make_figures_canonical.py` (cross-model
+panel), and `pipeline/cws_prototype.py` when run without `--signals-dir`. They are
+included for completeness of the method description, not as runnable entry points.
+The four scripts listed under "Reproducing the reported numbers" below are the
+runnable set, and they cover every number in the paper.
 
 ### Read this before regenerating `results/MANIFEST.json`
 
