@@ -1,0 +1,201 @@
+{
+  "per_event": [
+    {
+      "event_id": "red_sea_crisis_2023",
+      "event_name": "Red Sea shipping crisis (Houthi attacks)",
+      "hit": false,
+      "gt_onset_date": "2023-11-19",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "suez_ever_given_2021",
+      "event_name": "Ever Given blockage of Suez Canal",
+      "hit": false,
+      "gt_onset_date": "2021-03-23",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "us_chip_export_controls_2022",
+      "event_name": "US semiconductor export controls on China",
+      "hit": true,
+      "gt_onset_date": "2022-10-07",
+      "earliest_signal_date": "2022-06-25",
+      "lead_time_days": 104,
+      "n_signals_in_window": 15,
+      "matched_signal_ids": [
+        "taiwan_strait_crisis_2022-2022-06-25-0001-1",
+        "taiwan_strait_crisis_2022-2022-07-21-0002-1",
+        "taiwan_strait_crisis_2022-2022-07-22-0000-1",
+        "taiwan_strait_crisis_2022-2022-07-25-0000-1",
+        "taiwan_strait_crisis_2022-2022-07-25-0001-1",
+        "taiwan_strait_crisis_2022-2022-07-25-0002-1",
+        "taiwan_strait_crisis_2022-2022-07-27-0000-1",
+        "taiwan_strait_crisis_2022-2022-07-28-0000-1",
+        "taiwan_strait_crisis_2022-2022-07-28-0002-1",
+        "taiwan_strait_crisis_2022-2022-07-30-0001-1",
+        "taiwan_strait_crisis_2022-2022-07-31-0000-1",
+        "taiwan_strait_crisis_2022-2022-07-31-0001-1",
+        "taiwan_strait_crisis_2022-2022-08-01-0001-1",
+        "taiwan_strait_crisis_2022-2022-08-01-0003-1",
+        "taiwan_strait_crisis_2022-2022-08-01-0004-1"
+      ]
+    },
+    {
+      "event_id": "covid_supply_disruption_2020",
+      "event_name": "COVID-19 global supply chain disruption",
+      "hit": false,
+      "gt_onset_date": "2020-01-23",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "renesas_earthquake_2016",
+      "event_name": "Renesas Kumamoto earthquake halts chip plant",
+      "hit": false,
+      "gt_onset_date": "2016-04-16",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "port_los_angeles_backlog_2021",
+      "event_name": "US West Coast port congestion (LA/Long Beach)",
+      "hit": false,
+      "gt_onset_date": "2021-10-01",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "toyota_steel_explosion_2019",
+      "event_name": "Toyota engine plant steel explosion (Japan)",
+      "hit": false,
+      "gt_onset_date": "2019-06-04",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "europe_energy_crisis_2022",
+      "event_name": "European energy crisis (Russian gas cutoff)",
+      "hit": true,
+      "gt_onset_date": "2022-09-02",
+      "earliest_signal_date": "2022-07-21",
+      "lead_time_days": 43,
+      "n_signals_in_window": 1,
+      "matched_signal_ids": [
+        "taiwan_strait_crisis_2022-2022-07-21-0002-1"
+      ]
+    },
+    {
+      "event_id": "renesas_naka_plant_fire_2021",
+      "event_name": "Renesas Naka fab fire halts auto chip supply",
+      "hit": false,
+      "gt_onset_date": "2021-03-19",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "taiwan_strait_crisis_2022",
+      "event_name": "Taiwan Strait crisis (Pelosi visit and PLA drills)",
+      "hit": true,
+      "gt_onset_date": "2022-08-02",
+      "earliest_signal_date": "2022-02-27",
+      "lead_time_days": 156,
+      "n_signals_in_window": 16,
+      "matched_signal_ids": [
+        "taiwan_strait_crisis_2022-2022-02-27-0000-1",
+        "taiwan_strait_crisis_2022-2022-06-25-0001-1",
+        "taiwan_strait_crisis_2022-2022-07-21-0002-1",
+        "taiwan_strait_crisis_2022-2022-07-22-0000-1",
+        "taiwan_strait_crisis_2022-2022-07-25-0000-1",
+        "taiwan_strait_crisis_2022-2022-07-25-0001-1",
+        "taiwan_strait_crisis_2022-2022-07-25-0002-1",
+        "taiwan_strait_crisis_2022-2022-07-27-0000-1",
+        "taiwan_strait_crisis_2022-2022-07-28-0000-1",
+        "taiwan_strait_crisis_2022-2022-07-28-0002-1",
+        "taiwan_strait_crisis_2022-2022-07-30-0001-1",
+        "taiwan_strait_crisis_2022-2022-07-31-0000-1",
+        "taiwan_strait_crisis_2022-2022-07-31-0001-1",
+        "taiwan_strait_crisis_2022-2022-08-01-0001-1",
+        "taiwan_strait_crisis_2022-2022-08-01-0003-1",
+        "taiwan_strait_crisis_2022-2022-08-01-0004-1"
+      ]
+    },
+    {
+      "event_id": "us_china_tariff_war_2018",
+      "event_name": "US Section 301 tariffs on China (trade war round 1)",
+      "hit": false,
+      "gt_onset_date": "2018-07-06",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "hurricane_maria_2017",
+      "event_name": "Hurricane Maria hits Puerto Rico (pharma manufacturing)",
+      "hit": false,
+      "gt_onset_date": "2017-09-20",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "uaw_auto_strike_2023",
+      "event_name": "UAW targeted strike against Detroit Three automakers",
+      "hit": false,
+      "gt_onset_date": "2023-09-15",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "black_sea_grain_exit_2023",
+      "event_name": "Russia exits Black Sea Grain Initiative",
+      "hit": false,
+      "gt_onset_date": "2023-07-17",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "india_wheat_export_ban_2022",
+      "event_name": "India bans wheat exports after heat-wave crop damage",
+      "hit": false,
+      "gt_onset_date": "2022-05-14",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "egg_shortage_birdflu_2025",
+      "event_name": "US egg shortage and record prices amid H5N1 outbreaks",
+      "hit": false,
+      "gt_onset_date": "2025-01-15",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "russia_ukraine_war_2022",
+      "event_name": "Russia's full-scale invasion of Ukraine",
+      "hit": false,
+      "gt_onset_date": "2022-02-24",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "beirut_port_explosion_2020",
+      "event_name": "Beirut port ammonium-nitrate explosion",
+      "hit": false,
+      "gt_onset_date": "2020-08-04",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    }
+  ],
+  "summary": {
+    "n_gt_events": 18,
+    "n_hit": 3,
+    "hit_rate": 0.167,
+    "mean_lead_time_days": 101.0,
+    "median_lead_time_days": 104,
+    "precision": 0.941,
+    "n_warning_signals_in_windows": 17,
+    "n_matched_signals": 16,
+    "strict_matching": false,
+    "window_days": 180
+  }
+}

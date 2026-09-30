@@ -1,0 +1,42 @@
+[
+  {
+    "event_id": "bbby_bankruptcy_2023",
+    "n_filings": 34,
+    "signals": 48,
+    "empty": 9,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "event_id": "rite_aid_bankruptcy_2023",
+    "n_filings": 12,
+    "signals": 11,
+    "empty": 4,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "event_id": "party_city_bankruptcy_2023",
+    "n_filings": 10,
+    "signals": 4,
+    "empty": 6,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "event_id": "yellow_bankruptcy_2023",
+    "n_filings": 16,
+    "signals": 3,
+    "empty": 15,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  }
+]

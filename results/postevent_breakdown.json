@@ -1,0 +1,86 @@
+{
+  "slug x single-field": {
+    "n_signals_extracted": 180,
+    "n_strictly_post_onset_14d": 110,
+    "n_temporal_mismatch": 61,
+    "n_confirmation_correct": 49,
+    "n_onset_day_ambiguous": 56,
+    "beta0_14d": 0.5545,
+    "mean_conf_mislabelled": 0.8262,
+    "mean_conf_correct": 0.9122,
+    "auc_mislabelled_vs_correct": 0.1952157912345266,
+    "beta0_by_window": {
+      "7": 0.5495,
+      "14": 0.5545,
+      "30": 0.5417
+    },
+    "temporal_distribution": {
+      "latent": 37,
+      "forward_looking": 24,
+      "confirmation": 49
+    }
+  },
+  "slug x clock-split": {
+    "n_signals_extracted": 175,
+    "n_strictly_post_onset_14d": 111,
+    "n_temporal_mismatch": 27,
+    "n_confirmation_correct": 84,
+    "n_onset_day_ambiguous": 53,
+    "beta0_14d": 0.2432,
+    "mean_conf_mislabelled": 0.8333,
+    "mean_conf_correct": 0.8917,
+    "auc_mislabelled_vs_correct": 0.23721340388007053,
+    "beta0_by_window": {
+      "7": 0.2258,
+      "14": 0.2432,
+      "30": 0.25
+    },
+    "temporal_distribution": {
+      "confirmation": 84,
+      "forward_looking": 24,
+      "latent": 3
+    }
+  },
+  "body x single-field": {
+    "n_signals_extracted": 527,
+    "n_strictly_post_onset_14d": 329,
+    "n_temporal_mismatch": 171,
+    "n_confirmation_correct": 158,
+    "n_onset_day_ambiguous": 158,
+    "beta0_14d": 0.5198,
+    "mean_conf_mislabelled": 0.8605,
+    "mean_conf_correct": 0.9351,
+    "auc_mislabelled_vs_correct": 0.1151269524021023,
+    "beta0_by_window": {
+      "7": 0.5058,
+      "14": 0.5198,
+      "30": 0.5254
+    },
+    "temporal_distribution": {
+      "latent": 68,
+      "confirmation": 158,
+      "forward_looking": 103
+    }
+  },
+  "body x clock-split": {
+    "n_signals_extracted": 471,
+    "n_strictly_post_onset_14d": 286,
+    "n_temporal_mismatch": 101,
+    "n_confirmation_correct": 185,
+    "n_onset_day_ambiguous": 148,
+    "beta0_14d": 0.3531,
+    "mean_conf_mislabelled": 0.8723,
+    "mean_conf_correct": 0.9275,
+    "auc_mislabelled_vs_correct": 0.1742039068771742,
+    "beta0_by_window": {
+      "7": 0.3439,
+      "14": 0.3531,
+      "30": 0.3581
+    },
+    "temporal_distribution": {
+      "confirmation": 185,
+      "forward_looking": 99,
+      "latent": 2
+    }
+  }
+}

@@ -1,0 +1,4 @@
+slug x single-field  Sat Sep 19 12:06:17 PM CST 2026
+corpus=data/by_event
+prompt=prompts/event_extraction_prompt.md
+model=qwen3.8-27b

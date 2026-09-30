@@ -1,0 +1,71 @@
+{"input_id": "covid_supply_disruption_2020-2020-01-07-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "natural_disaster", "commodities": ["consumer goods", "automotive parts", "electronics"], "companies": [], "geographies": ["Wuhan", "China"], "severity": 4, "description": "武汉肺炎爆发，作为主要制造业和物流枢纽，疫情导致生产中断和物流受阻风险极高。", "trigger_phrases": ["wuhan pneumonia outbreak"], "confidence": 0.95, "impact_uncertainty": true, "uncertainty_notes": "原文仅提及疫情爆发，未明确说明具体工厂停产或物流中断细节，但基于武汉的供应链地位，影响确定性高。", "signal_id": "covid_supply_disruption_2020-2020-01-09-0000-1", "input_id": "covid_supply_disruption_2020-2020-01-09-0000", "signal_date": "2020-01-09"}
+{"temporality": "confirmation", "event_type": "natural_disaster", "commodities": ["consumer goods", "automotive parts", "electronics"], "companies": [], "geographies": ["Wuhan", "China"], "severity": 4, "description": "武汉爆发由新型SARS类病毒引起的肺炎疫情，作为主要制造业和物流枢纽，该公共卫生事件已确认发生，对当地生产及供应链构成潜在中断风险。", "trigger_phrases": ["wuhan pneumonia outbreak", "new sars type virus"], "confidence": 0.85, "impact_uncertainty": true, "uncertainty_notes": "疫情初期，具体对供应链的量化影响尚未完全显现，但作为重大公共卫生事件，其潜在中断风险极高。", "signal_id": "covid_supply_disruption_2020-2020-01-09-0001-1", "input_id": "covid_supply_disruption_2020-2020-01-09-0001", "signal_date": "2020-01-09"}
+{"input_id": "covid_supply_disruption_2020-2020-01-12-0000", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-13-0000", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-14-0000", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-14-0001", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-15-0000", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-15-0001", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-15-0002", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-15-0003", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-15-0004", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-15-0005", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-16-0000", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-17-0000", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-17-0001", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-17-0002", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-17-0003", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-18-0000", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-18-0001", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-18-0002", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-18-0003", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-20-0000", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-20-0001", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-20-0002", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-20-0003", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["consumer goods", "electronics", "automotive parts"], "companies": [], "geographies": ["China"], "severity": 4, "description": "中国领导人下令遏制新冠病毒传播，导致大规模停工停产及物流中断，严重影响全球供应链。", "trigger_phrases": ["orders to curb", "coronavirus spread"], "confidence": 0.95, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "covid_supply_disruption_2020-2020-01-20-0004-1", "input_id": "covid_supply_disruption_2020-2020-01-20-0004", "signal_date": "2020-01-20"}
+{"input_id": "covid_supply_disruption_2020-2020-01-20-0005", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-21-0000", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-21-0001", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-21-0002", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-21-0003", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-21-0004", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-21-0005", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-21-0006", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-21-0007", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-21-0008", "status": "empty"}
+{"temporality": "confirmation", "event_type": "natural_disaster", "commodities": ["pharmaceuticals", "medical supplies", "consumer goods"], "companies": [], "geographies": ["United States"], "severity": 2, "description": "美国检测到首例新型冠状病毒病例，可能引发后续公共卫生危机及供应链中断风险。", "trigger_phrases": ["1st case", "new coronavirus", "detected us"], "confidence": 0.65, "impact_uncertainty": true, "uncertainty_notes": "新闻仅提及首例病例，未直接描述供应链中断，但作为重大公共卫生事件的开端，具有潜在的供应链风险信号意义。", "signal_id": "covid_supply_disruption_2020-2020-01-22-0000-1", "input_id": "covid_supply_disruption_2020-2020-01-22-0000", "signal_date": "2020-01-22"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0001", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0002", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0003", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0004", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0005", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0006", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0007", "status": "empty"}
+{"temporality": "confirmation", "event_type": "natural_disaster", "commodities": ["pharmaceuticals", "medical supplies"], "companies": [], "geographies": ["United States", "Washington State"], "severity": 2, "description": "美国华盛顿州报告首例确诊新冠病例，标志着疫情进入美国，可能引发后续医疗物资需求激增及供应链中断风险。", "trigger_phrases": ["first confirmed us case", "coronavirus", "washington state"], "confidence": 0.85, "impact_uncertainty": true, "uncertainty_notes": "虽然病例已确认，但当时尚未出现大规模供应链中断，影响具有不确定性。", "signal_id": "covid_supply_disruption_2020-2020-01-22-0008-1", "input_id": "covid_supply_disruption_2020-2020-01-22-0008", "signal_date": "2020-01-22"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0009", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0010", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0011", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0012", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0013", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0014", "status": "empty"}
+{"temporality": "confirmation", "event_type": "natural_disaster", "commodities": ["pharmaceuticals", "consumer goods"], "companies": [], "geographies": ["United States", "China"], "severity": 3, "description": "美国确认首例武汉新型冠状病毒病例，标志着疫情开始跨国传播，可能引发后续公共卫生限制措施及供应链中断风险。", "trigger_phrases": ["first case", "wuhan coronavirus", "confirmed united states"], "confidence": 0.85, "impact_uncertainty": true, "uncertainty_notes": "此时仅为首例确诊，尚未出现大规模供应链中断，但作为疫情扩散的早期信号，具有潜在的高风险预警价值。", "signal_id": "covid_supply_disruption_2020-2020-01-22-0015-1", "input_id": "covid_supply_disruption_2020-2020-01-22-0015", "signal_date": "2020-01-22"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0016", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0017", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0018", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0019", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0020", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0021", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0022", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0023", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0024", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0025", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0026", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0027", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0028", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0029", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0030", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0031", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0032", "status": "empty"}
+{"temporality": "latent", "event_type": "regulatory", "commodities": ["consumer goods", "electronics", "automotive parts"], "companies": [{"name": "Philippine Aviation Authorities", "role": "government"}], "geographies": ["Philippines", "Wuhan"], "severity": 3, "description": "菲律宾官员比亚松要求航空当局暂停来自武汉的入境航班，可能导致中菲之间物流中断及供应链延迟。", "trigger_phrases": ["halt incoming flights", "from wuhan"], "confidence": 0.85, "impact_uncertainty": true, "uncertainty_notes": "仅为官员呼吁，尚未形成正式禁令或实际停飞，属于潜在监管风险。", "signal_id": "covid_supply_disruption_2020-2020-01-22-0033-1", "input_id": "covid_supply_disruption_2020-2020-01-22-0033", "signal_date": "2020-01-22"}

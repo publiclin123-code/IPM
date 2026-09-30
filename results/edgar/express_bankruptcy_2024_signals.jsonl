@@ -1,0 +1,5 @@
+{"input_id": "express_bankruptcy_2024-2023-11-13-000", "status": "empty"}
+{"input_id": "express_bankruptcy_2024-2023-11-30-001", "status": "empty"}
+{"input_id": "express_bankruptcy_2024-2023-12-07-002", "status": "empty"}
+{"input_id": "express_bankruptcy_2024-2023-12-21-003", "status": "empty"}
+{"temporality": "confirmation", "event_type": "credit_event", "commodities": ["apparel"], "companies": [{"name": "Express, Inc.", "role": "buyer"}], "geographies": ["United States"], "severity": 3, "description": "公司因市值低于1500万美元而被纽约证券交易所（NYSE）启动退市程序，股票已暂停交易并转至OTC Pink市场。退市导致融资渠道受限、流动性降低，且文中明确提及存在无法维持信贷协议契约合规的风险，构成重大信用风险信号。", "trigger_phrases": ["delist the Company's common stock", "non-compliance with Rule 802.01B", "less liquid market", "inability to maintain compliance with covenants"], "confidence": 0.95, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "express_bankruptcy_2024-2024-03-06-004-1", "input_id": "express_bankruptcy_2024-2024-03-06-004", "signal_date": "2024-03-06"}

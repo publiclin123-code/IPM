@@ -1,0 +1,116 @@
+{
+  "per_event": [
+    {
+      "event_id": "bbby_bankruptcy_2023",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2023-04-23",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "rite_aid_bankruptcy_2023",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2023-10-15",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "party_city_bankruptcy_2023",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2023-01-17",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "yellow_bankruptcy_2023",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2023-08-06",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "joann_bankruptcy_2024",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2024-03-18",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "big_lots_bankruptcy_2024",
+      "event_name": "",
+      "hit": true,
+      "gt_onset_date": "2024-09-09",
+      "earliest_signal_date": "2024-08-16",
+      "lead_time_days": 24,
+      "n_signals_in_window": 1,
+      "matched_signal_ids": [
+        "big_lots_bankruptcy_2024-2024-08-16-009-1"
+      ]
+    },
+    {
+      "event_id": "express_bankruptcy_2024",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2024-04-22",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "wework_bankruptcy_2023",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2023-11-06",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "lordstown_bankruptcy_2023",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2023-06-27",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "tuesday_morning_bankruptcy_2023",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2023-02-14",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "smiledirect_bankruptcy_2023",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2023-09-29",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "audacy_bankruptcy_2024",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2024-01-07",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    }
+  ],
+  "summary": {
+    "n_gt_events": 12,
+    "n_hit": 1,
+    "hit_rate": 0.083,
+    "mean_lead_time_days": 24.0,
+    "median_lead_time_days": 24,
+    "precision": 1.0,
+    "n_warning_signals_in_windows": 1,
+    "n_matched_signals": 1,
+    "strict_matching": false,
+    "window_days": 180
+  }
+}

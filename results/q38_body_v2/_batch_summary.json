@@ -1,0 +1,67 @@
+[
+  {
+    "event_id": "europe_energy_crisis_2022",
+    "status": "ran",
+    "n_articles": 126,
+    "counts": {
+      "signals": 226,
+      "errors": 0,
+      "empty": 9
+    },
+    "rc_extract": 0,
+    "rc_validate": null,
+    "rc_metrics": null
+  },
+  {
+    "event_id": "egg_shortage_birdflu_2025",
+    "status": "ran",
+    "n_articles": 116,
+    "counts": {
+      "signals": 131,
+      "errors": 0,
+      "empty": 32
+    },
+    "rc_extract": 0,
+    "rc_validate": null,
+    "rc_metrics": null
+  },
+  {
+    "event_id": "red_sea_crisis_2023",
+    "status": "ran",
+    "n_articles": 108,
+    "counts": {
+      "signals": 59,
+      "errors": 0,
+      "empty": 66
+    },
+    "rc_extract": 0,
+    "rc_validate": null,
+    "rc_metrics": null
+  },
+  {
+    "event_id": "taiwan_strait_crisis_2022",
+    "status": "ran",
+    "n_articles": 104,
+    "counts": {
+      "signals": 68,
+      "errors": 0,
+      "empty": 56
+    },
+    "rc_extract": 0,
+    "rc_validate": null,
+    "rc_metrics": null
+  },
+  {
+    "event_id": "us_china_tariff_war_2018",
+    "status": "ran",
+    "n_articles": 90,
+    "counts": {
+      "signals": 147,
+      "errors": 0,
+      "empty": 12
+    },
+    "rc_extract": 0,
+    "rc_validate": null,
+    "rc_metrics": null
+  }
+]

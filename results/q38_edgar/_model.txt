@@ -1,0 +1,3 @@
+edgar
+model=qwen3.8-27b
+prompt=prompts/event_extraction_prompt_financial_distress.md

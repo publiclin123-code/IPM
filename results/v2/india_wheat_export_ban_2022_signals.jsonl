@@ -1,0 +1,76 @@
+{"input_id": "india_wheat_export_ban_2022-2021-10-18-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2021-10-24-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2021-11-17-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2021-11-19-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2021-11-23-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2021-11-26-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2021-12-01-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2021-12-02-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2021-12-16-0000", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "natural_disaster", "commodities": ["wheat", "agricultural products"], "companies": [], "geographies": ["United States"], "severity": 3, "description": "美国冬小麦作物面临干旱威胁，可能导致产量下降或供应紧张。", "trigger_phrases": ["dry conditions", "threaten", "winter wheat crop"], "confidence": 0.85, "impact_uncertainty": true, "uncertainty_notes": "", "signal_id": "india_wheat_export_ban_2022-2021-12-24-0000-1", "input_id": "india_wheat_export_ban_2022-2021-12-24-0000", "signal_date": "2021-12-24"}
+{"input_id": "india_wheat_export_ban_2022-2021-12-25-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-01-01-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-01-06-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-01-11-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-01-11-0001", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-01-16-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-01-21-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "natural_disaster", "commodities": ["wheat", "bakery products"], "companies": [{"name": "bakery operators", "role": "buyer"}], "geographies": [], "severity": 4, "description": "小麦产量暴跌89%，导致面包店运营商面临严重供应短缺和成本压力。", "trigger_phrases": ["wheat production crashes by 89", "bakery operators lament"], "confidence": 0.85, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "india_wheat_export_ban_2022-2022-01-24-0000-1", "input_id": "india_wheat_export_ban_2022-2022-01-24-0000", "signal_date": "2022-01-24"}
+{"temporality": "forward_looking", "event_type": "geopolitical", "commodities": ["wheat"], "companies": [], "geographies": ["Ukraine"], "severity": 3, "description": "小麦价格创一个月新高，市场担忧乌克兰供应问题", "trigger_phrases": ["worries over supply from ukraine", "scales 1 month high"], "confidence": 0.85, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "india_wheat_export_ban_2022-2022-01-25-0000-1", "input_id": "india_wheat_export_ban_2022-2022-01-25-0000", "signal_date": "2022-01-25"}
+{"input_id": "india_wheat_export_ban_2022-2022-01-26-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-01-26-0001", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-01-27-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-02-02-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-02-06-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-02-11-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-02-14-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-02-17-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-02-18-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-02-22-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-02-24-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-02-26-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-03-04-0000", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "regulatory", "commodities": ["wheat"], "companies": [{"name": "Rabobank", "role": "buyer"}], "geographies": [], "severity": 3, "description": "Rabobank 的小麦买家正在考虑其他来源，暗示当前供应链（可能受地缘政治或出口管制影响）存在中断风险或供应不确定性。", "trigger_phrases": ["wheat buyers", "considering other sources"], "confidence": 0.75, "impact_uncertainty": true, "uncertainty_notes": "原文未明确说明导致寻找替代来源的具体原因（如制裁、物流中断等），但行为本身表明供应风险已显现。", "signal_id": "india_wheat_export_ban_2022-2022-03-04-0001-1", "input_id": "india_wheat_export_ban_2022-2022-03-04-0001", "signal_date": "2022-03-04"}
+{"input_id": "india_wheat_export_ban_2022-2022-03-05-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "natural_disaster", "commodities": ["wheat", "agricultural products"], "companies": [], "geographies": ["Pakistan"], "severity": 4, "description": "巴基斯坦面临严重的小麦短缺，库存仅能维持至4月底，表明供应已出现实质性中断。", "trigger_phrases": ["acute wheat shortage", "barely enough to last"], "confidence": 0.95, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "india_wheat_export_ban_2022-2022-03-06-0000-1", "input_id": "india_wheat_export_ban_2022-2022-03-06-0000", "signal_date": "2022-03-06"}
+{"input_id": "india_wheat_export_ban_2022-2022-03-09-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "geopolitical", "commodities": ["wheat"], "companies": [{"name": "Egypt", "role": "buyer"}], "geographies": ["Egypt", "Ukraine"], "severity": 4, "description": "埃及在乌克兰危机背景下寻求替代小麦来源，表明其粮食供应链面临中断风险，需调整采购策略。", "trigger_phrases": ["explores alternative wheat sources", "ukraine crisis"], "confidence": 0.9, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "india_wheat_export_ban_2022-2022-03-09-0001-1", "input_id": "india_wheat_export_ban_2022-2022-03-09-0001", "signal_date": "2022-03-09"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["corn products", "wheat"], "companies": [{"name": "Stutzman Farms", "role": "supplier"}], "geographies": ["United States"], "severity": 2, "description": "Stutzman Farms 因小麦污染问题召回玉米产品", "trigger_phrases": ["recalled", "wheat"], "confidence": 0.95, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "india_wheat_export_ban_2022-2022-03-10-0000-1", "input_id": "india_wheat_export_ban_2022-2022-03-10-0000", "signal_date": "2022-03-10"}
+{"input_id": "india_wheat_export_ban_2022-2022-03-10-0001", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-03-11-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-03-11-0001", "status": "empty"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["wheat", "oats", "food"], "companies": [], "geographies": ["Ukraine"], "severity": 4, "description": "乌克兰禁止小麦、燕麦及其他食品出口，导致全球粮食供应链中断风险上升。", "trigger_phrases": ["ukraine bans", "wheat oat other food exports"], "confidence": 0.95, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "india_wheat_export_ban_2022-2022-03-13-0000-1", "input_id": "india_wheat_export_ban_2022-2022-03-13-0000", "signal_date": "2022-03-13"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["wheat", "oats", "food"], "companies": [], "geographies": ["Ukraine"], "severity": 4, "description": "乌克兰禁止小麦、燕麦及其他食品出口，导致全球粮食供应链中断风险上升。", "trigger_phrases": ["ukraine bans", "wheat oat other food exports"], "confidence": 0.95, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "india_wheat_export_ban_2022-2022-03-13-0001-1", "input_id": "india_wheat_export_ban_2022-2022-03-13-0001", "signal_date": "2022-03-13"}
+{"input_id": "india_wheat_export_ban_2022-2022-03-15-0000", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "geopolitical", "commodities": ["agricultural products", "grains", "fertilizers"], "companies": [], "geographies": ["Global"], "severity": 5, "description": "领导人警告全球面临前所未有的粮食危机风险，暗示供应链可能遭受严重中断。", "trigger_phrases": ["warn", "unprecedented global food crisis risks"], "confidence": 0.85, "impact_uncertainty": true, "uncertainty_notes": "", "signal_id": "india_wheat_export_ban_2022-2022-03-26-0000-1", "input_id": "india_wheat_export_ban_2022-2022-03-26-0000", "signal_date": "2022-03-26"}
+{"temporality": "confirmation", "event_type": "geopolitical", "commodities": ["wheat", "corn", "sunflower oil", "fertilizers"], "companies": [], "geographies": ["Russia", "Ukraine", "Global"], "severity": 5, "description": "联合国指控俄罗斯导致全球粮食危机，表明地缘政治冲突已引发全球性关键商品供应中断。", "trigger_phrases": ["russia accused", "global food crisis"], "confidence": 0.9, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "india_wheat_export_ban_2022-2022-03-30-0000-1", "input_id": "india_wheat_export_ban_2022-2022-03-30-0000", "signal_date": "2022-03-30"}
+{"input_id": "india_wheat_export_ban_2022-2022-04-02-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-04-03-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-04-04-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-04-05-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "financial", "commodities": ["wheat"], "companies": [{"name": "Lebanon Central Bank", "role": "government"}], "geographies": ["Lebanon"], "severity": 4, "description": "黎巴嫩因央行资金延迟面临小麦短缺危机", "trigger_phrases": ["faces wheat shortage", "delay of central bank funds"], "confidence": 0.9, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "india_wheat_export_ban_2022-2022-04-07-0000-1", "input_id": "india_wheat_export_ban_2022-2022-04-07-0000", "signal_date": "2022-04-07"}
+{"input_id": "india_wheat_export_ban_2022-2022-04-07-0001", "status": "empty"}
+{"temporality": "confirmation", "event_type": "geopolitical", "commodities": ["wheat", "maize"], "companies": [], "geographies": ["European Union", "Ukraine"], "severity": 3, "description": "受乌克兰战争影响，欧盟在2022-23年度小麦出口激增，玉米进口下降，显示地缘冲突已导致粮食贸易流向发生结构性改变。", "trigger_phrases": ["wheat exports surge", "maize imports drop", "ukraine war"], "confidence": 0.95, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "india_wheat_export_ban_2022-2022-04-07-0002-1", "input_id": "india_wheat_export_ban_2022-2022-04-07-0002", "signal_date": "2022-04-07"}
+{"temporality": "confirmation", "event_type": "natural_disaster", "commodities": ["agricultural products", "food"], "companies": [], "geographies": ["South Sudan"], "severity": 4, "description": "南苏丹正面临有记录以来最严重的粮食危机，表明当地农产品供应已出现严重中断。", "trigger_phrases": ["worst food crisis", "on record"], "confidence": 0.9, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "india_wheat_export_ban_2022-2022-04-07-0003-1", "input_id": "india_wheat_export_ban_2022-2022-04-07-0003", "signal_date": "2022-04-07"}
+{"temporality": "forward_looking", "event_type": "geopolitical", "commodities": ["wheat", "agricultural products"], "companies": [], "geographies": ["Romania", "Ukraine"], "severity": 3, "description": "俄乌战争威胁罗马尼亚的小麦种植，可能导致区域粮食供应中断。", "trigger_phrases": ["war in ukraine", "threatens wheat farming"], "confidence": 0.85, "impact_uncertainty": true, "uncertainty_notes": "", "signal_id": "india_wheat_export_ban_2022-2022-04-11-0000-1", "input_id": "india_wheat_export_ban_2022-2022-04-11-0000", "signal_date": "2022-04-11"}
+{"input_id": "india_wheat_export_ban_2022-2022-04-12-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-04-14-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-04-15-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-04-15-0001", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-04-17-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-04-18-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["edible oil", "palm oil"], "companies": [], "geographies": ["Indonesia"], "severity": 4, "description": "印尼禁止食用油出口，引发市场混乱，可能导致全球粮食危机。", "trigger_phrases": ["indonesia bans edible oil export", "sparks mayhem", "global food crisis"], "confidence": 0.95, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "india_wheat_export_ban_2022-2022-04-23-0000-1", "input_id": "india_wheat_export_ban_2022-2022-04-23-0000", "signal_date": "2022-04-23"}
+{"input_id": "india_wheat_export_ban_2022-2022-04-23-0001", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-04-24-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-04-25-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-04-27-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-05-02-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "natural_disaster", "commodities": ["wheat"], "companies": [], "geographies": ["Oklahoma", "United States"], "severity": 3, "description": "俄克拉荷马州小麦产量降至2014年以来最低水平，降雨预计无法改善这一状况，表明主产区已出现严重的农业减产事实。", "trigger_phrases": ["smallest oklahoma wheat crop since 2014", "rains unlikely to help"], "confidence": 0.9, "impact_uncertainty": false, "signal_id": "india_wheat_export_ban_2022-2022-05-06-0000-1", "input_id": "india_wheat_export_ban_2022-2022-05-06-0000", "signal_date": "2022-05-06"}
+{"input_id": "india_wheat_export_ban_2022-2022-05-07-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-05-07-0001", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "geopolitical", "commodities": ["agricultural products", "wheat", "grain"], "companies": [], "geographies": ["Global"], "severity": 5, "description": "国际呼吁采取行动以避免历史上最大的粮食危机，暗示全球粮食供应链面临严重中断风险。", "trigger_phrases": ["avert largest food crisis", "international community must act"], "confidence": 0.85, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "india_wheat_export_ban_2022-2022-05-10-0000-1", "input_id": "india_wheat_export_ban_2022-2022-05-10-0000", "signal_date": "2022-05-10"}
+{"temporality": "confirmation", "event_type": "geopolitical", "commodities": ["wheat", "agricultural products"], "companies": [{"name": "India", "role": "supplier"}], "geographies": ["Black Sea", "India"], "severity": 3, "description": "黑海地区小麦供应下降，导致印度在4月份创下140万吨的小麦出口记录，显示全球粮食供应链因地缘冲突发生转移。", "trigger_phrases": ["black sea supplies fall", "india sells record", "wheat"], "confidence": 0.9, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "india_wheat_export_ban_2022-2022-05-11-0000-1", "input_id": "india_wheat_export_ban_2022-2022-05-11-0000", "signal_date": "2022-05-11"}
+{"input_id": "india_wheat_export_ban_2022-2022-05-12-0000", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-05-12-0001", "status": "empty"}
+{"input_id": "india_wheat_export_ban_2022-2022-05-13-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "geopolitical", "commodities": ["wheat", "agricultural products"], "companies": [], "geographies": ["Ukraine"], "severity": 4, "description": "乌克兰面临小麦产量下降35%的风险，作为全球主要粮食出口国，这将导致全球小麦供应紧张和价格波动。", "trigger_phrases": ["ukraine faces", "35 percent wheat drop"], "confidence": 0.9, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "india_wheat_export_ban_2022-2022-05-13-0001-1", "input_id": "india_wheat_export_ban_2022-2022-05-13-0001", "signal_date": "2022-05-13"}

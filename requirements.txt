@@ -1,0 +1,10 @@
+# Core analysis path (needed to reproduce every reported number)
+numpy>=1.26
+matplotlib>=3.8
+pandas>=2.0
+openpyxl>=3.1
+scikit-learn>=1.3
+
+# Corpus reconstruction path (only needed to re-fetch news items and bodies)
+trafilatura>=1.8
+requests>=2.31

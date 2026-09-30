@@ -1,0 +1,122 @@
+{
+  "per_event": [
+    {
+      "event_id": "red_sea_crisis_2023",
+      "event_name": "Red Sea shipping crisis (Houthi attacks)",
+      "hit": false,
+      "gt_onset_date": "2023-11-19",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "suez_ever_given_2021",
+      "event_name": "Ever Given blockage of Suez Canal",
+      "hit": false,
+      "gt_onset_date": "2021-03-23",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "us_chip_export_controls_2022",
+      "event_name": "US semiconductor export controls on China",
+      "hit": true,
+      "gt_onset_date": "2022-10-07",
+      "earliest_signal_date": "2022-04-19",
+      "lead_time_days": 171,
+      "n_signals_in_window": 23,
+      "matched_signal_ids": [
+        "us_chip_export_controls_2022-2022-04-19-0001-1",
+        "us_chip_export_controls_2022-2022-04-19-0002-1",
+        "us_chip_export_controls_2022-2022-05-09-0001-1",
+        "us_chip_export_controls_2022-2022-05-19-0000-1",
+        "us_chip_export_controls_2022-2022-05-26-0000-1",
+        "us_chip_export_controls_2022-2022-06-23-0003-1",
+        "us_chip_export_controls_2022-2022-07-15-0001-1",
+        "us_chip_export_controls_2022-2022-07-21-0003-1",
+        "us_chip_export_controls_2022-2022-07-22-0002-1",
+        "us_chip_export_controls_2022-2022-07-26-0003-1",
+        "us_chip_export_controls_2022-2022-07-27-0003-1",
+        "us_chip_export_controls_2022-2022-07-29-0002-1",
+        "us_chip_export_controls_2022-2022-08-03-0000-1",
+        "us_chip_export_controls_2022-2022-08-10-0006-1",
+        "us_chip_export_controls_2022-2022-08-25-0001-1",
+        "us_chip_export_controls_2022-2022-08-26-0000-1",
+        "us_chip_export_controls_2022-2022-09-01-0001-1",
+        "us_chip_export_controls_2022-2022-09-01-0002-1",
+        "us_chip_export_controls_2022-2022-09-10-0007-1",
+        "us_chip_export_controls_2022-2022-09-11-0001-1",
+        "us_chip_export_controls_2022-2022-09-12-0000-1",
+        "us_chip_export_controls_2022-2022-09-14-0000-1",
+        "us_chip_export_controls_2022-2022-09-24-0000-1"
+      ]
+    },
+    {
+      "event_id": "covid_supply_disruption_2020",
+      "event_name": "COVID-19 global supply chain disruption",
+      "hit": false,
+      "gt_onset_date": "2020-01-23",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "thailand_flood_hdd_2011",
+      "event_name": "Thailand floods disrupt HDD supply",
+      "hit": false,
+      "gt_onset_date": "2011-10-01",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "renesas_earthquake_2016",
+      "event_name": "Renesas Kumamoto earthquake halts chip plant",
+      "hit": false,
+      "gt_onset_date": "2016-04-16",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "global_chip_shortage_2021",
+      "event_name": "Global semiconductor shortage",
+      "hit": false,
+      "gt_onset_date": "2021-01-01",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "port_los_angeles_backlog_2021",
+      "event_name": "US West Coast port congestion (LA/Long Beach)",
+      "hit": false,
+      "gt_onset_date": "2021-10-01",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "toyota_steel_explosion_2019",
+      "event_name": "Toyota engine plant steel explosion (Japan)",
+      "hit": false,
+      "gt_onset_date": "2019-06-04",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "warehouse_collapse_lithium_2019",
+      "event_name": "Warehouse fire disrupts lithium supply (China)",
+      "hit": false,
+      "gt_onset_date": "2019-09-01",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    }
+  ],
+  "summary": {
+    "n_gt_events": 10,
+    "n_hit": 1,
+    "hit_rate": 0.1,
+    "mean_lead_time_days": 171.0,
+    "median_lead_time_days": 171,
+    "precision": 0.605,
+    "n_warning_signals_in_windows": 38,
+    "n_matched_signals": 23,
+    "strict_matching": false,
+    "window_days": 180
+  }
+}

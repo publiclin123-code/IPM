@@ -1,0 +1,200 @@
+[
+  {
+    "corpus": "gdelt",
+    "event_id": "red_sea_crisis_2023",
+    "n": 108,
+    "signals": 37,
+    "empty": 71,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "corpus": "gdelt",
+    "event_id": "suez_ever_given_2021",
+    "n": 0,
+    "signals": 0,
+    "empty": 0,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "corpus": "gdelt",
+    "event_id": "us_chip_export_controls_2022",
+    "n": 673,
+    "signals": 46,
+    "empty": 629,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "corpus": "gdelt",
+    "event_id": "covid_supply_disruption_2020",
+    "n": 71,
+    "signals": 13,
+    "empty": 58,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "corpus": "gdelt",
+    "event_id": "renesas_earthquake_2016",
+    "n": 185,
+    "signals": 58,
+    "empty": 128,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "corpus": "gdelt",
+    "event_id": "port_los_angeles_backlog_2021",
+    "n": 53,
+    "signals": 17,
+    "empty": 36,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "corpus": "gdelt",
+    "event_id": "toyota_steel_explosion_2019",
+    "n": 456,
+    "signals": 104,
+    "empty": 355,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "corpus": "gdelt",
+    "event_id": "europe_energy_crisis_2022",
+    "n": 126,
+    "signals": 91,
+    "empty": 37,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "corpus": "gdelt",
+    "event_id": "renesas_naka_plant_fire_2021",
+    "n": 1,
+    "signals": 0,
+    "empty": 1,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "corpus": "gdelt",
+    "event_id": "taiwan_strait_crisis_2022",
+    "n": 104,
+    "signals": 24,
+    "empty": 80,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "corpus": "gdelt",
+    "event_id": "us_china_tariff_war_2018",
+    "n": 90,
+    "signals": 63,
+    "empty": 28,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "corpus": "gdelt",
+    "event_id": "hurricane_maria_2017",
+    "n": 49,
+    "signals": 18,
+    "empty": 32,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "corpus": "gdelt",
+    "event_id": "uaw_auto_strike_2023",
+    "n": 88,
+    "signals": 29,
+    "empty": 59,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "corpus": "gdelt",
+    "event_id": "black_sea_grain_exit_2023",
+    "n": 69,
+    "signals": 43,
+    "empty": 27,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "corpus": "gdelt",
+    "event_id": "india_wheat_export_ban_2022",
+    "n": 76,
+    "signals": 39,
+    "empty": 40,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "corpus": "gdelt",
+    "event_id": "egg_shortage_birdflu_2025",
+    "n": 116,
+    "signals": 63,
+    "empty": 57,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "corpus": "gdelt",
+    "event_id": "russia_ukraine_war_2022",
+    "n": 277,
+    "signals": 126,
+    "empty": 157,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "corpus": "gdelt",
+    "event_id": "beirut_port_explosion_2020",
+    "n": 13,
+    "signals": 0,
+    "empty": 13,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  }
+]

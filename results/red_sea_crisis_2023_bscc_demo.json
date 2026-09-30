@@ -1,0 +1,165 @@
+{
+  "n_signals_loaded": 36,
+  "calibration": {
+    "ece": 0.1833,
+    "n_total": 33,
+    "bins": [
+      {
+        "bin_id": 1,
+        "range": [
+          0.0,
+          0.1
+        ],
+        "n": 0,
+        "acc": null,
+        "avg_conf": null,
+        "gap": null
+      },
+      {
+        "bin_id": 2,
+        "range": [
+          0.1,
+          0.2
+        ],
+        "n": 0,
+        "acc": null,
+        "avg_conf": null,
+        "gap": null
+      },
+      {
+        "bin_id": 3,
+        "range": [
+          0.2,
+          0.3
+        ],
+        "n": 0,
+        "acc": null,
+        "avg_conf": null,
+        "gap": null
+      },
+      {
+        "bin_id": 4,
+        "range": [
+          0.3,
+          0.4
+        ],
+        "n": 0,
+        "acc": null,
+        "avg_conf": null,
+        "gap": null
+      },
+      {
+        "bin_id": 5,
+        "range": [
+          0.4,
+          0.5
+        ],
+        "n": 0,
+        "acc": null,
+        "avg_conf": null,
+        "gap": null
+      },
+      {
+        "bin_id": 6,
+        "range": [
+          0.5,
+          0.6
+        ],
+        "n": 1,
+        "acc": 1.0,
+        "avg_conf": 0.5,
+        "gap": 0.5
+      },
+      {
+        "bin_id": 7,
+        "range": [
+          0.6,
+          0.7
+        ],
+        "n": 2,
+        "acc": 1.0,
+        "avg_conf": 0.625,
+        "gap": 0.375
+      },
+      {
+        "bin_id": 8,
+        "range": [
+          0.7,
+          0.8
+        ],
+        "n": 9,
+        "acc": 1.0,
+        "avg_conf": 0.733,
+        "gap": 0.267
+      },
+      {
+        "bin_id": 9,
+        "range": [
+          0.8,
+          0.9
+        ],
+        "n": 12,
+        "acc": 1.0,
+        "avg_conf": 0.825,
+        "gap": 0.175
+      },
+      {
+        "bin_id": 10,
+        "range": [
+          0.9,
+          1.0
+        ],
+        "n": 9,
+        "acc": 0.889,
+        "avg_conf": 0.922,
+        "gap": 0.033
+      }
+    ],
+    "high_conf_acc": 0.952,
+    "low_conf_acc": null,
+    "n_high_conf": 21,
+    "n_low_conf": 0
+  },
+  "bscc": {
+    "p0_confabulation_rate": 0.85,
+    "n_background": 1,
+    "raw_ece": 0.1833,
+    "bscc_corrected_ece": 0.8384,
+    "ece_reduction": -0.6551,
+    "correction_ratio": -3.5739
+  },
+  "ts_ece": {
+    "ts_ece_curve": [
+      {
+        "stratum": "(0,7]",
+        "n": 4,
+        "ece": 0.125,
+        "mean_conf": 0.875,
+        "accuracy": 1.0
+      },
+      {
+        "stratum": "(7,30]",
+        "n": 10,
+        "ece": 0.14,
+        "mean_conf": 0.86,
+        "accuracy": 1.0
+      },
+      {
+        "stratum": "(30,90]",
+        "n": 5,
+        "ece": 0.27,
+        "mean_conf": 0.73,
+        "accuracy": 1.0
+      },
+      {
+        "stratum": "(90,180]",
+        "n": 13,
+        "ece": 0.2385,
+        "mean_conf": 0.762,
+        "accuracy": 1.0
+      }
+    ],
+    "n_with_lead": 32,
+    "n_no_lead": 1
+  }
+}

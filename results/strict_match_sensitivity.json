@@ -1,0 +1,42 @@
+{
+  "title": {
+    "loose": {
+      "n_signals": 237,
+      "tp": 207,
+      "fp": 30,
+      "precision": 0.8734,
+      "fwgs": 0.5349,
+      "hit_events": 14,
+      "n_events": 18
+    },
+    "strict": {
+      "n_signals": 237,
+      "tp": 138,
+      "fp": 99,
+      "precision": 0.5823,
+      "fwgs": 0.3508,
+      "hit_events": 12,
+      "n_events": 18
+    }
+  },
+  "body": {
+    "loose": {
+      "n_signals": 727,
+      "tp": 657,
+      "fp": 70,
+      "precision": 0.9037,
+      "fwgs": 0.4719,
+      "hit_events": 15,
+      "n_events": 18
+    },
+    "strict": {
+      "n_signals": 727,
+      "tp": 475,
+      "fp": 252,
+      "precision": 0.6534,
+      "fwgs": 0.3349,
+      "hit_events": 14,
+      "n_events": 18
+    }
+  }
+}

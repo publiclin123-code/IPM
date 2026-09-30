@@ -1,0 +1,110 @@
+[
+  {
+    "event_id": "taiwan_strait_crisis_2022",
+    "status": "ran",
+    "rc": {
+      "fetch": null,
+      "extract": 0,
+      "validate": null,
+      "metrics": null
+    },
+    "n_articles": 104,
+    "n_signals": 104
+  },
+  {
+    "event_id": "us_china_tariff_war_2018",
+    "status": "ran",
+    "rc": {
+      "fetch": null,
+      "extract": 0,
+      "validate": null,
+      "metrics": null
+    },
+    "n_articles": 90,
+    "n_signals": 90
+  },
+  {
+    "event_id": "hurricane_maria_2017",
+    "status": "ran",
+    "rc": {
+      "fetch": null,
+      "extract": 0,
+      "validate": null,
+      "metrics": null
+    },
+    "n_articles": 49,
+    "n_signals": 49
+  },
+  {
+    "event_id": "uaw_auto_strike_2023",
+    "status": "ran",
+    "rc": {
+      "fetch": null,
+      "extract": 0,
+      "validate": null,
+      "metrics": null
+    },
+    "n_articles": 88,
+    "n_signals": 88
+  },
+  {
+    "event_id": "black_sea_grain_exit_2023",
+    "status": "ran",
+    "rc": {
+      "fetch": null,
+      "extract": 0,
+      "validate": null,
+      "metrics": null
+    },
+    "n_articles": 69,
+    "n_signals": 69
+  },
+  {
+    "event_id": "india_wheat_export_ban_2022",
+    "status": "ran",
+    "rc": {
+      "fetch": null,
+      "extract": 0,
+      "validate": null,
+      "metrics": null
+    },
+    "n_articles": 76,
+    "n_signals": 76
+  },
+  {
+    "event_id": "egg_shortage_birdflu_2025",
+    "status": "ran",
+    "rc": {
+      "fetch": null,
+      "extract": 0,
+      "validate": null,
+      "metrics": null
+    },
+    "n_articles": 116,
+    "n_signals": 116
+  },
+  {
+    "event_id": "russia_ukraine_war_2022",
+    "status": "ran",
+    "rc": {
+      "fetch": null,
+      "extract": 0,
+      "validate": null,
+      "metrics": null
+    },
+    "n_articles": 277,
+    "n_signals": 277
+  },
+  {
+    "event_id": "beirut_port_explosion_2020",
+    "status": "ran",
+    "rc": {
+      "fetch": null,
+      "extract": 0,
+      "validate": null,
+      "metrics": null
+    },
+    "n_articles": 13,
+    "n_signals": 13
+  }
+]

@@ -1,0 +1,654 @@
+{
+  "slug_v1": {
+    "red_sea_crisis_2023": {
+      "n": 23,
+      "tp": 15,
+      "fp": 8,
+      "precision": 0.6521739130434783,
+      "earliest_lead": 157,
+      "fwgs": 0.30805753672329694,
+      "type": "slow_burn",
+      "short": "Red Sea crisis"
+    },
+    "suez_ever_given_2021": null,
+    "us_chip_export_controls_2022": {
+      "n": 22,
+      "tp": 13,
+      "fp": 9,
+      "precision": 0.5909090909090909,
+      "earliest_lead": 172,
+      "fwgs": 0.47964193331815025,
+      "type": "slow_burn",
+      "short": "U.S. chip controls"
+    },
+    "covid_supply_disruption_2020": {
+      "n": 11,
+      "tp": 9,
+      "fp": 2,
+      "precision": 0.8181818181818182,
+      "earliest_lead": 16,
+      "fwgs": 0.14316309058364238,
+      "type": "sudden",
+      "short": "COVID-19"
+    },
+    "renesas_earthquake_2016": {
+      "n": 35,
+      "tp": 0,
+      "fp": 35,
+      "precision": 0.0,
+      "earliest_lead": 180,
+      "fwgs": 0.0,
+      "type": "sudden",
+      "short": "Renesas quake"
+    },
+    "port_los_angeles_backlog_2021": {
+      "n": 7,
+      "tp": 0,
+      "fp": 7,
+      "precision": 0.0,
+      "earliest_lead": 122,
+      "fwgs": 0.0,
+      "type": "creeping",
+      "short": "LA/LB port backlog"
+    },
+    "europe_energy_crisis_2022": {
+      "n": 49,
+      "tp": 40,
+      "fp": 9,
+      "precision": 0.8163265306122449,
+      "earliest_lead": 180,
+      "fwgs": 0.7010648159808754,
+      "type": "creeping",
+      "short": "European energy"
+    },
+    "renesas_naka_plant_fire_2021": {
+      "n": 0,
+      "tp": 0,
+      "fp": 0,
+      "precision": null,
+      "earliest_lead": null,
+      "fwgs": null,
+      "type": "sudden",
+      "short": "Renesas fire"
+    },
+    "taiwan_strait_crisis_2022": {
+      "n": 22,
+      "tp": 17,
+      "fp": 5,
+      "precision": 0.7727272727272727,
+      "earliest_lead": 156,
+      "fwgs": 0.20694792327073827,
+      "type": "slow_burn",
+      "short": "Taiwan Strait"
+    },
+    "us_china_tariff_war_2018": {
+      "n": 41,
+      "tp": 40,
+      "fp": 1,
+      "precision": 0.975609756097561,
+      "earliest_lead": 155,
+      "fwgs": 0.7930124107142374,
+      "type": "slow_burn",
+      "short": "U.S.\u2013China tariff war"
+    },
+    "hurricane_maria_2017": {
+      "n": 16,
+      "tp": 4,
+      "fp": 12,
+      "precision": 0.25,
+      "earliest_lead": 14,
+      "fwgs": 0.02945391333005789,
+      "type": "sudden",
+      "short": "Hurricane Maria"
+    },
+    "uaw_auto_strike_2023": {
+      "n": 19,
+      "tp": 14,
+      "fp": 5,
+      "precision": 0.7368421052631579,
+      "earliest_lead": 77,
+      "fwgs": 0.24112428175526826,
+      "type": "slow_burn",
+      "short": "UAW strike"
+    },
+    "black_sea_grain_exit_2023": {
+      "n": 39,
+      "tp": 38,
+      "fp": 1,
+      "precision": 0.9743589743589743,
+      "earliest_lead": 178,
+      "fwgs": 0.7533531165986962,
+      "type": "slow_burn",
+      "short": "Black Sea grain"
+    },
+    "india_wheat_export_ban_2022": {
+      "n": 15,
+      "tp": 6,
+      "fp": 9,
+      "precision": 0.4,
+      "earliest_lead": 141,
+      "fwgs": 0.23812053368017624,
+      "type": "slow_burn",
+      "short": "India wheat ban"
+    },
+    "egg_shortage_birdflu_2025": {
+      "n": 11,
+      "tp": 6,
+      "fp": 5,
+      "precision": 0.5454545454545454,
+      "earliest_lead": 169,
+      "fwgs": 0.45531870777398514,
+      "type": "slow_burn",
+      "short": "Egg shortage"
+    },
+    "russia_ukraine_war_2022": {
+      "n": 76,
+      "tp": 69,
+      "fp": 7,
+      "precision": 0.9078947368421053,
+      "earliest_lead": 103,
+      "fwgs": 0.3689779682483648,
+      "type": "slow_burn",
+      "short": "Russia\u2013Ukraine war"
+    },
+    "beirut_port_explosion_2020": {
+      "n": 0,
+      "tp": 0,
+      "fp": 0,
+      "precision": null,
+      "earliest_lead": null,
+      "fwgs": null,
+      "type": "sudden",
+      "short": "Beirut explosion"
+    }
+  },
+  "slug_v2": {
+    "red_sea_crisis_2023": {
+      "n": 8,
+      "tp": 2,
+      "fp": 6,
+      "precision": 0.25,
+      "earliest_lead": 157,
+      "fwgs": 0.19851182879153687,
+      "type": "slow_burn",
+      "short": "Red Sea crisis"
+    },
+    "suez_ever_given_2021": null,
+    "us_chip_export_controls_2022": {
+      "n": 17,
+      "tp": 11,
+      "fp": 6,
+      "precision": 0.6470588235294118,
+      "earliest_lead": 172,
+      "fwgs": 0.5108948578150629,
+      "type": "slow_burn",
+      "short": "U.S. chip controls"
+    },
+    "covid_supply_disruption_2020": {
+      "n": 1,
+      "tp": 1,
+      "fp": 0,
+      "precision": 1.0,
+      "earliest_lead": 1,
+      "fwgs": 0.0327838995179941,
+      "type": "sudden",
+      "short": "COVID-19"
+    },
+    "renesas_earthquake_2016": {
+      "n": 4,
+      "tp": 0,
+      "fp": 4,
+      "precision": 0.0,
+      "earliest_lead": 176,
+      "fwgs": 0.0,
+      "type": "sudden",
+      "short": "Renesas quake"
+    },
+    "port_los_angeles_backlog_2021": {
+      "n": 6,
+      "tp": 0,
+      "fp": 6,
+      "precision": 0.0,
+      "earliest_lead": 122,
+      "fwgs": 0.0,
+      "type": "creeping",
+      "short": "LA/LB port backlog"
+    },
+    "europe_energy_crisis_2022": {
+      "n": 43,
+      "tp": 34,
+      "fp": 9,
+      "precision": 0.7906976744186046,
+      "earliest_lead": 180,
+      "fwgs": 0.7049693320527858,
+      "type": "creeping",
+      "short": "European energy"
+    },
+    "renesas_naka_plant_fire_2021": {
+      "n": 0,
+      "tp": 0,
+      "fp": 0,
+      "precision": null,
+      "earliest_lead": null,
+      "fwgs": null,
+      "type": "sudden",
+      "short": "Renesas fire"
+    },
+    "taiwan_strait_crisis_2022": {
+      "n": 16,
+      "tp": 15,
+      "fp": 1,
+      "precision": 0.9375,
+      "earliest_lead": 156,
+      "fwgs": 0.23006908287136327,
+      "type": "slow_burn",
+      "short": "Taiwan Strait"
+    },
+    "us_china_tariff_war_2018": {
+      "n": 35,
+      "tp": 34,
+      "fp": 1,
+      "precision": 0.9714285714285714,
+      "earliest_lead": 155,
+      "fwgs": 0.8010142300329011,
+      "type": "slow_burn",
+      "short": "U.S.\u2013China tariff war"
+    },
+    "hurricane_maria_2017": {
+      "n": 10,
+      "tp": 4,
+      "fp": 6,
+      "precision": 0.4,
+      "earliest_lead": 14,
+      "fwgs": 0.047126261328092625,
+      "type": "sudden",
+      "short": "Hurricane Maria"
+    },
+    "uaw_auto_strike_2023": {
+      "n": 16,
+      "tp": 13,
+      "fp": 3,
+      "precision": 0.8125,
+      "earliest_lead": 77,
+      "fwgs": 0.30495549868719596,
+      "type": "slow_burn",
+      "short": "UAW strike"
+    },
+    "black_sea_grain_exit_2023": {
+      "n": 33,
+      "tp": 32,
+      "fp": 1,
+      "precision": 0.9696969696969697,
+      "earliest_lead": 134,
+      "fwgs": 0.7401804962329647,
+      "type": "slow_burn",
+      "short": "Black Sea grain"
+    },
+    "india_wheat_export_ban_2022": {
+      "n": 14,
+      "tp": 6,
+      "fp": 8,
+      "precision": 0.42857142857142855,
+      "earliest_lead": 141,
+      "fwgs": 0.3040952396562751,
+      "type": "slow_burn",
+      "short": "India wheat ban"
+    },
+    "egg_shortage_birdflu_2025": {
+      "n": 5,
+      "tp": 2,
+      "fp": 3,
+      "precision": 0.4,
+      "earliest_lead": 152,
+      "fwgs": 0.38232232097873675,
+      "type": "slow_burn",
+      "short": "Egg shortage"
+    },
+    "russia_ukraine_war_2022": {
+      "n": 76,
+      "tp": 75,
+      "fp": 1,
+      "precision": 0.9868421052631579,
+      "earliest_lead": 115,
+      "fwgs": 0.4400264969079825,
+      "type": "slow_burn",
+      "short": "Russia\u2013Ukraine war"
+    },
+    "beirut_port_explosion_2020": {
+      "n": 0,
+      "tp": 0,
+      "fp": 0,
+      "precision": null,
+      "earliest_lead": null,
+      "fwgs": null,
+      "type": "sudden",
+      "short": "Beirut explosion"
+    }
+  },
+  "body_v1": {
+    "red_sea_crisis_2023": {
+      "n": 45,
+      "tp": 25,
+      "fp": 20,
+      "precision": 0.5555555555555556,
+      "earliest_lead": 168,
+      "fwgs": 0.3018621849165016,
+      "type": "slow_burn",
+      "short": "Red Sea crisis"
+    },
+    "suez_ever_given_2021": null,
+    "us_chip_export_controls_2022": {
+      "n": 124,
+      "tp": 69,
+      "fp": 55,
+      "precision": 0.5564516129032258,
+      "earliest_lead": 178,
+      "fwgs": 0.3899068806046688,
+      "type": "slow_burn",
+      "short": "U.S. chip controls"
+    },
+    "covid_supply_disruption_2020": {
+      "n": 54,
+      "tp": 39,
+      "fp": 15,
+      "precision": 0.7222222222222222,
+      "earliest_lead": 16,
+      "fwgs": 0.06710913438087554,
+      "type": "sudden",
+      "short": "COVID-19"
+    },
+    "renesas_earthquake_2016": {
+      "n": 65,
+      "tp": 3,
+      "fp": 62,
+      "precision": 0.046153846153846156,
+      "earliest_lead": 180,
+      "fwgs": 0.023155757047814154,
+      "type": "sudden",
+      "short": "Renesas quake"
+    },
+    "port_los_angeles_backlog_2021": {
+      "n": 26,
+      "tp": 4,
+      "fp": 22,
+      "precision": 0.15384615384615385,
+      "earliest_lead": 172,
+      "fwgs": 0.12009962942156675,
+      "type": "creeping",
+      "short": "LA/LB port backlog"
+    },
+    "europe_energy_crisis_2022": {
+      "n": 140,
+      "tp": 107,
+      "fp": 33,
+      "precision": 0.7642857142857142,
+      "earliest_lead": 180,
+      "fwgs": 0.6476684021395747,
+      "type": "creeping",
+      "short": "European energy"
+    },
+    "renesas_naka_plant_fire_2021": {
+      "n": 0,
+      "tp": 0,
+      "fp": 0,
+      "precision": null,
+      "earliest_lead": null,
+      "fwgs": null,
+      "type": "sudden",
+      "short": "Renesas fire"
+    },
+    "taiwan_strait_crisis_2022": {
+      "n": 54,
+      "tp": 35,
+      "fp": 19,
+      "precision": 0.6481481481481481,
+      "earliest_lead": 159,
+      "fwgs": 0.13927545578485542,
+      "type": "slow_burn",
+      "short": "Taiwan Strait"
+    },
+    "us_china_tariff_war_2018": {
+      "n": 128,
+      "tp": 121,
+      "fp": 7,
+      "precision": 0.9453125,
+      "earliest_lead": 172,
+      "fwgs": 0.7099732871912613,
+      "type": "slow_burn",
+      "short": "U.S.\u2013China tariff war"
+    },
+    "hurricane_maria_2017": {
+      "n": 29,
+      "tp": 3,
+      "fp": 26,
+      "precision": 0.10344827586206896,
+      "earliest_lead": 14,
+      "fwgs": 0.014554716000135692,
+      "type": "sudden",
+      "short": "Hurricane Maria"
+    },
+    "uaw_auto_strike_2023": {
+      "n": 48,
+      "tp": 29,
+      "fp": 19,
+      "precision": 0.6041666666666666,
+      "earliest_lead": 173,
+      "fwgs": 0.2755179815991929,
+      "type": "slow_burn",
+      "short": "UAW strike"
+    },
+    "black_sea_grain_exit_2023": {
+      "n": 75,
+      "tp": 69,
+      "fp": 6,
+      "precision": 0.92,
+      "earliest_lead": 178,
+      "fwgs": 0.7063457378079412,
+      "type": "slow_burn",
+      "short": "Black Sea grain"
+    },
+    "india_wheat_export_ban_2022": {
+      "n": 67,
+      "tp": 26,
+      "fp": 41,
+      "precision": 0.3880597014925373,
+      "earliest_lead": 178,
+      "fwgs": 0.21426994006907424,
+      "type": "slow_burn",
+      "short": "India wheat ban"
+    },
+    "egg_shortage_birdflu_2025": {
+      "n": 98,
+      "tp": 61,
+      "fp": 37,
+      "precision": 0.6224489795918368,
+      "earliest_lead": 176,
+      "fwgs": 0.36143686512854173,
+      "type": "slow_burn",
+      "short": "Egg shortage"
+    },
+    "russia_ukraine_war_2022": {
+      "n": 332,
+      "tp": 303,
+      "fp": 29,
+      "precision": 0.9126506024096386,
+      "earliest_lead": 167,
+      "fwgs": 0.4017456434283455,
+      "type": "slow_burn",
+      "short": "Russia\u2013Ukraine war"
+    },
+    "beirut_port_explosion_2020": {
+      "n": 1,
+      "tp": 0,
+      "fp": 1,
+      "precision": 0.0,
+      "earliest_lead": 35,
+      "fwgs": 0.0,
+      "type": "sudden",
+      "short": "Beirut explosion"
+    }
+  },
+  "body_v2": {
+    "red_sea_crisis_2023": {
+      "n": 22,
+      "tp": 13,
+      "fp": 9,
+      "precision": 0.5909090909090909,
+      "earliest_lead": 157,
+      "fwgs": 0.350150014556767,
+      "type": "slow_burn",
+      "short": "Red Sea crisis"
+    },
+    "suez_ever_given_2021": null,
+    "us_chip_export_controls_2022": {
+      "n": 96,
+      "tp": 52,
+      "fp": 44,
+      "precision": 0.5416666666666666,
+      "earliest_lead": 178,
+      "fwgs": 0.4001867405839928,
+      "type": "slow_burn",
+      "short": "U.S. chip controls"
+    },
+    "covid_supply_disruption_2020": {
+      "n": 34,
+      "tp": 29,
+      "fp": 5,
+      "precision": 0.8529411764705882,
+      "earliest_lead": 14,
+      "fwgs": 0.09346648459248821,
+      "type": "sudden",
+      "short": "COVID-19"
+    },
+    "renesas_earthquake_2016": {
+      "n": 19,
+      "tp": 2,
+      "fp": 17,
+      "precision": 0.10526315789473684,
+      "earliest_lead": 137,
+      "fwgs": 0.08828918019855758,
+      "type": "sudden",
+      "short": "Renesas quake"
+    },
+    "port_los_angeles_backlog_2021": {
+      "n": 21,
+      "tp": 3,
+      "fp": 18,
+      "precision": 0.14285714285714285,
+      "earliest_lead": 161,
+      "fwgs": 0.11578638366017198,
+      "type": "creeping",
+      "short": "LA/LB port backlog"
+    },
+    "europe_energy_crisis_2022": {
+      "n": 102,
+      "tp": 75,
+      "fp": 27,
+      "precision": 0.7352941176470589,
+      "earliest_lead": 180,
+      "fwgs": 0.5852375799499588,
+      "type": "creeping",
+      "short": "European energy"
+    },
+    "renesas_naka_plant_fire_2021": {
+      "n": 0,
+      "tp": 0,
+      "fp": 0,
+      "precision": null,
+      "earliest_lead": null,
+      "fwgs": null,
+      "type": "sudden",
+      "short": "Renesas fire"
+    },
+    "taiwan_strait_crisis_2022": {
+      "n": 40,
+      "tp": 32,
+      "fp": 8,
+      "precision": 0.8,
+      "earliest_lead": 159,
+      "fwgs": 0.20481653407552716,
+      "type": "slow_burn",
+      "short": "Taiwan Strait"
+    },
+    "us_china_tariff_war_2018": {
+      "n": 107,
+      "tp": 100,
+      "fp": 7,
+      "precision": 0.9345794392523364,
+      "earliest_lead": 172,
+      "fwgs": 0.6821086647377688,
+      "type": "slow_burn",
+      "short": "U.S.\u2013China tariff war"
+    },
+    "hurricane_maria_2017": {
+      "n": 23,
+      "tp": 1,
+      "fp": 22,
+      "precision": 0.043478260869565216,
+      "earliest_lead": 14,
+      "fwgs": -0.005820989876029243,
+      "type": "sudden",
+      "short": "Hurricane Maria"
+    },
+    "uaw_auto_strike_2023": {
+      "n": 39,
+      "tp": 27,
+      "fp": 12,
+      "precision": 0.6923076923076923,
+      "earliest_lead": 173,
+      "fwgs": 0.3212479700287849,
+      "type": "slow_burn",
+      "short": "UAW strike"
+    },
+    "black_sea_grain_exit_2023": {
+      "n": 48,
+      "tp": 44,
+      "fp": 4,
+      "precision": 0.9166666666666666,
+      "earliest_lead": 148,
+      "fwgs": 0.684958504930067,
+      "type": "slow_burn",
+      "short": "Black Sea grain"
+    },
+    "india_wheat_export_ban_2022": {
+      "n": 46,
+      "tp": 23,
+      "fp": 23,
+      "precision": 0.5,
+      "earliest_lead": 169,
+      "fwgs": 0.27936441602625456,
+      "type": "slow_burn",
+      "short": "India wheat ban"
+    },
+    "egg_shortage_birdflu_2025": {
+      "n": 49,
+      "tp": 29,
+      "fp": 20,
+      "precision": 0.5918367346938775,
+      "earliest_lead": 176,
+      "fwgs": 0.34609139492576463,
+      "type": "slow_burn",
+      "short": "Egg shortage"
+    },
+    "russia_ukraine_war_2022": {
+      "n": 277,
+      "tp": 251,
+      "fp": 26,
+      "precision": 0.9061371841155235,
+      "earliest_lead": 167,
+      "fwgs": 0.41138988240931457,
+      "type": "slow_burn",
+      "short": "Russia\u2013Ukraine war"
+    },
+    "beirut_port_explosion_2020": {
+      "n": 0,
+      "tp": 0,
+      "fp": 0,
+      "precision": null,
+      "earliest_lead": null,
+      "fwgs": null,
+      "type": "sudden",
+      "short": "Beirut explosion"
+    }
+  }
+}

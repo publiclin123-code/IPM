@@ -1,0 +1,31 @@
+{
+  "excluded": [
+    {
+      "event_id": "toyota_steel_explosion_2019",
+      "event_name": "Toyota engine plant steel explosion (Japan)",
+      "gt_onset_date": "2019-06-04",
+      "onset_status": "draft-needs-verification",
+      "onset_evidence": "2019 年丰田工厂机械爆炸导致停产 1 周。待核实。",
+      "event_type": "quality",
+      "commodities": [
+        "automotive engines",
+        "steel"
+      ],
+      "companies": [
+        "Toyota"
+      ],
+      "geographies": [
+        "Japan"
+      ],
+      "affected_region": "Toyota global production",
+      "notes": "突发型小事件；检验 LLM 对小规模中断的预警能力。",
+      "retracted": true,
+      "retracted_on": "2026-09-18",
+      "reason": "Onset and event itself unverifiable. Ten Wikipedia searches (en+ja) find no 2019 Toyota engine-plant explosion or fire; the corpus contains no title with both 'toyota' and ('explosion'|'fire'); the nearest real analogue is the 1997 Aisin fire. Real 2019 incidents do not match: Sandvika hydrogen station explosion (Norway, June 2019) and a Daihatsu Nakatsu plant fire (2019-03-14). Retained hits were US steel-tariff articles under loose matching (DI-8).",
+      "evidence_script": "pipeline/verify_toyota_event.py",
+      "hits_under_loose_matching": 27,
+      "hits_under_identity_matching": 1
+    }
+  ],
+  "description": "Ground-truth entries removed from gt_events.json, with the evidence for removal. Kept for audit trail; do not merge back without new sources."
+}

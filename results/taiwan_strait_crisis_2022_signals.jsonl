@@ -1,0 +1,104 @@
+{"input_id": "taiwan_strait_crisis_2022-2021-07-29-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-01-18-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-02-04-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-02-10-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-02-10-0001", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-02-10-0002", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-02-13-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-02-17-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-02-18-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-02-23-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-02-24-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-02-26-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-02-27-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-03-04-0000", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "regulatory", "commodities": ["oil"], "companies": [{"name": "Pelosi", "role": "government"}], "geographies": ["United States", "Russia"], "severity": 4, "description": "美国众议院议长佩洛西支持停止进口俄罗斯石油，可能导致关键能源供应中断和价格波动。", "trigger_phrases": ["Pelosi supports", "halting Russian oil imports"], "confidence": 0.9, "uncertainty_notes": "", "signal_id": "taiwan_strait_crisis_2022-2022-03-04-0001-1", "input_id": "taiwan_strait_crisis_2022-2022-03-04-0001", "signal_date": "2022-03-04"}
+{"input_id": "taiwan_strait_crisis_2022-2022-03-15-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-03-18-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-03-20-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-03-24-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-03-25-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-03-26-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-04-01-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-04-05-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-04-08-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-04-08-0001", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-04-18-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-01-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["steel", "iron ore", "construction materials"], "companies": [{"name": "Azovstal", "role": "supplier"}], "geographies": ["Mariupol", "Ukraine"], "severity": 4, "description": "Mariupol 工厂（Azovstal）人员撤离，标志着该关键钢铁生产设施因军事冲突而实质性停产，导致欧洲钢铁供应链中断。", "trigger_phrases": ["leave mariupol plant", "pelosi slams russian bullies"], "confidence": 0.85, "uncertainty_notes": "原文未明确提及 Azovstal 名称，但 'Mariupol plant' 在 2022 年 5 月语境下特指 Azovstal 钢铁厂，其停产对全球钢铁供应有显著影响。", "signal_id": "taiwan_strait_crisis_2022-2022-05-01-0001-1", "input_id": "taiwan_strait_crisis_2022-2022-05-01-0001", "signal_date": "2022-05-01"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-01-0002", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-02-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-02-0001", "status": "empty"}
+{"temporality": "latent", "event_type": "geopolitical", "commodities": ["steel", "agricultural products", "energy"], "companies": [], "geographies": ["Ukraine", "Mariupol"], "severity": 3, "description": "马里乌波尔的撤离行动表明该地区冲突持续，可能影响当地钢铁生产及乌克兰整体出口能力，构成潜在供应链中断风险。", "trigger_phrases": ["ukraine", "mariupol", "evacuation"], "confidence": 0.6, "uncertainty_notes": "原文极短，仅提及撤离，未明确说明具体供应链中断，但马里乌波尔是重要工业中心，冲突背景隐含风险。", "signal_id": "taiwan_strait_crisis_2022-2022-05-02-0002-1", "input_id": "taiwan_strait_crisis_2022-2022-05-02-0002", "signal_date": "2022-05-02"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-02-0003", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-02-0004", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-02-0005", "status": "empty"}
+{"temporality": "confirmation", "event_type": "geopolitical", "commodities": ["steel", "construction materials"], "companies": [{"name": "Mariupol Steel Plant", "role": "supplier"}], "geographies": ["Ukraine", "Mariupol"], "severity": 4, "description": "Mariupol steel plant civilians escape amid conflict, indicating severe operational disruption and potential long-term loss of steel production capacity in a key industrial hub.", "trigger_phrases": ["civilians escape", "mariupol steel plant"], "confidence": 0.85, "uncertainty_notes": "", "signal_id": "taiwan_strait_crisis_2022-2022-05-03-0000-1", "input_id": "taiwan_strait_crisis_2022-2022-05-03-0000", "signal_date": "2022-05-03"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-06-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-15-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-15-0001", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-16-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-17-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-18-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-18-0001", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["baby formula"], "companies": [], "geographies": ["United States"], "severity": 4, "description": "美国面临婴儿配方奶粉短缺危机，众议院议长南希·佩洛西呼吁进行刑事起诉，表明供应中断已造成严重社会影响并引发监管/法律层面的强烈反应。", "trigger_phrases": ["baby formula shortage crisis", "criminal INDICTMENT"], "confidence": 0.9, "uncertainty_notes": "", "signal_id": "taiwan_strait_crisis_2022-2022-05-18-0002-1", "input_id": "taiwan_strait_crisis_2022-2022-05-18-0002", "signal_date": "2022-05-18"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-20-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-20-0001", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-21-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-21-0001", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-21-0002", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-21-0003", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-21-0004", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-23-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-23-0001", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-24-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-24-0001", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-25-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-30-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-30-0001", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-30-0002", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-30-0003", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-30-0004", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-30-0005", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-30-0006", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-30-0007", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-30-0008", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-30-0009", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-05-30-0010", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-06-10-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-06-11-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-06-17-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-06-18-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-06-19-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-06-24-0000", "status": "empty"}
+{"temporality": "latent", "event_type": "geopolitical", "commodities": ["semiconductors"], "companies": [{"name": "TSMC", "role": "supplier"}, {"name": "Samsung", "role": "supplier"}], "geographies": ["Taiwan Strait", "Taiwan"], "severity": 3, "description": "美军在台湾海峡进行飞行活动，地缘政治紧张局势升级，潜在威胁半导体供应链稳定", "trigger_phrases": ["taiwan strait flyover", "heightened tensions"], "confidence": 0.85, "uncertainty_notes": "", "signal_id": "taiwan_strait_crisis_2022-2022-06-25-0000-1", "input_id": "taiwan_strait_crisis_2022-2022-06-25-0000", "signal_date": "2022-06-25"}
+{"temporality": "forward_looking", "event_type": "geopolitical", "commodities": ["semiconductors"], "companies": [], "geographies": ["Taiwan", "China"], "severity": 4, "description": "中国警告将对佩洛西访台采取军事回应，引发台海地缘政治紧张，可能影响全球半导体供应链稳定。", "trigger_phrases": ["warns", "military response", "taiwan trip"], "confidence": 0.85, "uncertainty_notes": "", "signal_id": "taiwan_strait_crisis_2022-2022-06-25-0001-1", "input_id": "taiwan_strait_crisis_2022-2022-06-25-0001", "signal_date": "2022-06-25"}
+{"input_id": "taiwan_strait_crisis_2022-2022-06-27-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-06-29-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-06-30-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-07-07-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-07-19-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-07-21-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-07-21-0001", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "geopolitical", "commodities": ["semiconductors"], "companies": [{"name": "TSMC", "role": "supplier"}, {"name": "Samsung", "role": "supplier"}], "geographies": ["Taiwan", "United States", "China"], "severity": 4, "description": "中国警告若美国众议院议长佩洛西访台，美国将承担严重后果，暗示台海地缘政治紧张局势升级，可能威胁全球半导体供应链稳定。", "trigger_phrases": ["serious consequence", "pelosi visits taiwan"], "confidence": 0.85, "uncertainty_notes": "原文未直接提及半导体，但台湾为全球半导体制造核心枢纽，地缘政治紧张直接关联供应链风险。", "signal_id": "taiwan_strait_crisis_2022-2022-07-21-0002-1", "input_id": "taiwan_strait_crisis_2022-2022-07-21-0002", "signal_date": "2022-07-21"}
+{"temporality": "forward_looking", "event_type": "geopolitical", "commodities": ["semiconductors"], "companies": [], "geographies": ["Taiwan", "China", "US"], "severity": 4, "description": "佩洛西暗示美军可能因担心中国击落其飞机而犹豫，反映出台海地缘政治紧张局势升级，可能对位于台湾的半导体供应链构成潜在威胁。", "trigger_phrases": ["may be afraid", "shoot down", "over taiwan"], "confidence": 0.75, "uncertainty_notes": "原文为佩洛西的言论，属于地缘政治紧张信号，虽未直接提及供应链中断，但台湾是半导体核心产地，地缘冲突风险直接关联半导体供应安全。", "signal_id": "taiwan_strait_crisis_2022-2022-07-22-0000-1", "input_id": "taiwan_strait_crisis_2022-2022-07-22-0000", "signal_date": "2022-07-22"}
+{"input_id": "taiwan_strait_crisis_2022-2022-07-23-0000", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "geopolitical", "commodities": ["semiconductors"], "companies": [], "geographies": ["Taiwan", "China"], "severity": 4, "description": "中国警告将对佩洛西访台采取军事回应，引发台海地缘政治紧张，可能影响全球半导体供应链稳定。", "trigger_phrases": ["warns", "military response", "taiwan trip"], "confidence": 0.85, "uncertainty_notes": "", "signal_id": "taiwan_strait_crisis_2022-2022-07-25-0000-1", "input_id": "taiwan_strait_crisis_2022-2022-07-25-0000", "signal_date": "2022-07-25"}
+{"temporality": "forward_looking", "event_type": "geopolitical", "commodities": ["semiconductors"], "companies": [{"name": "TSMC", "role": "supplier"}, {"name": "ASML", "role": "supplier"}], "geographies": ["Taiwan", "China", "United States"], "severity": 4, "description": "中国警告美国众议院议长佩洛西计划访问台湾，引发台海地缘政治紧张局势升级，可能影响全球半导体供应链稳定。", "trigger_phrases": ["china warns", "planned visit to taiwan"], "confidence": 0.85, "uncertainty_notes": "虽然访问本身未直接导致中断，但地缘政治紧张显著增加了潜在冲突风险，进而威胁半导体供应。", "signal_id": "taiwan_strait_crisis_2022-2022-07-25-0001-1", "input_id": "taiwan_strait_crisis_2022-2022-07-25-0001", "signal_date": "2022-07-25"}
+{"temporality": "latent", "event_type": "geopolitical", "commodities": ["semiconductors"], "companies": [{"name": "TSMC", "role": "supplier"}, {"name": "MediaTek", "role": "supplier"}], "geographies": ["Taiwan", "United States"], "severity": 3, "description": "美国众议院议长佩洛西计划访问台湾引发地缘政治紧张，可能影响台湾半导体供应链的稳定性。", "trigger_phrases": ["pelosi", "taiwan visit"], "confidence": 0.8, "uncertainty_notes": "原文仅提及访问计划，未明确说明已造成中断，但台湾作为半导体枢纽，政治紧张构成潜在风险。", "signal_id": "taiwan_strait_crisis_2022-2022-07-25-0002-1", "input_id": "taiwan_strait_crisis_2022-2022-07-25-0002", "signal_date": "2022-07-25"}
+{"input_id": "taiwan_strait_crisis_2022-2022-07-26-0000", "status": "empty"}
+{"temporality": "latent", "event_type": "geopolitical", "commodities": ["semiconductors"], "companies": [], "geographies": ["Taiwan"], "severity": 4, "description": "佩洛西访台引发地缘政治紧张，台湾作为全球半导体制造枢纽，存在潜在的供应链中断风险。", "trigger_phrases": ["taiwan response", "pelosi visit"], "confidence": 0.85, "uncertainty_notes": "", "signal_id": "taiwan_strait_crisis_2022-2022-07-27-0000-1", "input_id": "taiwan_strait_crisis_2022-2022-07-27-0000", "signal_date": "2022-07-27"}
+{"temporality": "forward_looking", "event_type": "geopolitical", "commodities": ["semiconductors"], "companies": [{"name": "TSMC", "role": "supplier"}, {"name": "Samsung", "role": "supplier"}], "geographies": ["Taiwan", "United States", "China"], "severity": 4, "description": "中国警告若美国众议院议长佩洛西访台，美国将承担严重后果，暗示台海地缘政治紧张局势升级，可能影响全球半导体供应链稳定。", "trigger_phrases": ["serious consequence", "pelosi visits taiwan"], "confidence": 0.85, "uncertainty_notes": "原文未直接提及半导体，但台湾为全球半导体制造核心枢纽，地缘政治紧张直接关联供应链风险。", "signal_id": "taiwan_strait_crisis_2022-2022-07-28-0000-1", "input_id": "taiwan_strait_crisis_2022-2022-07-28-0000", "signal_date": "2022-07-28"}
+{"input_id": "taiwan_strait_crisis_2022-2022-07-28-0001", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-07-28-0002", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-07-28-0003", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-07-29-0000", "status": "empty"}
+{"input_id": "taiwan_strait_crisis_2022-2022-07-30-0000", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "geopolitical", "commodities": ["semiconductors"], "companies": [], "geographies": ["Taiwan", "Taiwan Strait"], "severity": 4, "description": "佩洛西访台可能引发台海危机，威胁全球半导体供应链稳定", "trigger_phrases": ["could", "spark", "Taiwan Straits crisis"], "confidence": 0.85, "uncertainty_notes": "", "signal_id": "taiwan_strait_crisis_2022-2022-07-30-0001-1", "input_id": "taiwan_strait_crisis_2022-2022-07-30-0001", "signal_date": "2022-07-30"}
+{"temporality": "forward_looking", "event_type": "geopolitical", "commodities": ["semiconductors"], "companies": [{"name": "TSMC", "role": "supplier"}, {"name": "ASML", "role": "supplier"}, {"name": "Intel", "role": "supplier"}], "geographies": ["Taiwan", "China"], "severity": 4, "description": "中国宣布军事演习，因佩洛西可能访问台湾，引发对台海局势升级及半导体供应链中断的担忧。", "trigger_phrases": ["military exercises", "pelosis possible trip", "taiwan looms"], "confidence": 0.85, "uncertainty_notes": "佩洛西访问尚未发生，军事演习已宣布，供应链中断风险为潜在/前瞻性。", "signal_id": "taiwan_strait_crisis_2022-2022-07-31-0000-1", "input_id": "taiwan_strait_crisis_2022-2022-07-31-0000", "signal_date": "2022-07-31"}
+{"temporality": "latent", "event_type": "geopolitical", "commodities": ["semiconductors"], "companies": [{"name": "TSMC", "role": "supplier"}, {"name": "Intel", "role": "supplier"}, {"name": "Samsung", "role": "supplier"}], "geographies": ["Taiwan", "Taiwan Strait"], "severity": 4, "description": "美国众议院议长佩洛西访问台湾，引发地缘政治紧张局势，可能影响台湾海峡航运安全及全球半导体供应链稳定性。", "trigger_phrases": ["pelosi heads to taiwan"], "confidence": 0.85, "uncertainty_notes": "原文仅提及访问，未明确提及冲突或中断，但基于领域知识，此类高层访问通常伴随地缘政治风险升级，对半导体供应链构成潜在威胁。", "signal_id": "taiwan_strait_crisis_2022-2022-07-31-0001-1", "input_id": "taiwan_strait_crisis_2022-2022-07-31-0001", "signal_date": "2022-07-31"}
+{"input_id": "taiwan_strait_crisis_2022-2022-08-01-0000", "status": "empty"}
+{"temporality": "latent", "event_type": "geopolitical", "commodities": ["semiconductors"], "companies": [{"name": "TSMC", "role": "supplier"}, {"name": "Samsung", "role": "supplier"}], "geographies": ["Taiwan", "United States"], "severity": 4, "description": "Pelosi 访问台湾及美国国会相关法案引发地缘政治紧张，可能影响台湾半导体供应链稳定性", "trigger_phrases": ["pelosi taiwan visit looms", "menendez bill", "one china policy"], "confidence": 0.85, "uncertainty_notes": "文本未直接提及供应链中断，但台湾是半导体核心产地，地缘政治紧张构成潜在风险", "signal_id": "taiwan_strait_crisis_2022-2022-08-01-0001-1", "input_id": "taiwan_strait_crisis_2022-2022-08-01-0001", "signal_date": "2022-08-01"}
+{"input_id": "taiwan_strait_crisis_2022-2022-08-01-0002", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "geopolitical", "commodities": ["semiconductors"], "companies": [], "geographies": ["Taiwan", "Asia"], "severity": 4, "description": "Nancy Pelosi 访问台湾引发地缘政治紧张，可能影响作为全球半导体枢纽的台湾地区的供应链稳定性。", "trigger_phrases": ["nancy pelosi", "taiwan", "asia visit"], "confidence": 0.85, "uncertainty_notes": "", "signal_id": "taiwan_strait_crisis_2022-2022-08-01-0003-1", "input_id": "taiwan_strait_crisis_2022-2022-08-01-0003", "signal_date": "2022-08-01"}
+{"temporality": "forward_looking", "event_type": "geopolitical", "commodities": ["semiconductors"], "companies": [{"name": "TSMC", "role": "supplier"}, {"name": "ASML", "role": "supplier"}], "geographies": ["Taiwan", "China"], "severity": 4, "description": "中国警告不会在佩洛西访台期间袖手旁观，引发台海地缘政治紧张局势升级风险，可能影响全球半导体供应链稳定。", "trigger_phrases": ["warns", "will not sit idly", "nancy pelosis trip taiwan"], "confidence": 0.85, "uncertainty_notes": "原文未明确提及半导体，但台海局势直接关联全球半导体供应枢纽台湾，依据领域推断速查表命中。", "signal_id": "taiwan_strait_crisis_2022-2022-08-01-0004-1", "input_id": "taiwan_strait_crisis_2022-2022-08-01-0004", "signal_date": "2022-08-01"}

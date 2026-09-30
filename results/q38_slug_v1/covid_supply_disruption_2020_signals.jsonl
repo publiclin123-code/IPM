@@ -1,0 +1,71 @@
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["consumer goods", "automotive parts", "electronics"], "companies": [], "geographies": ["Wuhan", "China"], "severity": 4, "description": "武汉爆发不明原因病毒性肺炎，虽官方声明非SARS，但作为主要制造业和物流枢纽，疫情潜在扩散可能引发后续供应链中断风险。", "trigger_phrases": ["mystery viral pneumonia outbreak", "wuhan"], "confidence": 0.6, "uncertainty_notes": "新闻仅提及疫情爆发及非SARS声明，未直接描述供应链中断，但基于武汉作为供应链枢纽的地位及疫情性质，推断存在潜在风险。", "signal_id": "covid_supply_disruption_2020-2020-01-07-0000-1", "input_id": "covid_supply_disruption_2020-2020-01-07-0000", "signal_date": "2020-01-07"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["consumer goods", "automotive parts", "electronics"], "companies": [], "geographies": ["Wuhan", "China"], "severity": 4, "description": "武汉肺炎爆发，作为主要制造业中心，疫情可能导致劳动力短缺、工厂停工及物流中断，进而影响全球供应链。", "trigger_phrases": ["wuhan pneumonia outbreak"], "confidence": 0.85, "uncertainty_notes": "新闻标题极简，未提及具体中断事实，但基于武汉的工业地位及疫情性质，推断为潜在的重大供应链风险。", "signal_id": "covid_supply_disruption_2020-2020-01-09-0000-1", "input_id": "covid_supply_disruption_2020-2020-01-09-0000", "signal_date": "2020-01-09"}
+{"input_id": "covid_supply_disruption_2020-2020-01-09-0001", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-12-0000", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-13-0000", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-14-0000", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-14-0001", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["consumer goods", "electronics", "automotive parts"], "companies": [], "geographies": ["United States", "China"], "severity": 2, "description": "美国确认首例武汉新型冠状病毒病例，疫情初期存在潜在供应链中断风险，可能影响中美贸易物流及制造业供应。", "trigger_phrases": ["first case", "wuhan coronavirus", "confirmed united states"], "confidence": 0.6, "uncertainty_notes": "新闻仅报道首例病例确认，未提及具体的供应链中断、物流受阻或生产停滞，属于早期潜在风险信号。", "signal_id": "covid_supply_disruption_2020-2020-01-15-0000-1", "input_id": "covid_supply_disruption_2020-2020-01-15-0000", "signal_date": "2020-01-15"}
+{"input_id": "covid_supply_disruption_2020-2020-01-15-0001", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-15-0002", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["consumer goods", "electronics", "automotive parts", "pharmaceuticals"], "companies": [], "geographies": ["China"], "severity": 4, "description": "中国正在努力控制冠状病毒疫情，疫情爆发及政府管控措施可能导致供应链中断风险上升。", "trigger_phrases": ["anxiety rises", "china seeks control", "coronavirus outbreak"], "confidence": 0.85, "uncertainty_notes": "原文仅提及疫情爆发及控制努力，未明确提及具体供应链中断事实，但基于历史背景及领域速查表，疫情属于重大自然灾害/公共卫生事件，对供应链有潜在重大冲击。", "signal_id": "covid_supply_disruption_2020-2020-01-15-0003-1", "input_id": "covid_supply_disruption_2020-2020-01-15-0003", "signal_date": "2020-01-15"}
+{"input_id": "covid_supply_disruption_2020-2020-01-15-0004", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-15-0005", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-16-0000", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-17-0000", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-17-0001", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-17-0002", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-17-0003", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-18-0000", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-18-0001", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-18-0002", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-18-0003", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-20-0000", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-20-0001", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["pharmaceuticals", "medical supplies", "consumer goods"], "companies": [], "geographies": ["China"], "severity": 3, "description": "中国报告病毒性肺炎疫情新增病例，潜在导致劳动力短缺、物流中断及医疗物资需求激增，进而影响供应链稳定性。", "trigger_phrases": ["viral pneumonia outbreak", "new cases"], "confidence": 0.65, "uncertainty_notes": "原文仅提及病例数量，未直接描述供应链中断，但疫情作为公共卫生事件通常伴随供应链风险，故判定为潜在风险。", "signal_id": "covid_supply_disruption_2020-2020-01-20-0002-1", "input_id": "covid_supply_disruption_2020-2020-01-20-0002", "signal_date": "2020-01-20"}
+{"input_id": "covid_supply_disruption_2020-2020-01-20-0003", "status": "empty"}
+{"temporality": "latent", "event_type": "regulatory", "commodities": ["consumer goods", "electronics", "automotive parts"], "companies": [], "geographies": ["China"], "severity": 4, "description": "中国政府下令遏制新冠病毒传播，可能引发后续封锁、停工及物流中断，影响全球供应链。", "trigger_phrases": ["orders to curb", "coronavirus spread"], "confidence": 0.85, "uncertainty_notes": "基于2020年1月疫情初期的历史背景，政府遏制措施通常伴随生产停滞和物流限制，属于潜在的重大供应链风险。", "signal_id": "covid_supply_disruption_2020-2020-01-20-0004-1", "input_id": "covid_supply_disruption_2020-2020-01-20-0004", "signal_date": "2020-01-20"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["consumer goods", "electronics", "automotive parts"], "companies": [], "geographies": ["South Korea"], "severity": 3, "description": "新冠病毒抵达韩国，作为主要制造业和出口国，疫情扩散可能导致劳动力短缺、工厂停工及物流中断，进而影响全球供应链。", "trigger_phrases": ["coronavirus", "reaches south korea"], "confidence": 0.75, "uncertainty_notes": "新闻仅提及病毒抵达，未具体说明对供应链的即时影响，但基于韩国在全球供应链中的地位，存在潜在的中断风险。", "signal_id": "covid_supply_disruption_2020-2020-01-20-0005-1", "input_id": "covid_supply_disruption_2020-2020-01-20-0005", "signal_date": "2020-01-20"}
+{"input_id": "covid_supply_disruption_2020-2020-01-21-0000", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["consumer goods", "electronics", "automotive parts"], "companies": [], "geographies": ["China"], "severity": 4, "description": "中国出现超过200例新冠病例且确认人传人，疫情扩散可能导致劳动力短缺、物流中断及供应链停摆。", "trigger_phrases": ["coronavirus china", "over 200 cases", "human human transmission"], "confidence": 0.85, "uncertainty_notes": "基于2020年1月疫情初期背景，人传人确认是供应链风险从潜在转向现实的关键节点，但具体中断尚未全面发生。", "signal_id": "covid_supply_disruption_2020-2020-01-21-0001-1", "input_id": "covid_supply_disruption_2020-2020-01-21-0001", "signal_date": "2020-01-21"}
+{"input_id": "covid_supply_disruption_2020-2020-01-21-0002", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-21-0003", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-21-0004", "status": "empty"}
+{"temporality": "confirmation", "event_type": "natural_disaster", "commodities": ["consumer goods", "electronics", "automotive parts"], "companies": [], "geographies": ["China"], "severity": 4, "description": "中国不明原因冠状病毒死亡人数上升，疫情扩散导致劳动力短缺及物流中断风险，影响全球供应链。", "trigger_phrases": ["death toll rises", "mystery coronavirus", "china"], "confidence": 0.85, "uncertainty_notes": "原文仅提及死亡人数上升，未直接提及供应链中断，但基于2020年1月背景及疫情性质，推断对供应链有重大潜在及实际影响。", "signal_id": "covid_supply_disruption_2020-2020-01-21-0005-1", "input_id": "covid_supply_disruption_2020-2020-01-21-0005", "signal_date": "2020-01-21"}
+{"input_id": "covid_supply_disruption_2020-2020-01-21-0006", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-21-0007", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-21-0008", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0000", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0001", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0002", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0003", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0004", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0005", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0006", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0007", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0008", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0009", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0010", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0011", "status": "empty"}
+{"temporality": "latent", "event_type": "regulatory", "commodities": ["containerized goods"], "companies": [{"name": "Canada Border Services Agency", "role": "government"}], "geographies": ["Canada", "Vancouver"], "severity": 2, "description": "边境官员将在温哥华国际机场（YVR）对隔离旅客进行筛查，随着冠状病毒疫情蔓延，此举可能增加边境通关时间并影响物流效率。", "trigger_phrases": ["screen quarantine travellers", "coronavirus outbreak grows"], "confidence": 0.65, "uncertainty_notes": "原文仅提及对旅客的筛查，未直接提及货物通关受阻，但边境管控升级通常伴随物流延迟风险。", "signal_id": "covid_supply_disruption_2020-2020-01-22-0012-1", "input_id": "covid_supply_disruption_2020-2020-01-22-0012", "signal_date": "2020-01-22"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0013", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0014", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0015", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["consumer goods", "electronics", "automotive parts"], "companies": [], "geographies": ["China"], "severity": 4, "description": "中国正在努力控制冠状病毒疫情，疫情扩散可能导致劳动力短缺、物流中断及生产停滞，进而影响全球供应链。", "trigger_phrases": ["anxiety rises", "china seeks control", "coronavirus outbreak"], "confidence": 0.85, "uncertainty_notes": "原文仅提及疫情控制努力，未具体说明已发生的供应链中断，故判定为潜在风险（latent）。", "signal_id": "covid_supply_disruption_2020-2020-01-22-0016-1", "input_id": "covid_supply_disruption_2020-2020-01-22-0016", "signal_date": "2020-01-22"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0017", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0018", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0019", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0020", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0021", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0022", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0023", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0024", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0025", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0026", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0027", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0028", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0029", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0030", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0031", "status": "empty"}
+{"input_id": "covid_supply_disruption_2020-2020-01-22-0032", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "regulatory", "commodities": ["consumer goods", "electronics"], "companies": [{"name": "Philippine Aviation Authorities", "role": "government"}], "geographies": ["Philippines", "Wuhan"], "severity": 3, "description": "菲律宾官员要求航空当局暂停来自武汉的入境航班，可能导致物流中断及供应链延迟", "trigger_phrases": ["halt incoming flights", "from wuhan"], "confidence": 0.85, "uncertainty_notes": "原文仅提及要求暂停航班，未明确是否已执行，故判定为前瞻/潜在风险", "signal_id": "covid_supply_disruption_2020-2020-01-22-0033-1", "input_id": "covid_supply_disruption_2020-2020-01-22-0033", "signal_date": "2020-01-22"}

@@ -1,0 +1,4 @@
+body x single-field  Sat Sep 19 12:35:42 PM CST 2026
+corpus=data/by_event_body
+prompt=prompts/event_extraction_prompt.md
+model=qwen3.8-27b

@@ -1,0 +1,180 @@
+{
+  "n_signals_loaded": 456,
+  "calibration": {
+    "ece": 0.2047,
+    "n_total": 32,
+    "bins": [
+      {
+        "bin_id": 1,
+        "range": [
+          0.0,
+          0.1
+        ],
+        "n": 0,
+        "acc": null,
+        "avg_conf": null,
+        "gap": null
+      },
+      {
+        "bin_id": 2,
+        "range": [
+          0.1,
+          0.2
+        ],
+        "n": 0,
+        "acc": null,
+        "avg_conf": null,
+        "gap": null
+      },
+      {
+        "bin_id": 3,
+        "range": [
+          0.2,
+          0.3
+        ],
+        "n": 0,
+        "acc": null,
+        "avg_conf": null,
+        "gap": null
+      },
+      {
+        "bin_id": 4,
+        "range": [
+          0.3,
+          0.4
+        ],
+        "n": 1,
+        "acc": 0.0,
+        "avg_conf": 0.35,
+        "gap": 0.35
+      },
+      {
+        "bin_id": 5,
+        "range": [
+          0.4,
+          0.5
+        ],
+        "n": 0,
+        "acc": null,
+        "avg_conf": null,
+        "gap": null
+      },
+      {
+        "bin_id": 6,
+        "range": [
+          0.5,
+          0.6
+        ],
+        "n": 2,
+        "acc": 1.0,
+        "avg_conf": 0.5,
+        "gap": 0.5
+      },
+      {
+        "bin_id": 7,
+        "range": [
+          0.6,
+          0.7
+        ],
+        "n": 6,
+        "acc": 1.0,
+        "avg_conf": 0.642,
+        "gap": 0.358
+      },
+      {
+        "bin_id": 8,
+        "range": [
+          0.7,
+          0.8
+        ],
+        "n": 8,
+        "acc": 0.625,
+        "avg_conf": 0.744,
+        "gap": 0.119
+      },
+      {
+        "bin_id": 9,
+        "range": [
+          0.8,
+          0.9
+        ],
+        "n": 11,
+        "acc": 1.0,
+        "avg_conf": 0.845,
+        "gap": 0.155
+      },
+      {
+        "bin_id": 10,
+        "range": [
+          0.9,
+          1.0
+        ],
+        "n": 4,
+        "acc": 1.0,
+        "avg_conf": 0.9,
+        "gap": 0.1
+      }
+    ],
+    "high_conf_acc": 1.0,
+    "low_conf_acc": 0.0,
+    "n_high_conf": 15,
+    "n_low_conf": 1
+  },
+  "faithfulness": {
+    "faithfulness_rate": 0.9912,
+    "n_total": 114,
+    "n_faithful": 113,
+    "n_violations": 1,
+    "violations": [
+      {
+        "signal_id": "toyota_steel_explosion_2019-2018-12-18-0002-1",
+        "input_id": "toyota_steel_explosion_2019-2018-12-18-0002",
+        "missing_triggers": [
+          "threatened"
+        ]
+      }
+    ]
+  },
+  "ts_ece": {
+    "ts_ece_curve": [
+      {
+        "stratum": "(0,7]",
+        "n": 1,
+        "ece": 0.25,
+        "mean_conf": 0.75,
+        "accuracy": 1.0
+      },
+      {
+        "stratum": "(7,30]",
+        "n": 11,
+        "ece": 0.2273,
+        "mean_conf": 0.773,
+        "accuracy": 1.0
+      },
+      {
+        "stratum": "(30,90]",
+        "n": 6,
+        "ece": 0.2,
+        "mean_conf": 0.8,
+        "accuracy": 1.0
+      },
+      {
+        "stratum": "(90,180]",
+        "n": 10,
+        "ece": 0.26,
+        "mean_conf": 0.74,
+        "accuracy": 1.0
+      }
+    ],
+    "n_with_lead": 28,
+    "n_no_lead": 4
+  },
+  "fwgs": {
+    "fwgs": 0.6272,
+    "n_signals": 32,
+    "n_tp": 28,
+    "n_fp": 4,
+    "tau": 30.0,
+    "lambda_penalty": 0.5
+  }
+}

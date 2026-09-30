@@ -1,0 +1,4 @@
+body x clock-split
+corpus=data/by_event_body
+prompt=prompts/event_extraction_prompt_v2_temporal.md
+model=qwen3.8-27b

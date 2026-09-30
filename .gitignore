@@ -1,0 +1,30 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# --- LaTeX build artifacts ---
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# --- Large local-only corpora (not redistributable: third-party article text) ---
+data/by_event_body/
+data/body_fetch/
+
+# --- Local scratch ---
+*.bak
+*.bak2
+*STALE*
+*SUPERSEDED*

@@ -1,0 +1,459 @@
+{"input_id": "toyota_steel_explosion_2019-2018-01-07-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-02-22-0000", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "regulatory", "commodities": ["steel", "aluminum"], "companies": [{"name": "US government", "role": "government"}], "geographies": ["United States"], "severity": 2, "description": "美国大使表示，对钢铁和铝的关税可能在未来几周内取消，这将影响钢铁和铝的贸易政策与进口供应链。", "trigger_phrases": ["tariffs on steel aluminum", "could be gone in weeks", "ambassador says"], "confidence": 0.6, "impact_uncertainty": false, "signal_id": "toyota_steel_explosion_2019-2018-02-22-0001-1", "input_id": "toyota_steel_explosion_2019-2018-02-22-0001", "signal_date": "2018-02-22"}
+{"input_id": "toyota_steel_explosion_2019-2018-03-04-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-03-05-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["steel"], "companies": [], "geographies": ["United States"], "severity": 4, "description": "US Trump administration imposed tariffs on steel imports; steel industry executives advise to stay firm, indicating potential cost increases and supply chain uncertainty for steel-dependent industries.", "trigger_phrases": ["trump tariffs", "tariffs steel"], "confidence": 0.75, "impact_uncertainty": true, "uncertainty_notes": "The headline confirms the tariff action but does not specify concrete supply chain impacts.", "signal_id": "toyota_steel_explosion_2019-2018-03-28-0000-1", "input_id": "toyota_steel_explosion_2019-2018-03-28-0000", "signal_date": "2018-03-28"}
+{"input_id": "toyota_steel_explosion_2019-2018-04-12-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-04-24-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-05-18-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-05-21-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-05-24-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["natural gas"], "companies": [], "geographies": ["British Columbia", "Portland", "Oregon"], "severity": 3, "description": "不列颠哥伦比亚省天然气管道爆炸导致波特兰天然气价格飙升，引发区域能源供应中断。", "trigger_phrases": ["pipeline explosion", "spikes prices"], "confidence": 0.9, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2018-12-05-0000-1", "input_id": "toyota_steel_explosion_2019-2018-12-05-0000", "signal_date": "2018-12-05"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-06-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-06-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-07-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-07-0001", "status": "empty"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["steel"], "companies": [], "geographies": ["United States", "China", "Canada"], "severity": 3, "description": "美中贸易战及美国钢关税政策已对钢铁供应链造成贸易流动干扰，并分散了与加拿大钢关税谈判的注意力。", "trigger_phrases": ["trade war", "steel tariffs"], "confidence": 0.75, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2018-12-10-0000-1", "input_id": "toyota_steel_explosion_2019-2018-12-10-0000", "signal_date": "2018-12-10"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-11-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-11-0001", "status": "empty"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["aluminum", "steel"], "companies": [], "geographies": ["United States"], "severity": 4, "description": "美国对铝和钢铁的关税已实施，经济影响研究显示关税正在产生影响，可能引发全球铝钢供应链成本上升与贸易格局调整。", "trigger_phrases": ["aluminum and steel tariffs", "tariffs are working"], "confidence": 0.7, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2018-12-11-0002-1", "input_id": "toyota_steel_explosion_2019-2018-12-11-0002", "signal_date": "2018-12-11"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-12-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-12-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-13-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-13-0001", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "regulatory", "commodities": ["steel"], "companies": [{"name": "US government", "role": "government"}], "geographies": ["United States", "China"], "severity": 4, "description": "美国对中国钢铁征收关税可能推高国内钢铁价格，增加家庭成本并影响就业，构成供应链风险。", "trigger_phrases": ["trump trade war", "china steel tariffs", "could cost"], "confidence": 0.85, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2018-12-16-0000-1", "input_id": "toyota_steel_explosion_2019-2018-12-16-0000", "signal_date": "2018-12-16"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-16-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-16-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-16-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-17-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-17-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-17-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-17-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-17-0004", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-17-0005", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-18-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-18-0001", "status": "empty"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["steel", "oil", "natural gas"], "companies": [], "geographies": ["United States"], "severity": 3, "description": "特朗普的钢铁关税已生效，对美国能源行业构成威胁，可能推高油气管道等基础设施的钢材成本并导致项目延迟。", "trigger_phrases": ["steel tariffs", "U S energy"], "confidence": 0.7, "impact_uncertainty": true, "uncertainty_notes": "原文仅为标题，未提供具体影响细节；关税为已实施事件，但针对能源行业的具体影响尚不明确。", "signal_id": "toyota_steel_explosion_2019-2018-12-18-0002-1", "input_id": "toyota_steel_explosion_2019-2018-12-18-0002", "signal_date": "2018-12-18"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-18-0003", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "regulatory", "commodities": ["automotive parts", "pharmaceuticals", "consumer goods"], "companies": [], "geographies": ["United Kingdom", "European Union"], "severity": 4, "description": "英国为无协议脱欧做准备，英国与欧盟之间可能面临关税、边境检查和通关延迟，导致供应链中断风险上升。", "trigger_phrases": ["steels itself", "no deal brexit"], "confidence": 0.7, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2018-12-19-0000-1", "input_id": "toyota_steel_explosion_2019-2018-12-19-0000", "signal_date": "2018-12-19"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-19-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-20-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-20-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-20-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-20-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-21-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-21-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-21-0002", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["coal"], "companies": [], "geographies": ["Czech Republic"], "severity": 2, "description": "捷克一座煤矿发生甲烷爆炸，造成13人死亡，事故可能导致该矿停产并影响煤炭供应。", "trigger_phrases": ["methane explosion", "kills 13"], "confidence": 0.9, "impact_uncertainty": true, "signal_id": "toyota_steel_explosion_2019-2018-12-21-0003-1", "input_id": "toyota_steel_explosion_2019-2018-12-21-0003", "signal_date": "2018-12-21"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-21-0004", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-21-0005", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-21-0006", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-22-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-22-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-23-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-25-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-25-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-25-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-26-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-28-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-28-0001", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": [], "companies": [], "geographies": ["New York"], "severity": 2, "description": "纽约变压器爆炸导致停电，可能引发当地工业生产和供应链运营中断。", "trigger_phrases": ["transformer explosion", "knocks out power"], "confidence": 0.5, "impact_uncertainty": true, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2018-12-28-0002-1", "input_id": "toyota_steel_explosion_2019-2018-12-28-0002", "signal_date": "2018-12-28"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-29-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-29-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-30-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "natural_disaster", "commodities": ["agricultural products"], "companies": [], "geographies": ["Bali", "Indonesia"], "severity": 1, "description": "巴厘岛火山最新一次爆发将火山灰喷至700米高空，可能对当地及周边地区的航空运输和区域物流造成临时性影响。", "trigger_phrases": ["bali volcano", "shoots ash", "most recent explosion"], "confidence": 0.55, "impact_uncertainty": true, "uncertainty_notes": "原文仅描述火山喷发，未提及具体供应链中断或影响范围", "signal_id": "toyota_steel_explosion_2019-2018-12-31-0000-1", "input_id": "toyota_steel_explosion_2019-2018-12-31-0000", "signal_date": "2018-12-31"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-31-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-31-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2018-12-31-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-01-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-02-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-03-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["steel", "nails"], "companies": [{"name": "missouri nail manufacturer", "role": "supplier"}], "geographies": ["Missouri", "United States"], "severity": 2, "description": "密苏里州一家制钉企业因钢铁关税而经营困难，钢铁原材料成本上升冲击其供应能力。", "trigger_phrases": ["struggles under", "steel tariff"], "confidence": 0.85, "impact_uncertainty": false, "signal_id": "toyota_steel_explosion_2019-2019-01-03-0001-1", "input_id": "toyota_steel_explosion_2019-2019-01-03-0001", "signal_date": "2019-01-03"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-03-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-04-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-06-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-06-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-07-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-07-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-07-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-07-0003", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["automotive parts"], "companies": [{"name": "Toyota", "role": "supplier"}], "geographies": ["Canada", "United States"], "severity": 3, "description": "丰田因致命安全缺陷在加拿大和美国召回1700万辆汽车，可能引发相关零部件供应紧张", "trigger_phrases": ["toyota recalled 17 million cars", "dangerous and deadly safety flaw"], "confidence": 0.85, "impact_uncertainty": true, "signal_id": "toyota_steel_explosion_2019-2019-01-10-0000-1", "input_id": "toyota_steel_explosion_2019-2019-01-10-0000", "signal_date": "2019-01-10"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-10-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-11-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["oil", "refined petroleum products"], "companies": [{"name": "Aden Refinery", "role": "unknown"}], "geographies": ["Yemen", "Aden"], "severity": 3, "description": "A violent explosion shook Yemen's Aden refinery, disrupting oil refining operations and risking local fuel supply.", "trigger_phrases": ["violent explosion", "aden refinery"], "confidence": 0.8, "impact_uncertainty": true, "uncertainty_notes": "Article reports the explosion but does not specify extent of damage or production halt.", "signal_id": "toyota_steel_explosion_2019-2019-01-12-0000-1", "input_id": "toyota_steel_explosion_2019-2019-01-12-0000", "signal_date": "2019-01-12"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-12-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-12-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-12-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-13-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "logistics", "commodities": ["oil", "petroleum products"], "companies": [], "geographies": [], "severity": 2, "description": "Tanker explosion reported, potential disruption to fuel supply and transport.", "trigger_phrases": ["tanker explosion"], "confidence": 0.4, "impact_uncertainty": true, "uncertainty_notes": "Limited context: unclear location, scale, and whether tanker is marine or road vehicle.", "signal_id": "toyota_steel_explosion_2019-2019-01-13-0001-1", "input_id": "toyota_steel_explosion_2019-2019-01-13-0001", "signal_date": "2019-01-13"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-13-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-13-0003", "status": "empty"}
+{"temporality": "confirmation", "event_type": "logistics", "commodities": ["air cargo", "consumer goods"], "companies": [{"name": "Etihad Airways", "role": "logistics"}, {"name": "Manchester Airport", "role": "logistics"}], "geographies": ["Manchester", "United Kingdom"], "severity": 3, "description": "曼彻斯特机场发生爆炸，涉及阿提哈德航空，可能导致机场运营中断及航空货运延误，具体影响范围尚未明确。", "trigger_phrases": ["ethiad airways", "manchester airport", "explosion"], "confidence": 0.7, "impact_uncertainty": true, "uncertainty_notes": "爆炸事件本身已发生，但机场关闭范围、航班取消情况及货运影响尚未在文本中披露。", "signal_id": "toyota_steel_explosion_2019-2019-01-15-0000-1", "input_id": "toyota_steel_explosion_2019-2019-01-15-0000", "signal_date": "2019-01-15"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-15-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-15-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-16-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-16-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-16-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-16-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-16-0004", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-16-0005", "status": "empty"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["steel"], "companies": [{"name": "EU", "role": "government"}], "geographies": ["European Union"], "severity": 3, "description": "欧盟同意将钢铁进口限制措施延长至2021年，可能持续限制钢铁进口供应，影响下游行业。", "trigger_phrases": ["eu agrees", "extend steel import curbs", "until 2021"], "confidence": 0.85, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-01-16-0006-1", "input_id": "toyota_steel_explosion_2019-2019-01-16-0006", "signal_date": "2019-01-16"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-17-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-17-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-17-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-17-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-18-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-18-0001", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["oil"], "companies": [{"name": "Pemex", "role": "supplier"}], "geographies": ["Mexico", "Hidalgo"], "severity": 3, "description": "Pemex pipeline explosion in Hidalgo, Mexico, has occurred; potential disruption to oil supply is uncertain.", "trigger_phrases": ["pipeline explosion", "hidalgo"], "confidence": 0.5, "impact_uncertainty": true, "signal_id": "toyota_steel_explosion_2019-2019-01-18-0002-1", "input_id": "toyota_steel_explosion_2019-2019-01-18-0002", "signal_date": "2019-01-18"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["natural gas"], "companies": [{"name": "KazTransGaz", "role": "supplier"}], "geographies": ["Kazakhstan"], "severity": 3, "description": "KazTransGaz 发生致命爆炸，且两名燃气检查员因未对燃气泄漏警告采取行动而被拘留，显示该天然气运营商存在安全与运营中断风险，可能影响天然气供应。", "trigger_phrases": ["gas inspectors", "gas leak warning", "deadly explosion"], "confidence": 0.65, "impact_uncertainty": true, "uncertainty_notes": "爆炸已发生但未明确说明对天然气生产和输送的具体影响", "signal_id": "toyota_steel_explosion_2019-2019-01-19-0000-1", "input_id": "toyota_steel_explosion_2019-2019-01-19-0000", "signal_date": "2019-01-19"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-19-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-19-0002", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "severity": 3, "confidence": 0.6, "description": "墨西哥发生管道爆炸，造成重大人员伤亡，可能导致油气供应中断。", "trigger_phrases": ["pipeline explosion"], "commodities": ["oil", "natural gas"], "companies": [], "geographies": ["Mexico"], "impact_uncertainty": true, "signal_id": "toyota_steel_explosion_2019-2019-01-20-0000-1", "input_id": "toyota_steel_explosion_2019-2019-01-20-0000", "signal_date": "2019-01-20"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-20-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-20-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-21-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["fuel", "oil"], "companies": [], "geographies": ["Mexico"], "severity": 3, "description": "墨西哥燃料管道爆炸致死人数升至85人，事故损毁燃料输送基础设施，可能造成区域燃料供应与运输中断。", "trigger_phrases": ["death toll", "fuel explosion"], "confidence": 0.75, "impact_uncertainty": true, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-01-21-0001-1", "input_id": "toyota_steel_explosion_2019-2019-01-21-0001", "signal_date": "2019-01-21"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-22-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-22-0001", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["natural gas"], "companies": [{"name": "Enbridge", "role": "logistics"}], "geographies": ["Ohio"], "severity": 3, "description": "Enbridge天然气管道在俄亥俄州发生爆炸并引发火球，可能造成区域天然气供应中断。", "trigger_phrases": ["enbridge gas pipeline", "explosion", "fireball"], "confidence": 0.75, "impact_uncertainty": true, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-01-22-0002-1", "input_id": "toyota_steel_explosion_2019-2019-01-22-0002", "signal_date": "2019-01-22"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-23-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["natural gas"], "companies": [], "geographies": ["Noble County, US"], "severity": 2, "description": "Noble County 天然气管道发生爆炸，调查将耗时数月；管道损毁已发生，天然气供应中断风险待评估。", "trigger_phrases": ["investigation will take months", "gas line explosion"], "confidence": 0.7, "impact_uncertainty": true, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-01-23-0001-1", "input_id": "toyota_steel_explosion_2019-2019-01-23-0001", "signal_date": "2019-01-23"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-24-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-25-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-26-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-27-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-27-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-28-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "financial", "commodities": ["steel"], "companies": [{"name": "Essar Steel", "role": "supplier"}, {"name": "Ruia family", "role": "unknown"}], "geographies": ["India"], "severity": 2, "description": "印度国家公司法法庭(NCLT)裁决关闭了Essar Steel发起人Ruia家族的重组大门，可能影响Essar Steel的钢铁供应稳定性。", "trigger_phrases": ["nclt shuts", "essar steel", "promoter ruias"], "confidence": 0.6, "impact_uncertainty": true, "uncertainty_notes": "新闻仅为标题，缺乏细节，影响范围不明", "signal_id": "toyota_steel_explosion_2019-2019-01-30-0000-1", "input_id": "toyota_steel_explosion_2019-2019-01-30-0000", "signal_date": "2019-01-30"}
+{"input_id": "toyota_steel_explosion_2019-2019-01-31-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-02-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-03-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-04-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-04-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-05-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-05-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-05-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-06-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-06-0001", "status": "empty"}
+{"temporality": "confirmation", "event_type": "logistics", "commodities": ["groceries", "consumer goods"], "companies": [{"name": "Ocado", "role": "buyer"}], "geographies": [], "severity": 3, "description": "Ocado 发生火灾，存在爆炸和有毒泄漏风险，并已下达疏散令；火灾可能影响其零售配送和供应链运营。", "trigger_phrases": ["ocado fire", "fears of explosion", "toxic leak", "evacuation order"], "confidence": 0.8, "impact_uncertainty": true, "uncertainty_notes": "火灾已发生，但新闻未明确其对供应链物流的具体影响范围。", "signal_id": "toyota_steel_explosion_2019-2019-02-07-0000-1", "input_id": "toyota_steel_explosion_2019-2019-02-07-0000", "signal_date": "2019-02-07"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-07-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-07-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-07-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-07-0004", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-07-0005", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-07-0006", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-08-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-08-0001", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["natural gas"], "companies": [{"name": "unknown", "role": "unknown"}], "geographies": ["San Francisco"], "severity": 2, "description": "A gas line explosion occurred in San Francisco, potentially disrupting local natural gas supply and affecting nearby industrial or residential consumers.", "trigger_phrases": ["Gas line explosion"], "confidence": 0.6, "impact_uncertainty": true, "uncertainty_notes": "The blast has occurred but the extent of supply disruption remains unconfirmed.", "signal_id": "toyota_steel_explosion_2019-2019-02-08-0002-1", "input_id": "toyota_steel_explosion_2019-2019-02-08-0002", "signal_date": "2019-02-08"}
+{"temporality": "latent", "event_type": "regulatory", "commodities": ["steel wheels", "automotive parts"], "companies": [{"name": "ITC (U.S. International Trade Commission)", "role": "government"}], "geographies": ["China", "United States"], "severity": 3, "description": "美国国际贸易委员会(ITC)将针对中国钢轮的调查听证会改期至3月14日，该调查可能最终导致对中国钢轮加征反倾销/反补贴关税，影响美国市场的钢轮供应。", "trigger_phrases": ["sets march 14", "chinese steel wheel hearing", "new date"], "confidence": 0.8, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-02-08-0003-1", "input_id": "toyota_steel_explosion_2019-2019-02-08-0003", "signal_date": "2019-02-08"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["natural gas"], "companies": [], "geographies": ["San Francisco", "United States"], "severity": 2, "description": "A gas explosion occurred in San Francisco and US officials are investigating; local natural gas supply and infrastructure may be affected.", "trigger_phrases": ["san francisco gas explosion", "officials to investigate"], "confidence": 0.7, "impact_uncertainty": true, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-02-08-0004-1", "input_id": "toyota_steel_explosion_2019-2019-02-08-0004", "signal_date": "2019-02-08"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-08-0005", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-08-0006", "status": "empty"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["steel", "aluminum"], "companies": [], "geographies": ["United States", "Canada", "Mexico"], "severity": 3, "description": "美国持续对钢铁和铝征收关税，构成贸易壁垒，可能影响北美钢铁铝供应链", "trigger_phrases": ["lingering steel aluminum tariffs"], "confidence": 0.85, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-02-08-0007-1", "input_id": "toyota_steel_explosion_2019-2019-02-08-0007", "signal_date": "2019-02-08"}
+{"temporality": "forward_looking", "event_type": "regulatory", "commodities": ["steel", "aluminum"], "companies": [], "geographies": ["United States", "Canada", "Mexico"], "severity": 2, "description": "USMCA在国会面临艰难斗争，可能影响北美贸易协定批准前景，给供应链带来不确定性", "trigger_phrases": ["usmca", "tough fight", "congress"], "confidence": 0.6, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-02-08-0007-2", "input_id": "toyota_steel_explosion_2019-2019-02-08-0007", "signal_date": "2019-02-08"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-08-0008", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-10-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-11-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-11-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-12-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-12-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-12-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-12-0003", "status": "empty"}
+{"temporality": "confirmation", "event_type": "geopolitical", "commodities": ["consumer goods", "agricultural products"], "companies": [], "geographies": ["Syria", "Turkey"], "severity": 3, "description": "叙利亚与土耳其边境口岸的叙方一侧发生爆炸，可能造成过境点临时关闭或物流中断，影响跨境贸易。", "trigger_phrases": ["Explosion rocks", "border crossing"], "confidence": 0.6, "impact_uncertainty": true, "uncertainty_notes": "爆炸已发生，但具体对口岸运营和供应链的实际影响尚未明确。", "signal_id": "toyota_steel_explosion_2019-2019-02-12-0004-1", "input_id": "toyota_steel_explosion_2019-2019-02-12-0004", "signal_date": "2019-02-12"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-14-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["steel"], "companies": [], "geographies": ["Europe", "European Union"], "severity": 4, "description": "欧盟从2月初起正式实施临时钢铁关税，对钢铁进口及依赖钢铁的下游行业（如汽车、建筑）造成供应成本上升和供应紧张风险。", "trigger_phrases": ["formalizes provisional steel tariffs"], "confidence": 0.9, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-02-14-0001-1", "input_id": "toyota_steel_explosion_2019-2019-02-14-0001", "signal_date": "2019-02-14"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-15-0000", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "regulatory", "commodities": ["steel"], "companies": [{"name": "Indian government", "role": "government"}], "geographies": ["India"], "severity": 3, "description": "印度政府计划通过进口限制措施提振国内钢铁行业，未来可能对钢铁进口供应链造成干扰。", "trigger_phrases": ["indian government", "aims", "import restrictions"], "confidence": 0.72, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-02-15-0001-1", "input_id": "toyota_steel_explosion_2019-2019-02-15-0001", "signal_date": "2019-02-15"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-18-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-18-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-18-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-18-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-18-0004", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-19-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-19-0001", "status": "empty"}
+{"temporality": "confirmation", "event_type": "financial", "commodities": ["natural gas", "LNG"], "companies": [{"name": "Steelhead LNG", "role": "supplier"}], "geographies": ["Vancouver Island", "Canada"], "severity": 2, "description": "The Huu-ay-aht First Nation announced that Steelhead LNG is withdrawing from a proposed LNG project on Vancouver Island, reducing future natural gas supply prospects from the region.", "trigger_phrases": ["Steelhead LNG", "pulling out", "Vancouver Island project"], "confidence": 0.7, "impact_uncertainty": true, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-02-19-0002-1", "input_id": "toyota_steel_explosion_2019-2019-02-19-0002", "signal_date": "2019-02-19"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["LNG"], "companies": [{"name": "Steelhead LNG", "role": "supplier"}], "geographies": ["Bamfield", "Canada"], "severity": 2, "description": "Steelhead LNG停止了位于Bamfield附近的Kwispaa LNG项目的建设工作，可能影响未来LNG供应。", "trigger_phrases": ["stops work", "kwispaa lng project"], "confidence": 0.7, "impact_uncertainty": true, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-02-19-0003-1", "input_id": "toyota_steel_explosion_2019-2019-02-19-0003", "signal_date": "2019-02-19"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-19-0004", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-19-0005", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-20-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-21-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-21-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-21-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-21-0003", "status": "empty"}
+{"temporality": "confirmation", "event_type": "logistics", "commodities": ["steel coil"], "companies": [], "geographies": ["Hubbard", "Interstate 80"], "severity": 1, "description": "钢卷散落导致80号州际公路西行方向在Hubbard路段堵塞，可能造成货运延误。", "trigger_phrases": ["steel coil blocks", "interstate 80 westbound"], "confidence": 0.9, "impact_uncertainty": false, "signal_id": "toyota_steel_explosion_2019-2019-02-21-0004-1", "input_id": "toyota_steel_explosion_2019-2019-02-21-0004", "signal_date": "2019-02-21"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-21-0005", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-22-0000", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "regulatory", "commodities": ["steel", "aluminum"], "companies": [], "geographies": [], "severity": 2, "description": "有消息称钢铁和铝产品关税可能很快取消，该贸易政策变化将影响钢材和铝材的进口成本、供应来源及下游采购决策。", "trigger_phrases": ["steel aluminum tariffs", "lifted soon"], "confidence": 0.6, "impact_uncertainty": false, "uncertainty_notes": "新闻仅为简短标题，缺乏具体国家、官方确认和更多细节，因此置信度中等。", "signal_id": "toyota_steel_explosion_2019-2019-02-22-0001-1", "input_id": "toyota_steel_explosion_2019-2019-02-22-0001", "signal_date": "2019-02-22"}
+{"temporality": "forward_looking", "event_type": "regulatory", "commodities": ["steel", "aluminum"], "companies": [{"name": "U.S. government", "role": "government"}], "geographies": ["United States"], "severity": 2, "description": "美国驻欧盟大使表示，美国对钢铁和铝的关税可能在未来几周内取消，这将影响钢铁和铝的进口供应链成本与贸易流向。", "trigger_phrases": ["tariffs on steel aluminum", "could be gone"], "confidence": 0.75, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-02-22-0002-1", "input_id": "toyota_steel_explosion_2019-2019-02-22-0002", "signal_date": "2019-02-22"}
+{"temporality": "forward_looking", "event_type": "regulatory", "commodities": ["steel", "aluminum"], "companies": [], "geographies": ["United States"], "severity": 2, "description": "美国大使表示对钢铁和铝的关税可能在未来几周内取消，这可能导致进口增加，对国内钢铁铝生产商构成竞争压力和供应链格局变化。", "trigger_phrases": ["tariffs on steel aluminum", "could be gone"], "confidence": 0.7, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-02-22-0003-1", "input_id": "toyota_steel_explosion_2019-2019-02-22-0003", "signal_date": "2019-02-22"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-22-0004", "status": "empty"}
+{"temporality": "confirmation", "event_type": "geopolitical", "commodities": ["telecom equipment"], "companies": [{"name": "Ncell", "role": "unknown"}], "geographies": ["Nepal"], "severity": 1, "description": "分裂毛派武装被指认是 Ncell 电信塔爆炸事件的幕后黑手，电信基础设施遭破坏，可能造成局部通信服务中断", "trigger_phrases": ["ncell tower explosion", "breakaway maoist faction"], "confidence": 0.8, "impact_uncertainty": true, "uncertainty_notes": "爆炸事件本身已发生，但对通信服务及上下游供应链的实际影响尚未披露", "signal_id": "toyota_steel_explosion_2019-2019-02-24-0000-1", "input_id": "toyota_steel_explosion_2019-2019-02-24-0000", "signal_date": "2019-02-24"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-25-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-25-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-26-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-26-0001", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["steel"], "companies": [{"name": "USW", "role": "unknown"}, {"name": "Mexican steelmaker", "role": "supplier"}], "geographies": ["Mexico"], "severity": 2, "description": "美国钢铁工人联合会（USW）指控墨西哥钢铁制造商侵犯工人权利，劳工纠纷已公开化，可能影响工厂正常运营", "trigger_phrases": ["mexican steelmaker", "violating workers"], "confidence": 0.7, "impact_uncertainty": true, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-02-27-0000-1", "input_id": "toyota_steel_explosion_2019-2019-02-27-0000", "signal_date": "2019-02-27"}
+{"temporality": "forward_looking", "event_type": "operations", "commodities": ["steel"], "companies": [{"name": "USW", "role": "unknown"}, {"name": "Mexican steelmaker", "role": "supplier"}], "geographies": ["Mexico"], "severity": 3, "description": "工人权利争议若升级为罢工或停产，可能导致墨西哥钢铁供应中断", "trigger_phrases": ["mexican steelmaker", "violating workers"], "confidence": 0.55, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-02-27-0000-2", "input_id": "toyota_steel_explosion_2019-2019-02-27-0000", "signal_date": "2019-02-27"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-27-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-27-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-28-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["oil", "natural gas"], "companies": [{"name": "Enbridge", "role": "logistics"}], "geographies": ["British Columbia"], "severity": 3, "description": "BC省原住民地区管道爆炸已发生，Enbridge面临诉讼，可能导致相关油气管道运输中断或延误。", "trigger_phrases": ["pipeline explosion", "files lawsuit"], "confidence": 0.8, "impact_uncertainty": true, "uncertainty_notes": "爆炸已发生，但对供应链的具体影响程度尚未披露", "signal_id": "toyota_steel_explosion_2019-2019-02-28-0001-1", "input_id": "toyota_steel_explosion_2019-2019-02-28-0001", "signal_date": "2019-02-28"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["natural gas"], "companies": [{"name": "Enbridge Gas", "role": "supplier"}], "geographies": ["Canada"], "severity": 2, "description": "Enbridge Gas 因管道爆炸被起诉；爆炸事件本身可能导致天然气输送中断，但具体供应影响尚不明确。", "trigger_phrases": ["against enbridge gas", "pipeline explosion"], "confidence": 0.55, "impact_uncertainty": true, "uncertainty_notes": "新闻仅提及诉讼与管道爆炸，未说明实际供应中断范围；地理信息根据 Enbridge Gas 所在国家推断。", "signal_id": "toyota_steel_explosion_2019-2019-02-28-0002-1", "input_id": "toyota_steel_explosion_2019-2019-02-28-0002", "signal_date": "2019-02-28"}
+{"input_id": "toyota_steel_explosion_2019-2019-02-28-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-01-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-01-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-01-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-02-0000", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "regulatory", "commodities": ["steel"], "companies": [], "geographies": ["Mexico", "United States"], "severity": 3, "confidence": 0.75, "description": "墨西哥正考虑针对美国商品实施新的报复性关税，以向特朗普施压取消钢铁关税，可能影响钢铁及相关商品贸易。", "trigger_phrases": ["eyes fresh us targets", "steel tariffs"], "impact_uncertainty": false, "signal_id": "toyota_steel_explosion_2019-2019-03-02-0001-1", "input_id": "toyota_steel_explosion_2019-2019-03-02-0001", "signal_date": "2019-03-02"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-02-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-03-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["natural gas", "oil"], "companies": [{"name": "Aiteo", "role": "supplier"}, {"name": "NNPC", "role": "government"}], "geographies": ["Bayelsa", "Nigeria"], "severity": 2, "description": "Bayelsa community alleges negligence and concealment by Aiteo over a gas explosion, which may disrupt local oil and gas operations connected to NNPC.", "trigger_phrases": ["gas explosion", "writes nnpc", "aiteo"], "confidence": 0.65, "impact_uncertainty": true, "uncertainty_notes": "触发事件已发生，但供应链影响尚未在文本中明确", "signal_id": "toyota_steel_explosion_2019-2019-03-03-0001-1", "input_id": "toyota_steel_explosion_2019-2019-03-03-0001", "signal_date": "2019-03-03"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-04-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["steel"], "companies": [{"name": "unknown", "role": "unknown"}], "geographies": ["Hamilton", "Canada"], "severity": 2, "description": "汉密尔顿钢铁工人举行示威，可能影响钢铁生产与供应", "trigger_phrases": ["steelworkers demonstration"], "confidence": 0.4, "impact_uncertainty": true, "uncertainty_notes": "新闻仅提供标题，未说明示威规模及是否影响生产", "signal_id": "toyota_steel_explosion_2019-2019-03-04-0001-1", "input_id": "toyota_steel_explosion_2019-2019-03-04-0001", "signal_date": "2019-03-04"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-05-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-05-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-05-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-05-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-05-0004", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-05-0005", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-07-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-07-0001", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "regulatory", "commodities": ["automotive parts", "vehicles"], "companies": [{"name": "Toyota", "role": "unknown"}], "geographies": ["Britain", "United Kingdom"], "severity": 3, "description": "Toyota warns it could pull out of Britain in the event of a no-deal Brexit, potentially disrupting its UK and European automotive supply chain.", "trigger_phrases": ["warns potential pullout", "no deal brexit"], "confidence": 0.8, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-03-07-0002-1", "input_id": "toyota_steel_explosion_2019-2019-03-07-0002", "signal_date": "2019-03-07"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-07-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-08-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-09-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-10-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-11-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-11-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-12-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-13-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-13-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-13-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-13-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-14-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-14-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-14-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-14-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-14-0004", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "severity": 3, "confidence": 0.7, "description": "委内瑞拉油罐场发生爆炸，据称由恐怖分子侵入引发，可能导致石油储存能力受损及出口中断。", "trigger_phrases": ["Venezuela tank farm explosion", "terrorist incursions"], "commodities": ["oil"], "companies": [], "geographies": ["Venezuela"], "impact_uncertainty": true, "signal_id": "toyota_steel_explosion_2019-2019-03-14-0005-1", "input_id": "toyota_steel_explosion_2019-2019-03-14-0005", "signal_date": "2019-03-14"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-15-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-15-0001", "status": "empty"}
+{"temporality": "confirmation", "event_type": "geopolitical", "commodities": [], "companies": [], "geographies": ["Gaza", "Tel Aviv"], "severity": 1, "description": "加沙向特拉维夫发射火箭弹并发生爆炸，该武装冲突事件已发生，可能对以色列当地物流与区域供应链构成潜在威胁，但目前影响尚未显现。", "trigger_phrases": ["Rockets Fired", "Tel Aviv", "Explosions"], "confidence": 0.55, "impact_uncertainty": true, "uncertainty_notes": "事件真实性明确，但供应链影响程度尚不明确。", "signal_id": "toyota_steel_explosion_2019-2019-03-15-0002-1", "input_id": "toyota_steel_explosion_2019-2019-03-15-0002", "signal_date": "2019-03-15"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-15-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-15-0004", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-15-0005", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-16-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-16-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-16-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-17-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-17-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-18-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-18-0001", "status": "empty"}
+{"temporality": "confirmation", "event_type": "logistics", "commodities": ["oil"], "companies": [], "geographies": ["Los Angeles"], "severity": 3, "description": "油轮在洛杉矶起火并引发爆炸，造成人员受伤，可能导致港口运营中断或航运延误。", "trigger_phrases": ["tanker catches fire", "triggers explosions"], "confidence": 0.7, "impact_uncertainty": true, "uncertainty_notes": "事件已发生，但对港口运作和航运的具体影响尚未明确。", "signal_id": "toyota_steel_explosion_2019-2019-03-18-0002-1", "input_id": "toyota_steel_explosion_2019-2019-03-18-0002", "signal_date": "2019-03-18"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-18-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-19-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-19-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-19-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-19-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-19-0004", "status": "empty"}
+{"temporality": "confirmation", "event_type": "financial", "commodities": ["steel"], "companies": [{"name": "Essar Steel", "role": "supplier"}], "geographies": ["India"], "severity": 2, "confidence": 0.5, "description": "NCLAT orders fresh Essar Steel Committee of Creditors meeting on funds distribution, reflecting ongoing insolvency proceedings that could affect steel supply stability.", "trigger_phrases": ["nclat directs fresh essar steel coc meet", "funds distribution"], "impact_uncertainty": true, "uncertainty_notes": "Headline only; no direct supply disruption reported.", "signal_id": "toyota_steel_explosion_2019-2019-03-20-0000-1", "input_id": "toyota_steel_explosion_2019-2019-03-20-0000", "signal_date": "2019-03-20"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-20-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-21-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["natural gas"], "companies": [], "geographies": ["Kansas City", "United States"], "severity": 1, "description": "Kansas City 发生燃气泄漏爆炸事件，可能造成当地天然气供应短暂中断。", "trigger_phrases": ["kansas city", "gas leak explosion"], "confidence": 0.4, "impact_uncertainty": true, "uncertainty_notes": "原文信息有限，仅根据标题推断可能影响天然气供应；具体破坏程度和供应影响不明。", "signal_id": "toyota_steel_explosion_2019-2019-03-22-0000-1", "input_id": "toyota_steel_explosion_2019-2019-03-22-0000", "signal_date": "2019-03-22"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-23-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-23-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-24-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-25-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-26-0000", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "financial", "commodities": ["steel"], "companies": [{"name": "Essar Steel", "role": "supplier"}, {"name": "ArcelorMittal", "role": "buyer"}], "geographies": ["India"], "severity": 2, "description": "ArcelorMittal 向 Essar Steel 贷款人支付的款项预计无法在 3 月 31 日前完成，显示 Essar Steel 的财务困境可能持续，并可能影响其钢铁供应稳定。", "trigger_phrases": ["lenders unlikely to get", "arcelormittal payment", "payment by march 31"], "confidence": 0.72, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-03-27-0000-1", "input_id": "toyota_steel_explosion_2019-2019-03-27-0000", "signal_date": "2019-03-27"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-27-0001", "status": "empty"}
+{"temporality": "confirmation", "event_type": "financial", "commodities": ["steel", "iron ore"], "companies": [{"name": "Fortescue", "role": "supplier"}], "geographies": ["China", "Australia"], "severity": 1, "description": "Fortescue 表示中国钢铁需求放缓，但铁矿石需求依然强劲，显示钢铁下游需求出现边际走弱，可能对钢材供应链构成温和需求冲击。", "trigger_phrases": ["steel demand slows", "ore demand robust"], "confidence": 0.7, "impact_uncertainty": true, "uncertainty_notes": "需求放缓为趋势性表述，影响程度尚不明确，且铁矿石需求强劲部分对冲风险。", "signal_id": "toyota_steel_explosion_2019-2019-03-28-0000-1", "input_id": "toyota_steel_explosion_2019-2019-03-28-0000", "signal_date": "2019-03-28"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-28-0001", "status": "empty"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["steel"], "companies": [], "geographies": ["United States"], "severity": 4, "description": "美国特朗普政府对钢铁征收关税，钢铁进口供应链面临中断和涨价风险，相关行业 CEO 提醒保持警惕。", "trigger_phrases": ["dont blink", "trump tariffs", "steel ceos tell"], "confidence": 0.6, "impact_uncertainty": true, "signal_id": "toyota_steel_explosion_2019-2019-03-28-0002-1", "input_id": "toyota_steel_explosion_2019-2019-03-28-0002", "signal_date": "2019-03-28"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-28-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-28-0004", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-29-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-29-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-03-30-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": [], "companies": [], "geographies": ["East China"], "severity": 2, "description": "中国东部一家工厂发生爆炸，造成5人死亡，工厂运营可能受到影响。", "trigger_phrases": ["5 dead", "explosion", "east china factory"], "confidence": 0.85, "impact_uncertainty": true, "uncertainty_notes": "具体工厂类型及供应链影响未披露", "signal_id": "toyota_steel_explosion_2019-2019-03-30-0001-1", "input_id": "toyota_steel_explosion_2019-2019-03-30-0001", "signal_date": "2019-03-30"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-01-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-02-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-03-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-03-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-05-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-06-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-06-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-06-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-09-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["steel", "aluminium"], "companies": [], "geographies": ["United States", "European Union"], "severity": 4, "description": "美国对钢铁和铝实施的贸易关税可能影响欧盟相关行业的进口成本与供应稳定性，构成供应链风险。", "trigger_phrases": ["trade tariffs", "steel aluminium"], "confidence": 0.7, "impact_uncertainty": true, "uncertainty_notes": "原文仅为关键词语境，未提供具体影响细节。", "signal_id": "toyota_steel_explosion_2019-2019-04-09-0001-1", "input_id": "toyota_steel_explosion_2019-2019-04-09-0001", "signal_date": "2019-04-09"}
+{"temporality": "forward_looking", "event_type": "regulatory", "commodities": ["steel"], "companies": [], "geographies": [], "severity": 2, "confidence": 0.45, "description": "Ramsey 呼吁制定淡水战略并保护钢铁行业，可能预示未来出台钢材贸易保护措施，影响钢铁进口供应。", "trigger_phrases": ["calls for", "steel industry protection"], "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-04-10-0000-1", "input_id": "toyota_steel_explosion_2019-2019-04-10-0000", "signal_date": "2019-04-10"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-10-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-11-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-11-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-11-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-11-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-11-0004", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-11-0005", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-11-0006", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": [], "companies": [{"name": "unknown", "role": "unknown"}], "geographies": ["Texas"], "severity": 2, "description": "A Texas plant has experienced an explosion, with an employee charged with assault. The explosion is confirmed, but its impact on supply chain operations remains uncertain.", "trigger_phrases": ["charged with assault", "plant explosion"], "confidence": 0.7, "impact_uncertainty": true, "uncertainty_notes": "Article focuses on criminal charge; plant type, size, and production disruption status not specified.", "signal_id": "toyota_steel_explosion_2019-2019-04-11-0007-1", "input_id": "toyota_steel_explosion_2019-2019-04-11-0007", "signal_date": "2019-04-11"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-12-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-12-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-12-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-12-0003", "status": "empty"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["steel"], "companies": [{"name": "Stelco", "role": "supplier"}], "geographies": ["Canada"], "severity": 2, "description": "加拿大钢铁生产商 Stelco 敦促总理提供援助以应对钢铁行业格局变化，暗示贸易政策等监管环境变化可能对钢铁供应稳定性构成风险。", "trigger_phrases": ["pushes pm for help", "changing landscape"], "confidence": 0.5, "impact_uncertainty": true, "signal_id": "toyota_steel_explosion_2019-2019-04-12-0004-1", "input_id": "toyota_steel_explosion_2019-2019-04-12-0004", "signal_date": "2019-04-12"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["oil", "natural gas"], "companies": [{"name": "Enbridge", "role": "logistics"}], "geographies": ["Canada", "British Columbia"], "severity": 3, "description": "Enbridge 管道发生爆炸，公司否认 Lheidli T'enneh 提出的相关索赔；爆炸已构成能源输送中断风险，但影响程度尚未明确。", "trigger_phrases": ["pipeline explosion", "enbridge denies"], "confidence": 0.7, "impact_uncertainty": true, "uncertainty_notes": "爆炸事件已发生，但文本未说明管道输送能力受损程度或供应中断范围。", "signal_id": "toyota_steel_explosion_2019-2019-04-12-0005-1", "input_id": "toyota_steel_explosion_2019-2019-04-12-0005", "signal_date": "2019-04-12"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-13-0000", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "financial", "commodities": ["steel", "cement"], "companies": [], "geographies": [], "severity": 2, "description": "钢铁和水泥企业一季度盈利预期走软，可能反映下游需求减弱，对相关供应链企业构成财务压力。", "trigger_phrases": ["softer q1 earnings seen", "steel and cement"], "confidence": 0.72, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-04-13-0001-1", "input_id": "toyota_steel_explosion_2019-2019-04-13-0001", "signal_date": "2019-04-13"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-14-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-14-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-16-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["steel", "aluminium"], "companies": [], "geographies": ["European Union", "United States"], "severity": 4, "description": "美国特朗普政府针对钢铁和铝实施贸易关税，涉及欧盟，构成钢铁和铝供应链的监管风险。", "trigger_phrases": ["trade tariffs", "steel", "aluminium"], "confidence": 0.55, "impact_uncertainty": false, "uncertainty_notes": "原文为简短关键词，缺乏具体细节，严重度和时间性基于关税政策已实行的推断。", "signal_id": "toyota_steel_explosion_2019-2019-04-16-0001-1", "input_id": "toyota_steel_explosion_2019-2019-04-16-0001", "signal_date": "2019-04-16"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-16-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-17-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-18-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-18-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-18-0002", "status": "empty"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["steel"], "companies": [], "geographies": ["Turkey", "United States"], "severity": 3, "description": "土耳其要求美国取消对土耳其钢铁的额外进口关税，当前关税已构成钢铁贸易供应链风险", "trigger_phrases": ["demands removal", "additional import tax on steel"], "confidence": 0.8, "impact_uncertainty": true, "uncertainty_notes": "新闻未明确提及关税对钢铁贸易流的具体影响程度", "signal_id": "toyota_steel_explosion_2019-2019-04-19-0000-1", "input_id": "toyota_steel_explosion_2019-2019-04-19-0000", "signal_date": "2019-04-19"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["steel"], "companies": [{"name": "Government of Nigeria", "role": "government"}], "geographies": ["Nigeria"], "severity": 2, "description": "尼日利亚正在遏制不合格钢材倾销，可能影响钢材进口与当地钢铁市场。", "trigger_phrases": ["curbing dumping", "sub standard steel", "nigeria"], "confidence": 0.5, "impact_uncertainty": true, "signal_id": "toyota_steel_explosion_2019-2019-04-19-0001-1", "input_id": "toyota_steel_explosion_2019-2019-04-19-0001", "signal_date": "2019-04-19"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-19-0002", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["batteries"], "companies": [], "geographies": ["Kansas"], "severity": 2, "description": "美国堪萨斯州一家电池工厂发生爆炸，一名女性受伤，可能造成该工厂生产中断，影响电池供应。", "trigger_phrases": ["explosion", "kansas plant"], "confidence": 0.8, "impact_uncertainty": true, "uncertainty_notes": "爆炸已发生但供应链影响尚未显现，尚不清楚工厂是否停产及影响范围。", "signal_id": "toyota_steel_explosion_2019-2019-04-20-0000-1", "input_id": "toyota_steel_explosion_2019-2019-04-20-0000", "signal_date": "2019-04-20"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["batteries", "energy storage"], "companies": [], "geographies": ["Arizona"], "severity": 2, "description": "亚利桑那州一大型公用事业电池发生爆炸，造成八名消防员受伤，其中一名重伤。该事件可能导致储能设施停运并引发安全审查，对电池及相关储能设备供应链构成潜在风险。", "trigger_phrases": ["az firefighters", "utility battery explosion"], "confidence": 0.7, "impact_uncertainty": true, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-04-20-0001-1", "input_id": "toyota_steel_explosion_2019-2019-04-20-0001", "signal_date": "2019-04-20"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-21-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-21-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-21-0002", "status": "empty"}
+{"temporality": "confirmation", "event_type": "geopolitical", "commodities": ["oil", "natural gas"], "companies": [], "geographies": ["Libya", "Tripoli"], "severity": 2, "description": "利比亚首都的黎波里夜间空袭后发生爆炸，显示该国局势动荡，可能威胁其石油生产与出口的稳定性，但尚未有直接供应链中断的报道。", "trigger_phrases": ["explosions", "air strike", "libya capital"], "confidence": 0.5, "impact_uncertainty": true, "uncertainty_notes": "事件已发生，但供应链影响尚未显现或证实", "signal_id": "toyota_steel_explosion_2019-2019-04-21-0003-1", "input_id": "toyota_steel_explosion_2019-2019-04-21-0003", "signal_date": "2019-04-21"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-21-0004", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-22-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-22-0001", "status": "empty"}
+{"temporality": "confirmation", "event_type": "geopolitical", "commodities": ["containerized goods", "textiles"], "companies": [], "geographies": ["Sri Lanka"], "severity": 2, "description": "斯里兰卡发生爆炸事件并逮捕五人，事件已经发生，可能对科伦坡港及周边物流造成短期干扰，但供应链影响尚未显现。", "trigger_phrases": ["explosions in sri lanka", "arrested"], "confidence": 0.65, "impact_uncertainty": true, "uncertainty_notes": "未直接提及对港口或供应链的具体影响，依据斯里兰卡地理位置推断。", "signal_id": "toyota_steel_explosion_2019-2019-04-22-0002-1", "input_id": "toyota_steel_explosion_2019-2019-04-22-0002", "signal_date": "2019-04-22"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-22-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-23-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-23-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-24-0000", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "operations", "commodities": ["lithium-ion batteries"], "companies": [], "geographies": [], "severity": 3, "description": "新闻标题显示爆炸事件威胁锂离子相关设施或供应，可能引发锂离子电池供应链中断。", "trigger_phrases": ["explosions threatening lithium ion"], "confidence": 0.35, "impact_uncertainty": false, "uncertainty_notes": "原文仅为标题碎片，缺少地点、企业和事件状态，只能推断锂离子相关供应链面临爆炸威胁。", "signal_id": "toyota_steel_explosion_2019-2019-04-24-0001-1", "input_id": "toyota_steel_explosion_2019-2019-04-24-0001", "signal_date": "2019-04-24"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-24-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-24-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-25-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-25-0001", "status": "empty"}
+{"temporality": "confirmation", "event_type": "financial", "commodities": ["steel"], "companies": [{"name": "Essar Steel", "role": "supplier"}], "geographies": ["India"], "severity": 3, "description": "银行将 Essar Steel 的贷款挂牌出售且买家缺席，表明该公司面临严重财务困境，可能影响其钢铁供应稳定性并波及下游客户。", "trigger_phrases": ["buyers stay away", "loans on sale"], "confidence": 0.65, "impact_uncertainty": true, "uncertainty_notes": "贷款出售事件已发生，但尚未确认对钢铁生产或交付的实际中断影响。", "signal_id": "toyota_steel_explosion_2019-2019-04-25-0002-1", "input_id": "toyota_steel_explosion_2019-2019-04-25-0002", "signal_date": "2019-04-25"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-25-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-25-0004", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-26-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["natural gas"], "companies": [], "geographies": ["United States"], "severity": 2, "description": "NTSB和消防员在爆炸前未能检查燃气泄漏源，随后发生爆炸，可能导致局部燃气供应中断。", "trigger_phrases": ["gas leak source", "prior to explosion"], "confidence": 0.5, "impact_uncertainty": true, "signal_id": "toyota_steel_explosion_2019-2019-04-26-0001-1", "input_id": "toyota_steel_explosion_2019-2019-04-26-0001", "signal_date": "2019-04-26"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-26-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-26-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-27-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-27-0001", "status": "empty"}
+{"temporality": "confirmation", "event_type": "geopolitical", "severity": 2, "confidence": 0.4, "description": "伊拉克发生爆炸致70人死亡，地缘政治风险上升，可能威胁伊拉克石油生产与出口稳定性。", "trigger_phrases": ["70 killed", "iraq explosions"], "commodities": ["oil"], "companies": [], "geographies": ["Iraq"], "impact_uncertainty": true, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-04-27-0002-1", "input_id": "toyota_steel_explosion_2019-2019-04-27-0002", "signal_date": "2019-04-27"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-28-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["batteries"], "companies": [{"name": "APS", "role": "unknown"}], "geographies": [], "severity": 2, "description": "APS电池设施发生爆炸，8名消防员受伤，可能导致电池生产中断", "trigger_phrases": ["firefighters hurt", "battery facility"], "confidence": 0.8, "impact_uncertainty": true, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-04-29-0000-1", "input_id": "toyota_steel_explosion_2019-2019-04-29-0000", "signal_date": "2019-04-29"}
+{"input_id": "toyota_steel_explosion_2019-2019-04-29-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-01-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-01-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-01-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-01-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-02-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["steel"], "companies": [], "geographies": ["United States"], "severity": 3, "confidence": 0.4, "description": "特朗普称赞钢铁关税的抵制行为，钢铁进口关税已实施，可能影响钢铁供应与价格。", "trigger_phrases": ["steel tariffs"], "impact_uncertainty": true, "signal_id": "toyota_steel_explosion_2019-2019-05-03-0000-1", "input_id": "toyota_steel_explosion_2019-2019-05-03-0000", "signal_date": "2019-05-03"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["silicone", "chemicals"], "companies": [], "geographies": ["Illinois", "United States"], "severity": 3, "description": "伊利诺伊州一家硅酮工厂发生爆炸，造成1人死亡、2人失踪，可能导致工厂生产中断及硅酮供应受影响。", "trigger_phrases": ["explosion at illinois silicone plant", "kills 1", "leaves 2 missing"], "confidence": 0.9, "impact_uncertainty": true, "uncertainty_notes": "爆炸已发生，但供应链具体中断范围和时间尚未明确。", "signal_id": "toyota_steel_explosion_2019-2019-05-05-0000-1", "input_id": "toyota_steel_explosion_2019-2019-05-05-0000", "signal_date": "2019-05-05"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": [], "companies": [], "geographies": ["Waukegan"], "severity": 3, "description": "沃基根工厂发生爆炸，已造成三名工人死亡，一人仍失踪，事件可能导致工厂运营中断。", "trigger_phrases": ["worker found killed", "plant explosion", "one still missing"], "confidence": 0.95, "impact_uncertainty": true, "signal_id": "toyota_steel_explosion_2019-2019-05-06-0000-1", "input_id": "toyota_steel_explosion_2019-2019-05-06-0000", "signal_date": "2019-05-06"}
+{"temporality": "confirmation", "event_type": "logistics", "commodities": ["oil"], "companies": [], "geographies": ["Niger", "Niamey"], "severity": 1, "description": "尼日尔尼亚美一辆油罐车爆炸，造成数十人死亡，事件涉及石油走私运输，可能对当地燃料运输造成短期扰动。", "trigger_phrases": ["truck explosion", "oil smuggling"], "confidence": 0.55, "impact_uncertainty": true, "uncertainty_notes": "新闻仅提及油罐车爆炸及走私，未说明对合法供应链的具体影响，属推断性信号。", "signal_id": "toyota_steel_explosion_2019-2019-05-06-0001-1", "input_id": "toyota_steel_explosion_2019-2019-05-06-0001", "signal_date": "2019-05-06"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-07-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-08-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-08-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-08-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-08-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-08-0004", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-08-0005", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-09-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["manufactured goods"], "companies": [], "geographies": [], "severity": 3, "description": "工厂发生爆炸并被摧毁，已找到第四具尸体，生产中断已确认。", "trigger_phrases": ["plant site", "wrecked by explosion"], "confidence": 0.7, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-05-09-0001-1", "input_id": "toyota_steel_explosion_2019-2019-05-09-0001", "signal_date": "2019-05-09"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-09-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-09-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-10-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-11-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["unknown"], "companies": [{"name": "unknown", "role": "unknown"}], "geographies": ["Colombia"], "severity": 3, "description": "哥伦比亚一家工厂发生爆炸，已造成4人死亡、29人受伤，工厂运营中断。", "trigger_phrases": ["factory explosion"], "confidence": 0.85, "impact_uncertainty": true, "uncertainty_notes": "爆炸已发生但具体供应链影响尚未明确", "signal_id": "toyota_steel_explosion_2019-2019-05-11-0001-1", "input_id": "toyota_steel_explosion_2019-2019-05-11-0001", "signal_date": "2019-05-11"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-11-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-11-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-11-0004", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-12-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-12-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-12-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-12-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-13-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["steel", "iron"], "companies": [{"name": "MAN Group", "role": "unknown"}], "geographies": ["Nigeria"], "severity": 2, "description": "The Federal Government loses N52 billion yearly to illegal iron and steel imports, according to MAN Group; illegal imports undermine the local steel industry and trade regulation enforcement.", "trigger_phrases": ["loses n52bn", "illegal iron steel importation", "yearly"], "confidence": 0.75, "impact_uncertainty": false, "uncertainty_notes": "Source text is a headline fragment; Nigeria and MAN Group inferred from FG, N52bn, and MAN context.", "signal_id": "toyota_steel_explosion_2019-2019-05-13-0001-1", "input_id": "toyota_steel_explosion_2019-2019-05-13-0001", "signal_date": "2019-05-13"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-13-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-13-0003", "status": "empty"}
+{"temporality": "confirmation", "event_type": "logistics", "commodities": ["oil", "containerized goods"], "companies": [], "geographies": ["UAE", "Persian Gulf"], "severity": 3, "description": "阿联酋港口发生爆炸，可能扰乱海湾地区港口运营和航运物流。", "trigger_phrases": ["explosions at uae port"], "confidence": 0.6, "impact_uncertainty": true, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-05-13-0004-1", "input_id": "toyota_steel_explosion_2019-2019-05-13-0004", "signal_date": "2019-05-13"}
+{"temporality": "forward_looking", "event_type": "geopolitical", "commodities": ["oil", "containerized goods"], "companies": [], "geographies": ["Persian Gulf"], "severity": 4, "description": "伊朗议员称海湾安全脆弱，未来该地区航运可能面临进一步地缘政治威胁。", "trigger_phrases": ["gulf security is fragile"], "confidence": 0.5, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-05-13-0004-2", "input_id": "toyota_steel_explosion_2019-2019-05-13-0004", "signal_date": "2019-05-13"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["gasoline"], "companies": [], "geographies": ["Virginia"], "severity": 1, "description": "Virginia 一家加油站发生爆炸，4 人住院，可能短暂影响当地燃油供应。", "trigger_phrases": ["4 hospitalized", "explosion", "gas station"], "confidence": 0.7, "impact_uncertainty": true, "signal_id": "toyota_steel_explosion_2019-2019-05-13-0005-1", "input_id": "toyota_steel_explosion_2019-2019-05-13-0005", "signal_date": "2019-05-13"}
+{"temporality": "confirmation", "event_type": "logistics", "commodities": ["containerized goods"], "companies": [], "geographies": ["Alexandria", "Egypt"], "severity": 2, "description": "亚历山大发生爆炸，可能影响港口运营和货物运输", "trigger_phrases": ["explosion", "alexandria"], "confidence": 0.4, "impact_uncertainty": true, "uncertainty_notes": "信息不足，无法确认爆炸是否直接影响港口设施", "signal_id": "toyota_steel_explosion_2019-2019-05-14-0000-1", "input_id": "toyota_steel_explosion_2019-2019-05-14-0000", "signal_date": "2019-05-14"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-14-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-14-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-14-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-14-0004", "status": "empty"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["steel", "aluminum"], "companies": [{"name": "Canada", "role": "government"}, {"name": "Mexico", "role": "government"}, {"name": "United States", "role": "government"}], "geographies": ["Canada", "Mexico", "United States"], "severity": 3, "description": "加拿大和墨西哥敦促美国取消钢铝关税，表明当前钢铝关税仍在生效，构成北美区域供应链的贸易监管风险，推高下游采购成本。", "trigger_phrases": ["push us to lift", "steel aluminum tariffs"], "confidence": 0.8, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-05-15-0000-1", "input_id": "toyota_steel_explosion_2019-2019-05-15-0000", "signal_date": "2019-05-15"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-15-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-16-0000", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "regulatory", "commodities": ["steel", "aluminum"], "companies": [{"name": "U.S. Department of the Treasury", "role": "government"}], "geographies": ["United States"], "severity": 3, "description": "美国财政部长姆努钦表示钢铁和铝关税协议接近达成，未来关税政策可能调整，给钢铁和铝的跨境供应成本及贸易流向带来不确定性。", "trigger_phrases": ["deal on steel and aluminum tariffs", "is close"], "confidence": 0.8, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-05-16-0001-1", "input_id": "toyota_steel_explosion_2019-2019-05-16-0001", "signal_date": "2019-05-16"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-16-0002", "status": "empty"}
+{"temporality": "confirmation", "event_type": "financial", "commodities": ["steel"], "companies": [{"name": "ArcelorMittal", "role": "unknown"}, {"name": "Essar Steel", "role": "supplier"}], "geographies": ["India"], "severity": 2, "description": "Essar Steel 处于破产/财务危机，ArcelorMittal 的投标中包含营运资金安排，表明其钢铁供应存在不确定性，可能影响下游采购方。", "trigger_phrases": ["arcelormittal bid", "essar steel", "working capital"], "confidence": 0.5, "impact_uncertainty": true, "uncertainty_notes": "原文仅提及投标与营运资金，未明确供应链中断事实，实际供应影响程度不确定。", "signal_id": "toyota_steel_explosion_2019-2019-05-16-0003-1", "input_id": "toyota_steel_explosion_2019-2019-05-16-0003", "signal_date": "2019-05-16"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-17-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["steel", "aluminum"], "companies": [], "geographies": ["Canada", "United States"], "severity": 1, "description": "加拿大与美国达成协议取消钢铁和铝关税，可能对两国钢铁铝贸易及相关下游供应链产生影响。", "trigger_phrases": ["reach deal", "lift steel and aluminum tariffs"], "confidence": 0.9, "impact_uncertainty": true, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-05-18-0000-1", "input_id": "toyota_steel_explosion_2019-2019-05-18-0000", "signal_date": "2019-05-18"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-18-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-18-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-18-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-18-0004", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-18-0005", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-18-0006", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-18-0007", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-18-0008", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-18-0009", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-18-0010", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-18-0011", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-18-0012", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-18-0013", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": [], "companies": [], "geographies": ["Waltham Abbey"], "severity": 1, "description": "A late-night explosion and huge fire at a unit on Brookers Road, Waltham Abbey, drew ten fire engines; the affected business and any supply chain impact are unclear.", "trigger_phrases": ["late night explosion", "ten fire engines", "huge fire"], "confidence": 0.35, "impact_uncertainty": true, "uncertainty_notes": "The article gives no details on the business type, goods, or broader supply chain effects.", "signal_id": "toyota_steel_explosion_2019-2019-05-18-0014-1", "input_id": "toyota_steel_explosion_2019-2019-05-18-0014", "signal_date": "2019-05-18"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-19-0000", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "financial", "commodities": ["steel"], "companies": [{"name": "British Steel", "role": "supplier"}, {"name": "Greybull Capital", "role": "unknown"}], "geographies": ["United Kingdom"], "severity": 3, "confidence": 0.6, "description": "新闻标题质疑 British Steel 是否将成为 Greybull Capital 的下一个灾难案例，预示该钢铁企业可能陷入财务困境并导致钢材供应中断。", "trigger_phrases": ["british steel", "greybull capitals", "next disaster"], "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-05-19-0001-1", "input_id": "toyota_steel_explosion_2019-2019-05-19-0001", "signal_date": "2019-05-19"}
+{"temporality": "forward_looking", "event_type": "regulatory", "commodities": ["automotive parts", "vehicles"], "companies": [{"name": "Toyota", "role": "buyer"}], "geographies": ["United States"], "severity": 3, "description": "Toyota 对美国投资环境表示不满，可能反映美国对汽车及零部件的关税威胁将影响其北美供应链与投资决策。", "trigger_phrases": ["toyota", "mostra descontentamento", "investimentos nos eua"], "confidence": 0.62, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-05-19-0002-1", "input_id": "toyota_steel_explosion_2019-2019-05-19-0002", "signal_date": "2019-05-19"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-19-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-19-0004", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-19-0005", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-20-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-20-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-20-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-20-0003", "status": "empty"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["steel"], "companies": [], "geographies": ["Canada", "United States"], "severity": 2, "description": "美加就钢铁关税达成协议，涉及美国对加拿大钢铁的关税调整，将影响钢铁跨境贸易及供应链成本与流向。", "trigger_phrases": ["steel", "canada tariff deal", "tariff deal"], "confidence": 0.6, "impact_uncertainty": true, "uncertainty_notes": "文本仅有标题，无法确认关税调整的具体方向和实施细节，存在推理性解读。", "signal_id": "toyota_steel_explosion_2019-2019-05-20-0004-1", "input_id": "toyota_steel_explosion_2019-2019-05-20-0004", "signal_date": "2019-05-20"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-21-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-21-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-21-0002", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "financial", "commodities": ["steel"], "companies": [{"name": "British Steel", "role": "supplier"}], "geographies": ["UK"], "severity": 4, "description": "British Steel 面临倒闭风险，涉及25000个工作岗位，若发生将导致钢铁供应中断。", "trigger_phrases": ["british steel", "risks collapse", "25000 jobs at stake"], "confidence": 0.88, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-05-21-0003-1", "input_id": "toyota_steel_explosion_2019-2019-05-21-0003", "signal_date": "2019-05-21"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-22-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-22-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-22-0002", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["steel"], "companies": [{"name": "British Steel", "role": "supplier"}], "geographies": ["United Kingdom"], "severity": 4, "description": "British Steel has collapsed after failing to secure extra funding, disrupting steel supply.", "trigger_phrases": ["collapses", "failing to secure extra funding"], "confidence": 0.92, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-05-22-0003-1", "input_id": "toyota_steel_explosion_2019-2019-05-22-0003", "signal_date": "2019-05-22"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-22-0004", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-22-0005", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "financial", "commodities": ["steel"], "companies": [{"name": "British Steel", "role": "supplier"}], "geographies": ["United Kingdom"], "severity": 3, "description": "英国钢铁公司面临生存危机，若倒闭将影响钢铁供应", "trigger_phrases": ["british steel", "be saved"], "confidence": 0.5, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-05-22-0006-1", "input_id": "toyota_steel_explosion_2019-2019-05-22-0006", "signal_date": "2019-05-22"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-23-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-23-0001", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "financial", "commodities": ["steel"], "companies": [{"name": "British Steel", "role": "supplier"}], "geographies": ["United Kingdom"], "severity": 3, "confidence": 0.6, "description": "British Steel 寻找买家的时间紧迫，若无法及时达成交易，可能面临停产或破产，导致钢铁供应中断。", "trigger_phrases": ["clock ticking", "british steel buyer"], "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-05-23-0002-1", "input_id": "toyota_steel_explosion_2019-2019-05-23-0002", "signal_date": "2019-05-23"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["steel"], "companies": [], "geographies": ["Canada", "United States"], "severity": 2, "description": "加拿大钢铁大亨面临美国监管机构投诉，可能涉及钢铁贸易合规问题，但具体影响不明。", "trigger_phrases": ["faces complaint", "us regulators"], "confidence": 0.4, "impact_uncertainty": true, "signal_id": "toyota_steel_explosion_2019-2019-05-24-0000-1", "input_id": "toyota_steel_explosion_2019-2019-05-24-0000", "signal_date": "2019-05-24"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-24-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-24-0002", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-25-0000", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "regulatory", "commodities": ["steel"], "companies": [], "geographies": ["Canada"], "severity": 2, "description": "加拿大总理表示将保护钢铁行业工人，可能预示未来采取贸易保护措施，影响钢铁进口供应链。", "trigger_phrases": ["protect its steel industry workers"], "confidence": 0.5, "impact_uncertainty": false, "uncertainty_notes": "原文未明确提及具体贸易措施，仅为基础保护承诺，供应链影响存在不确定性。", "signal_id": "toyota_steel_explosion_2019-2019-05-25-0001-1", "input_id": "toyota_steel_explosion_2019-2019-05-25-0001", "signal_date": "2019-05-25"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-25-0002", "status": "empty"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["steel"], "companies": [], "geographies": ["Canada"], "severity": 2, "description": "加拿大钢铁关税协议相关消息，可能影响钢铁贸易流向和供应链成本", "trigger_phrases": ["tariff deal", "canada", "steel"], "confidence": 0.65, "impact_uncertainty": true, "uncertainty_notes": "文本仅含标题，具体协议细节及对供应链的实际影响不明确", "signal_id": "toyota_steel_explosion_2019-2019-05-27-0000-1", "input_id": "toyota_steel_explosion_2019-2019-05-27-0000", "signal_date": "2019-05-27"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-27-0001", "status": "empty"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["steel"], "companies": [{"name": "AHMSA", "role": "supplier"}, {"name": "Government of Mexico", "role": "government"}], "geographies": ["Mexico"], "severity": 3, "description": "Mexican steelmaker AHMSA claims its accounts were improperly frozen by the government, which could disrupt its operations and steel supply to customers.", "trigger_phrases": ["accounts improperly frozen", "frozen by government"], "confidence": 0.85, "impact_uncertainty": true, "uncertainty_notes": "The freeze is confirmed, but the full impact on AHMSA's operations and downstream steel supply has not yet materialized.", "signal_id": "toyota_steel_explosion_2019-2019-05-28-0000-1", "input_id": "toyota_steel_explosion_2019-2019-05-28-0000", "signal_date": "2019-05-28"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-28-0001", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "financial", "commodities": ["steel"], "companies": [], "geographies": ["India", "China"], "severity": 2, "confidence": 0.55, "description": "印度钢铁行业预计在 FY20 增长 6-8%，但对中国钢材倾销的担忧可能对国内钢厂形成价格与需求冲击。", "trigger_phrases": ["steel may grow", "concerns over dumping", "from china"], "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-05-28-0002-1", "input_id": "toyota_steel_explosion_2019-2019-05-28-0002", "signal_date": "2019-05-28"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-28-0003", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-28-0004", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-29-0000", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-29-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-05-31-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["ammunition", "explosives", "defense equipment"], "companies": [], "geographies": ["Russia"], "severity": 2, "description": "俄罗斯一处弹药厂遭遇大规模爆炸，造成数十人受伤，可能影响该厂生产及弹药供应链。", "trigger_phrases": ["massive explosions", "munitions plant", "dozens injured"], "confidence": 0.9, "impact_uncertainty": true, "uncertainty_notes": "", "signal_id": "toyota_steel_explosion_2019-2019-06-02-0000-1", "input_id": "toyota_steel_explosion_2019-2019-06-02-0000", "signal_date": "2019-06-02"}
+{"input_id": "toyota_steel_explosion_2019-2019-06-02-0001", "status": "empty"}
+{"input_id": "toyota_steel_explosion_2019-2019-06-02-0002", "status": "empty"}

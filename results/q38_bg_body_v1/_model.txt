@@ -1,0 +1,4 @@
+body x single-field
+corpus=data/by_event_body
+prompt=prompts/event_extraction_prompt.md
+model=qwen3.8-27b

@@ -1,0 +1,372 @@
+{
+  "n_signals_loaded": 347,
+  "calibration": {
+    "ece": 0.1175,
+    "n_total": 226,
+    "bins": [
+      {
+        "bin_id": 1,
+        "range": [
+          0.0,
+          0.1
+        ],
+        "n": 0,
+        "acc": null,
+        "avg_conf": null,
+        "gap": null
+      },
+      {
+        "bin_id": 2,
+        "range": [
+          0.1,
+          0.2
+        ],
+        "n": 0,
+        "acc": null,
+        "avg_conf": null,
+        "gap": null
+      },
+      {
+        "bin_id": 3,
+        "range": [
+          0.2,
+          0.3
+        ],
+        "n": 0,
+        "acc": null,
+        "avg_conf": null,
+        "gap": null
+      },
+      {
+        "bin_id": 4,
+        "range": [
+          0.3,
+          0.4
+        ],
+        "n": 0,
+        "acc": null,
+        "avg_conf": null,
+        "gap": null
+      },
+      {
+        "bin_id": 5,
+        "range": [
+          0.4,
+          0.5
+        ],
+        "n": 0,
+        "acc": null,
+        "avg_conf": null,
+        "gap": null
+      },
+      {
+        "bin_id": 6,
+        "range": [
+          0.5,
+          0.6
+        ],
+        "n": 0,
+        "acc": null,
+        "avg_conf": null,
+        "gap": null
+      },
+      {
+        "bin_id": 7,
+        "range": [
+          0.6,
+          0.7
+        ],
+        "n": 1,
+        "acc": 1.0,
+        "avg_conf": 0.6,
+        "gap": 0.4
+      },
+      {
+        "bin_id": 8,
+        "range": [
+          0.7,
+          0.8
+        ],
+        "n": 8,
+        "acc": 0.625,
+        "avg_conf": 0.744,
+        "gap": 0.119
+      },
+      {
+        "bin_id": 9,
+        "range": [
+          0.8,
+          0.9
+        ],
+        "n": 128,
+        "acc": 0.984,
+        "avg_conf": 0.847,
+        "gap": 0.137
+      },
+      {
+        "bin_id": 10,
+        "range": [
+          0.9,
+          1.0
+        ],
+        "n": 89,
+        "acc": 0.989,
+        "avg_conf": 0.903,
+        "gap": 0.086
+      }
+    ],
+    "high_conf_acc": 0.986,
+    "low_conf_acc": null,
+    "n_high_conf": 217,
+    "n_low_conf": 0
+  },
+  "faithfulness": {
+    "faithfulness_rate": 0.8974,
+    "n_total": 273,
+    "n_faithful": 245,
+    "n_violations": 28,
+    "violations": [
+      {
+        "signal_id": "russia_ukraine_war_2022-2021-01-21-0000-1",
+        "input_id": "russia_ukraine_war_2022-2021-01-21-0000",
+        "missing_triggers": [
+          "could yield attacks"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2021-02-19-0000-1",
+        "input_id": "russia_ukraine_war_2022-2021-02-19-0000",
+        "missing_triggers": [
+          "payment apps ... went down"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2021-02-19-0000-2",
+        "input_id": "russia_ukraine_war_2022-2021-02-19-0000",
+        "missing_triggers": [
+          "Banks, supply systems and logistics ... will stop working"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2021-02-19-0000-3",
+        "input_id": "russia_ukraine_war_2022-2021-02-19-0000",
+        "missing_triggers": [
+          "websites of two banks ... were briefly taken offline"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2021-09-10-0000-1",
+        "input_id": "russia_ukraine_war_2022-2021-09-10-0000",
+        "missing_triggers": [
+          "tensions ... growing"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2021-12-08-0001-1",
+        "input_id": "russia_ukraine_war_2022-2021-12-08-0001",
+        "missing_triggers": [
+          "strong economic sanctions"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2021-12-24-0000-1",
+        "input_id": "russia_ukraine_war_2022-2021-12-24-0000",
+        "missing_triggers": [
+          "initiate military-technical measures"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2022-01-18-0000-1",
+        "input_id": "russia_ukraine_war_2022-2022-01-18-0000",
+        "missing_triggers": [
+          "real risk"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2022-01-27-0006-2",
+        "input_id": "russia_ukraine_war_2022-2022-01-27-0006",
+        "missing_triggers": [
+          "Qatar is already producing at full capacity"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2022-01-28-0001-2",
+        "input_id": "russia_ukraine_war_2022-2022-01-28-0001",
+        "missing_triggers": [
+          "Qatar is already producing at full capacity"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2022-01-30-0003-1",
+        "input_id": "russia_ukraine_war_2022-2022-01-30-0003",
+        "missing_triggers": [
+          "US lives are going to be at stake"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2022-02-09-0000-1",
+        "input_id": "russia_ukraine_war_2022-2022-02-09-0000",
+        "missing_triggers": [
+          "deter any Russian invasion"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2022-02-13-0001-2",
+        "input_id": "russia_ukraine_war_2022-2022-02-13-0001",
+        "missing_triggers": [
+          "impose swift, severe economic sanctions"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2022-02-19-0002-1",
+        "input_id": "russia_ukraine_war_2022-2022-02-19-0002",
+        "missing_triggers": [
+          "attack Ukraine in the coming week"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2022-02-19-0007-1",
+        "input_id": "russia_ukraine_war_2022-2022-02-19-0007",
+        "missing_triggers": [
+          "sanctions that we and our allies will impose",
+          "chosen a war"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2022-02-19-0008-1",
+        "input_id": "russia_ukraine_war_2022-2022-02-19-0008",
+        "missing_triggers": [
+          "we'll have war"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2022-02-19-0009-2",
+        "input_id": "russia_ukraine_war_2022-2022-02-19-0009",
+        "missing_triggers": [
+          "payment apps and point-of-sale machines... went down",
+          "Taxi drivers... stopped driving"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2022-02-22-0002-2",
+        "input_id": "russia_ukraine_war_2022-2022-02-22-0002",
+        "missing_triggers": [
+          "didn't fill its underground storage"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2022-02-22-0003-1",
+        "input_id": "russia_ukraine_war_2022-2022-02-22-0003",
+        "missing_triggers": [
+          "immediate economic sanctions"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2022-02-22-0006-1",
+        "input_id": "russia_ukraine_war_2022-2022-02-22-0006",
+        "missing_triggers": [
+          "ordered in peacekeeping troops"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2022-01-14-0000-1",
+        "input_id": "russia_ukraine_war_2022-2022-01-14-0000",
+        "missing_triggers": [
+          "unpredictable and ... severe consequences"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2022-01-15-0000-1",
+        "input_id": "russia_ukraine_war_2022-2022-01-15-0000",
+        "missing_triggers": [
+          "invasion of Ukraine"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2022-01-26-0004-1",
+        "input_id": "russia_ukraine_war_2022-2022-01-26-0004",
+        "missing_triggers": [
+          "masses thousands of troops"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2022-02-02-0001-1",
+        "input_id": "russia_ukraine_war_2022-2022-02-02-0001",
+        "missing_triggers": [
+          "invasion is now virtually certain",
+          "war could be imminent"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2022-02-09-0002-1",
+        "input_id": "russia_ukraine_war_2022-2022-02-09-0002",
+        "missing_triggers": [
+          "risk of a 'lightning war'"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2022-02-13-0012-1",
+        "input_id": "russia_ukraine_war_2022-2022-02-13-0012",
+        "missing_triggers": [
+          "full-scale attack has been prepared"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2022-02-17-0000-2",
+        "input_id": "russia_ukraine_war_2022-2022-02-17-0000",
+        "missing_triggers": [
+          "face 'very tough' new sanctions"
+        ]
+      },
+      {
+        "signal_id": "russia_ukraine_war_2022-2022-02-20-0000-1",
+        "input_id": "russia_ukraine_war_2022-2022-02-20-0000",
+        "missing_triggers": [
+          "fears of a Russian invasion"
+        ]
+      }
+    ]
+  },
+  "ts_ece": {
+    "ts_ece_curve": [
+      {
+        "stratum": "(0,7]",
+        "n": 6,
+        "ece": 0.1583,
+        "mean_conf": 0.842,
+        "accuracy": 1.0
+      },
+      {
+        "stratum": "(7,30]",
+        "n": 7,
+        "ece": 0.1143,
+        "mean_conf": 0.886,
+        "accuracy": 1.0
+      },
+      {
+        "stratum": "(30,90]",
+        "n": 86,
+        "ece": 0.1297,
+        "mean_conf": 0.87,
+        "accuracy": 1.0
+      },
+      {
+        "stratum": "(90,180]",
+        "n": 121,
+        "ece": 0.1372,
+        "mean_conf": 0.863,
+        "accuracy": 1.0
+      }
+    ],
+    "n_with_lead": 220,
+    "n_no_lead": 6
+  },
+  "fwgs": {
+    "fwgs": 0.8432,
+    "n_signals": 226,
+    "n_tp": 220,
+    "n_fp": 6,
+    "tau": 30.0,
+    "lambda_penalty": 0.5
+  }
+}

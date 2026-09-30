@@ -1,0 +1,13 @@
+{"input_id": "beirut_port_explosion_2020-2020-03-26-0000", "status": "empty"}
+{"input_id": "beirut_port_explosion_2020-2020-04-18-0000", "status": "empty"}
+{"input_id": "beirut_port_explosion_2020-2020-04-28-0000", "status": "empty"}
+{"input_id": "beirut_port_explosion_2020-2020-06-07-0000", "status": "empty"}
+{"input_id": "beirut_port_explosion_2020-2020-06-16-0000", "status": "empty"}
+{"temporality": "latent", "event_type": "regulatory", "commodities": ["financial services", "general trade"], "companies": [{"name": "Lebanese Economy", "role": "unknown"}], "geographies": ["Lebanon", "United States"], "severity": 3, "description": "US sanctions and economic blockade on Lebanon are cited as a cause of economic crisis, creating latent risks for financial stability and trade flows.", "trigger_phrases": ["economic blockade", "imposed sanctions", "economic crisis"], "confidence": 0.85, "uncertainty_notes": "The text focuses on political protests against US interference, but explicitly links US sanctions to the economic crisis, which is a supply chain/regulatory risk factor.", "signal_id": "beirut_port_explosion_2020-2020-06-30-0000-1", "input_id": "beirut_port_explosion_2020-2020-06-30-0000", "signal_date": "2020-06-30"}
+{"input_id": "beirut_port_explosion_2020-2020-07-08-0000", "status": "empty"}
+{"input_id": "beirut_port_explosion_2020-2020-07-09-0000", "status": "empty"}
+{"input_id": "beirut_port_explosion_2020-2020-07-10-0000", "status": "empty"}
+{"input_id": "beirut_port_explosion_2020-2020-07-17-0000", "status": "empty"}
+{"input_id": "beirut_port_explosion_2020-2020-07-21-0000", "status": "empty"}
+{"input_id": "beirut_port_explosion_2020-2020-07-24-0000", "status": "empty"}
+{"input_id": "beirut_port_explosion_2020-2020-08-03-0000", "status": "empty"}

@@ -1,0 +1,10 @@
+{"input_id": "big_lots_bankruptcy_2024-2024-03-19-000", "status": "empty"}
+{"input_id": "big_lots_bankruptcy_2024-2024-04-18-001", "status": "empty"}
+{"input_id": "big_lots_bankruptcy_2024-2024-04-18-002", "status": "empty"}
+{"input_id": "big_lots_bankruptcy_2024-2024-04-19-003", "status": "empty"}
+{"input_id": "big_lots_bankruptcy_2024-2024-04-19-004", "status": "empty"}
+{"input_id": "big_lots_bankruptcy_2024-2024-06-03-005", "status": "empty"}
+{"input_id": "big_lots_bankruptcy_2024-2024-06-11-006", "status": "empty"}
+{"input_id": "big_lots_bankruptcy_2024-2024-06-13-007", "status": "empty"}
+{"temporality": "confirmation", "event_type": "restructuring", "commodities": ["discount retail goods"], "companies": [{"name": "Big Lots, Inc.", "role": "buyer"}], "geographies": ["United States"], "severity": 3, "description": "Big Lots 签署信贷协议修正案，将允许关闭的门店数量从 150 家大幅增加至 315 家，并缩减 ABL 信贷额度，表明公司正在进行大规模门店重组以应对业绩不佳。", "trigger_phrases": ["aggressively address underperforming stores", "increase the number of permitted store closings from 150 to 315", "reduce the aggregate commitments"], "confidence": 0.95, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "big_lots_bankruptcy_2024-2024-08-02-008-1", "input_id": "big_lots_bankruptcy_2024-2024-08-02-008", "signal_date": "2024-08-02"}
+{"input_id": "big_lots_bankruptcy_2024-2024-08-16-009", "status": "empty"}

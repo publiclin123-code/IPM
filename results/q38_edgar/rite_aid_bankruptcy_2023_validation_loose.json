@@ -1,0 +1,157 @@
+{
+  "per_event": [
+    {
+      "event_id": "bbby_bankruptcy_2023",
+      "event_name": "",
+      "hit": true,
+      "gt_onset_date": "2023-04-23",
+      "earliest_signal_date": "2023-04-20",
+      "lead_time_days": 3,
+      "n_signals_in_window": 1,
+      "matched_signal_ids": [
+        "rite_aid_bankruptcy_2023-2023-04-20-000-1"
+      ]
+    },
+    {
+      "event_id": "rite_aid_bankruptcy_2023",
+      "event_name": "",
+      "hit": true,
+      "gt_onset_date": "2023-10-15",
+      "earliest_signal_date": "2023-04-20",
+      "lead_time_days": 178,
+      "n_signals_in_window": 5,
+      "matched_signal_ids": [
+        "rite_aid_bankruptcy_2023-2023-04-20-000-1",
+        "rite_aid_bankruptcy_2023-2023-06-29-006-1",
+        "rite_aid_bankruptcy_2023-2023-10-04-010-2",
+        "rite_aid_bankruptcy_2023-2023-10-12-011-2",
+        "rite_aid_bankruptcy_2023-2023-10-12-011-3"
+      ]
+    },
+    {
+      "event_id": "party_city_bankruptcy_2023",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2023-01-17",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "yellow_bankruptcy_2023",
+      "event_name": "",
+      "hit": true,
+      "gt_onset_date": "2023-08-06",
+      "earliest_signal_date": "2023-04-20",
+      "lead_time_days": 108,
+      "n_signals_in_window": 2,
+      "matched_signal_ids": [
+        "rite_aid_bankruptcy_2023-2023-04-20-000-1",
+        "rite_aid_bankruptcy_2023-2023-06-29-006-1"
+      ]
+    },
+    {
+      "event_id": "joann_bankruptcy_2024",
+      "event_name": "",
+      "hit": true,
+      "gt_onset_date": "2024-03-18",
+      "earliest_signal_date": "2023-10-04",
+      "lead_time_days": 166,
+      "n_signals_in_window": 3,
+      "matched_signal_ids": [
+        "rite_aid_bankruptcy_2023-2023-10-04-010-2",
+        "rite_aid_bankruptcy_2023-2023-10-12-011-2",
+        "rite_aid_bankruptcy_2023-2023-10-12-011-3"
+      ]
+    },
+    {
+      "event_id": "big_lots_bankruptcy_2024",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2024-09-09",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "express_bankruptcy_2024",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2024-04-22",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "wework_bankruptcy_2023",
+      "event_name": "",
+      "hit": true,
+      "gt_onset_date": "2023-11-06",
+      "earliest_signal_date": "2023-06-29",
+      "lead_time_days": 130,
+      "n_signals_in_window": 4,
+      "matched_signal_ids": [
+        "rite_aid_bankruptcy_2023-2023-06-29-006-1",
+        "rite_aid_bankruptcy_2023-2023-10-04-010-2",
+        "rite_aid_bankruptcy_2023-2023-10-12-011-2",
+        "rite_aid_bankruptcy_2023-2023-10-12-011-3"
+      ]
+    },
+    {
+      "event_id": "lordstown_bankruptcy_2023",
+      "event_name": "",
+      "hit": true,
+      "gt_onset_date": "2023-06-27",
+      "earliest_signal_date": "2023-04-20",
+      "lead_time_days": 68,
+      "n_signals_in_window": 1,
+      "matched_signal_ids": [
+        "rite_aid_bankruptcy_2023-2023-04-20-000-1"
+      ]
+    },
+    {
+      "event_id": "tuesday_morning_bankruptcy_2023",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2023-02-14",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "smiledirect_bankruptcy_2023",
+      "event_name": "",
+      "hit": true,
+      "gt_onset_date": "2023-09-29",
+      "earliest_signal_date": "2023-04-20",
+      "lead_time_days": 162,
+      "n_signals_in_window": 2,
+      "matched_signal_ids": [
+        "rite_aid_bankruptcy_2023-2023-04-20-000-1",
+        "rite_aid_bankruptcy_2023-2023-06-29-006-1"
+      ]
+    },
+    {
+      "event_id": "audacy_bankruptcy_2024",
+      "event_name": "",
+      "hit": true,
+      "gt_onset_date": "2024-01-07",
+      "earliest_signal_date": "2023-10-04",
+      "lead_time_days": 95,
+      "n_signals_in_window": 3,
+      "matched_signal_ids": [
+        "rite_aid_bankruptcy_2023-2023-10-04-010-2",
+        "rite_aid_bankruptcy_2023-2023-10-12-011-2",
+        "rite_aid_bankruptcy_2023-2023-10-12-011-3"
+      ]
+    }
+  ],
+  "summary": {
+    "n_gt_events": 12,
+    "n_hit": 8,
+    "hit_rate": 0.667,
+    "mean_lead_time_days": 113.75,
+    "median_lead_time_days": 130,
+    "precision": 1.0,
+    "n_warning_signals_in_windows": 5,
+    "n_matched_signals": 5,
+    "strict_matching": false,
+    "window_days": 180
+  }
+}

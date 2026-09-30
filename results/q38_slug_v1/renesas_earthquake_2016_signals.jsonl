@@ -1,0 +1,185 @@
+{"input_id": "renesas_earthquake_2016-2006-01-14-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2014-10-25-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-02-04-0000", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["semiconductors"], "companies": [], "geographies": ["Taiwan"], "severity": 3, "description": "台湾东部发生地震，台北有震感，存在对当地半导体供应链造成潜在中断的风险。", "trigger_phrases": ["earthquakes eastern taiwan", "sends tremors taipei"], "confidence": 0.65, "uncertainty_notes": "原文仅提及地震发生及震感，未明确说明是否造成基础设施损坏或工厂停产，故判定为潜在风险（latent）。", "signal_id": "renesas_earthquake_2016-2015-10-19-0000-1", "input_id": "renesas_earthquake_2016-2015-10-19-0000", "signal_date": "2015-10-19"}
+{"input_id": "renesas_earthquake_2016-2015-10-20-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-10-21-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-10-23-0000", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "natural_disaster", "commodities": ["construction materials", "consumer goods"], "companies": [], "geographies": ["Los Angeles", "United States"], "severity": 3, "description": "NASA 发布警告，指出洛杉矶地区即将发生 5.0 级地震，并归因于全球变暖，可能对当地基础设施及供应链造成潜在冲击。", "trigger_phrases": ["nasa warns", "imminent 5 0 magnitude l a earthquake"], "confidence": 0.4, "uncertainty_notes": "新闻标题提及 NASA 将地震归因于全球变暖，这在科学上极具争议且通常不被主流地质学界接受，因此置信度较低。此外，5.0 级地震通常被视为中等强度，对全球供应链影响有限，主要影响局部区域。", "signal_id": "renesas_earthquake_2016-2015-10-23-0001-1", "input_id": "renesas_earthquake_2016-2015-10-23-0001", "signal_date": "2015-10-23"}
+{"input_id": "renesas_earthquake_2016-2015-10-25-0000", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["agricultural products", "textiles", "construction materials"], "companies": [], "geographies": ["Pakistan", "South Asia"], "severity": 4, "description": "巴基斯坦发生地震，造成数十人死亡，可能导致当地基础设施受损及供应链中断风险。", "trigger_phrases": ["dozens killed", "earthquake shakes s asia"], "confidence": 0.85, "uncertainty_notes": "原文未明确提及具体供应链中断事实，但地震作为自然灾害事件，对当地物流、农业及制造业构成潜在风险。", "signal_id": "renesas_earthquake_2016-2015-10-26-0000-1", "input_id": "renesas_earthquake_2016-2015-10-26-0000", "signal_date": "2015-10-26"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["construction materials", "humanitarian aid"], "companies": [], "geographies": ["Afghanistan"], "severity": 3, "description": "阿富汗发生地震，造成超过100人死亡，可能导致当地基础设施受损及人道主义物资供应中断。", "trigger_phrases": ["afghanistan earthquake", "death toll of more than 100"], "confidence": 0.85, "uncertainty_notes": "新闻标题未明确提及具体供应链中断，但地震属于自然灾害，通常伴随基础设施破坏和物流受阻风险。", "signal_id": "renesas_earthquake_2016-2015-10-26-0001-1", "input_id": "renesas_earthquake_2016-2015-10-26-0001", "signal_date": "2015-10-26"}
+{"input_id": "renesas_earthquake_2016-2015-10-26-0002", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["agricultural products", "construction materials"], "companies": [], "geographies": ["Afghanistan", "Pakistan"], "severity": 3, "description": "阿富汗和巴基斯坦发生地震，造成数十人伤亡，可能导致当地基础设施受损及供应链中断风险。", "trigger_phrases": ["earthquake", "kills and injures", "afghanistan and pakistan"], "confidence": 0.6, "uncertainty_notes": "新闻仅提及伤亡，未明确提及具体供应链中断或物流受阻，故判定为潜在风险。", "signal_id": "renesas_earthquake_2016-2015-10-26-0003-1", "input_id": "renesas_earthquake_2016-2015-10-26-0003", "signal_date": "2015-10-26"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["construction materials", "agricultural products"], "companies": [], "geographies": ["Afghanistan", "South Asia"], "severity": 3, "description": "阿富汗发生强烈地震，震感波及南亚地区，可能导致当地基础设施受损及供应链中断风险。", "trigger_phrases": ["powerful earthquake", "afghanistan", "felt across south asia"], "confidence": 0.85, "uncertainty_notes": "原文仅提及地震发生及震感范围，未具体说明对供应链的实际影响程度，故判定为潜在风险。", "signal_id": "renesas_earthquake_2016-2015-10-26-0004-1", "input_id": "renesas_earthquake_2016-2015-10-26-0004", "signal_date": "2015-10-26"}
+{"input_id": "renesas_earthquake_2016-2015-10-26-0005", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-10-26-0006", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-10-26-0007", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-10-26-0008", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["agricultural products", "construction materials"], "companies": [], "geographies": ["Afghanistan", "Asia"], "severity": 3, "description": "阿富汗发生地震，造成数十人死亡，可能导致当地基础设施受损及供应链中断风险。", "trigger_phrases": ["afghan earthquake", "rocks asia", "dozens dead"], "confidence": 0.6, "uncertainty_notes": "新闻标题信息有限，未明确提及具体供应链中断或受影响商品，基于自然灾害对区域供应的潜在影响进行推断。", "signal_id": "renesas_earthquake_2016-2015-10-26-0009-1", "input_id": "renesas_earthquake_2016-2015-10-26-0009", "signal_date": "2015-10-26"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["construction materials", "agricultural products"], "companies": [], "geographies": ["Afghanistan", "Pakistan"], "severity": 3, "description": "阿富汗和巴基斯坦发生强震并造成人员伤亡，可能导致当地基础设施受损、物流中断及局部供应能力下降。", "trigger_phrases": ["powerful earthquake", "kills scores", "afghanistan pakistan"], "confidence": 0.65, "uncertainty_notes": "原文仅提及地震和伤亡，未明确提及供应链中断或具体受影响商品，严重度和商品类别基于地缘和灾害类型推断。", "signal_id": "renesas_earthquake_2016-2015-10-26-0010-1", "input_id": "renesas_earthquake_2016-2015-10-26-0010", "signal_date": "2015-10-26"}
+{"input_id": "renesas_earthquake_2016-2015-10-27-0000", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["agricultural products", "construction materials"], "companies": [], "geographies": ["Afghanistan", "Asia"], "severity": 3, "description": "阿富汗发生地震，造成数十人死亡，可能导致当地基础设施受损及局部供应链中断。", "trigger_phrases": ["afghan earthquake", "rocks asia", "dozens dead"], "confidence": 0.65, "uncertainty_notes": "新闻标题较为简略，未明确提及具体供应链中断细节，但地震属于自然灾害，对当地物流和基础设施构成潜在风险。", "signal_id": "renesas_earthquake_2016-2015-10-27-0001-1", "input_id": "renesas_earthquake_2016-2015-10-27-0001", "signal_date": "2015-10-27"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["humanitarian aid", "construction materials"], "companies": [], "geographies": ["Afghanistan"], "severity": 3, "description": "阿富汗发生地震，恶劣地形、天气及冲突局势导致救援工作受阻，存在供应链中断及人道主义物资短缺风险。", "trigger_phrases": ["afghanistan earthquake", "terrain weather conflict", "problematic relief efforts"], "confidence": 0.85, "uncertainty_notes": "原文为标题，未提供具体震级或受损程度，但明确提及救援受阻，故判定为潜在风险。", "signal_id": "renesas_earthquake_2016-2015-10-28-0000-1", "input_id": "renesas_earthquake_2016-2015-10-28-0000", "signal_date": "2015-10-28"}
+{"input_id": "renesas_earthquake_2016-2015-10-29-0000", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["agricultural products"], "companies": [], "geographies": ["Afghanistan"], "severity": 2, "description": "阿富汗发生地震，造成人员伤亡，可能影响当地基础设施及农产品供应链的稳定性。", "trigger_phrases": ["afghanistan earthquake", "crushed under rubble"], "confidence": 0.6, "uncertainty_notes": "新闻仅提及地震及伤亡，未明确提及供应链中断或具体商品影响，基于自然灾害对主产区/产国的一般性影响推断。", "signal_id": "renesas_earthquake_2016-2015-10-29-0001-1", "input_id": "renesas_earthquake_2016-2015-10-29-0001", "signal_date": "2015-10-29"}
+{"input_id": "renesas_earthquake_2016-2015-10-30-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-10-30-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-11-02-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-11-05-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["automotive parts"], "companies": [{"name": "Toyota", "role": "supplier"}], "geographies": ["Japan"], "severity": 3, "description": "Toyota is conducting a recall for airbags, indicating a quality issue and potential supply chain disruption for automotive parts.", "trigger_phrases": ["toyota airbag recall"], "confidence": 0.85, "uncertainty_notes": "The text is a headline only, but 'recall' implies a confirmed quality event affecting the supply chain of automotive components.", "signal_id": "renesas_earthquake_2016-2015-11-06-0000-1", "input_id": "renesas_earthquake_2016-2015-11-06-0000", "signal_date": "2015-11-06"}
+{"input_id": "renesas_earthquake_2016-2015-11-06-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-11-08-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-11-09-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-11-10-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-11-11-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-11-13-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-11-13-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-11-16-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-11-17-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-11-18-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-11-19-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-11-19-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-11-19-0002", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-11-19-0003", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-11-24-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-12-01-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-12-02-0000", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["oil", "natural gas"], "companies": [], "geographies": ["Oklahoma"], "severity": 3, "description": "Oklahoma oil workers express concern about earthquakes linked to industry activities, posing a potential risk to local energy infrastructure and operations.", "trigger_phrases": ["oklahoma oil workers", "worry about", "industry linked earthquakes"], "confidence": 0.65, "uncertainty_notes": "The text indicates concern and potential risk rather than an active disruption or confirmed major event. Severity is estimated based on the potential for infrastructure damage in a key US oil-producing region.", "signal_id": "renesas_earthquake_2016-2015-12-06-0000-1", "input_id": "renesas_earthquake_2016-2015-12-06-0000", "signal_date": "2015-12-06"}
+{"input_id": "renesas_earthquake_2016-2015-12-07-0000", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["agricultural products", "energy"], "companies": [], "geographies": ["Tajikistan"], "severity": 3, "description": "塔吉克斯坦发生强震，可能导致当地基础设施受损，进而影响农业及能源等本地供应链的稳定性。", "trigger_phrases": ["Powerful earthquake", "shakes Tajikistan"], "confidence": 0.65, "uncertainty_notes": "原文仅提及地震发生，未具体说明震级、伤亡或基础设施受损程度，对供应链的具体影响需进一步确认。", "signal_id": "renesas_earthquake_2016-2015-12-08-0000-1", "input_id": "renesas_earthquake_2016-2015-12-08-0000", "signal_date": "2015-12-08"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["agricultural products", "energy"], "companies": [], "geographies": ["Tajikistan"], "severity": 3, "description": "塔吉克斯坦发生强烈地震，可能导致当地基础设施受损，进而影响农业及能源等本地供应链的稳定性。", "trigger_phrases": ["powerful earthquake", "shakes tajikistan"], "confidence": 0.6, "uncertainty_notes": "原文仅提及地震发生，未具体说明对供应链的实际影响程度或中断情况，故判定为潜在风险。", "signal_id": "renesas_earthquake_2016-2015-12-08-0001-1", "input_id": "renesas_earthquake_2016-2015-12-08-0001", "signal_date": "2015-12-08"}
+{"input_id": "renesas_earthquake_2016-2015-12-08-0002", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-12-11-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-12-13-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-12-16-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-12-16-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-12-17-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-12-18-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-12-21-0000", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["agricultural products", "construction materials"], "companies": [], "geographies": ["Afghanistan"], "severity": 2, "description": "阿富汗东北部发生地震，可能导致当地基础设施受损及短期物流中断，但尚未确认对全球供应链的具体影响。", "trigger_phrases": ["earthquake", "northeast afghanistan"], "confidence": 0.4, "uncertainty_notes": "新闻标题过于简短，缺乏震级、伤亡及具体受损设施信息，无法准确评估对供应链的实际冲击程度，故置信度较低。", "signal_id": "renesas_earthquake_2016-2015-12-26-0000-1", "input_id": "renesas_earthquake_2016-2015-12-26-0000", "signal_date": "2015-12-26"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["construction materials", "consumer goods"], "companies": [], "geographies": ["Pakistan", "Afghanistan"], "severity": 2, "description": "巴基斯坦首都发生夜间地震，可能影响当地基础设施及物流网络，存在潜在供应链中断风险。", "trigger_phrases": ["Late night earthquake", "rattles Pakistani capital"], "confidence": 0.6, "uncertainty_notes": "原文仅提及地震发生，未明确说明对供应链的具体影响或中断程度，故判定为潜在风险。", "signal_id": "renesas_earthquake_2016-2015-12-26-0001-1", "input_id": "renesas_earthquake_2016-2015-12-26-0001", "signal_date": "2015-12-26"}
+{"input_id": "renesas_earthquake_2016-2015-12-26-0002", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["construction materials", "consumer goods"], "companies": [], "geographies": ["Pakistan", "Afghanistan"], "severity": 2, "description": "巴基斯坦首都及阿富汗地区发生夜间地震，可能导致局部基础设施受损及短期物流中断风险。", "trigger_phrases": ["earthquake", "rattles", "pakistani capital", "afghanistan"], "confidence": 0.6, "uncertainty_notes": "原文仅提及地震发生，未说明震级、具体破坏程度或是否已造成供应链中断，故判定为潜在风险（latent），严重度较低。", "signal_id": "renesas_earthquake_2016-2015-12-26-0003-1", "input_id": "renesas_earthquake_2016-2015-12-26-0003", "signal_date": "2015-12-26"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["agricultural products", "construction materials"], "companies": [], "geographies": ["Afghanistan", "Pakistan"], "severity": 2, "description": "阿富汗和巴基斯坦发生地震，造成4人死亡、100多人受伤，可能影响当地基础设施及局部供应链。", "trigger_phrases": ["earthquake", "afghanistan and pakistan"], "confidence": 0.6, "uncertainty_notes": "新闻仅提及伤亡情况，未明确提及具体供应链中断或物流受阻，严重度基于一般性自然灾害影响推断。", "signal_id": "renesas_earthquake_2016-2015-12-26-0004-1", "input_id": "renesas_earthquake_2016-2015-12-26-0004", "signal_date": "2015-12-26"}
+{"input_id": "renesas_earthquake_2016-2015-12-30-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-12-31-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-12-31-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2015-12-31-0002", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-01-02-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-01-04-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-01-06-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-01-06-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-01-08-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-01-10-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-01-12-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-01-12-0001", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["oil", "natural gas"], "companies": [], "geographies": ["Alberta"], "severity": 2, "description": "阿尔伯塔省页岩油/气开采区报告发生地震，可能对当地油气生产设施及供应链造成潜在影响。", "trigger_phrases": ["earthquake reported", "alberta fracking zone"], "confidence": 0.65, "uncertainty_notes": "新闻仅提及地震发生，未明确说明是否已造成生产中断或设施损坏，故判定为潜在风险。", "signal_id": "renesas_earthquake_2016-2016-01-13-0000-1", "input_id": "renesas_earthquake_2016-2016-01-13-0000", "signal_date": "2016-01-13"}
+{"input_id": "renesas_earthquake_2016-2016-01-13-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-01-13-0002", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-01-14-0000", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["oil"], "companies": [], "geographies": ["Fox Creek", "Alberta"], "severity": 2, "description": "Fox Creek 市长在地震后对油区（oilpatch）受到的影响表示担忧，暗示当地石油生产或基础设施可能受到潜在冲击。", "trigger_phrases": ["oilpatch impacts", "after earthquake", "concerned"], "confidence": 0.65, "uncertainty_notes": "原文仅提及市长担忧，未明确说明生产是否已中断或具体受损程度，故判定为潜在风险。", "signal_id": "renesas_earthquake_2016-2016-01-14-0001-1", "input_id": "renesas_earthquake_2016-2016-01-14-0001", "signal_date": "2016-01-14"}
+{"input_id": "renesas_earthquake_2016-2016-01-14-0002", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-01-15-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-01-16-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-01-16-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-01-17-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-01-19-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-01-19-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-01-20-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-01-20-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-01-22-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["automotive parts", "hydrogen"], "companies": [{"name": "Toyota", "role": "supplier"}], "geographies": ["Japan"], "severity": 2, "description": "由于加氢基础设施薄弱，丰田Mirai的销售受到延迟，表明上游基础设施不足影响了下游汽车产品的市场交付。", "trigger_phrases": ["weak hydrogen infrastructure", "delays toyota mirai sales"], "confidence": 0.85, "uncertainty_notes": "新闻标题较为简短，未提供具体延迟时长或受影响的具体地区，但明确指出了基础设施不足导致销售延迟的事实。", "signal_id": "renesas_earthquake_2016-2016-01-23-0000-1", "input_id": "renesas_earthquake_2016-2016-01-23-0000", "signal_date": "2016-01-23"}
+{"input_id": "renesas_earthquake_2016-2016-01-23-0001", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["energy", "consumer goods"], "companies": [], "geographies": ["Alaska"], "severity": 3, "description": "Alaska 发生 7.1 级地震并伴有震后余震及损害报告，可能导致当地基础设施、能源供应或物流中断。", "trigger_phrases": ["aftershocks", "reports of damage", "71 magnitude earthquake", "alaska"], "confidence": 0.85, "uncertainty_notes": "原文未明确提及具体供应链中断，但地震及损害报告构成潜在供应风险。", "signal_id": "renesas_earthquake_2016-2016-01-25-0000-1", "input_id": "renesas_earthquake_2016-2016-01-25-0000", "signal_date": "2016-01-25"}
+{"input_id": "renesas_earthquake_2016-2016-01-26-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-01-26-0001", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "natural_disaster", "commodities": ["containerized goods", "agricultural products"], "companies": [], "geographies": ["Oregon", "Pacific Northwest"], "severity": 4, "description": "数据浮标警告俄勒冈州海岸发生的事件可能是毁灭性地震的前兆，存在引发重大自然灾害及后续供应链中断的风险。", "trigger_phrases": ["Data buoy warning", "off coast of Oregon", "precursor to devastating earthquake"], "confidence": 0.65, "uncertainty_notes": "原文仅提及地震前兆警告，未明确说明已发生地震或已造成供应链中断，属于潜在风险预警。", "signal_id": "renesas_earthquake_2016-2016-01-27-0000-1", "input_id": "renesas_earthquake_2016-2016-01-27-0000", "signal_date": "2016-01-27"}
+{"input_id": "renesas_earthquake_2016-2016-01-28-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-01-29-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-01-30-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-01-31-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-02-03-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-02-03-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-02-03-0002", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-02-04-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-02-04-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-02-04-0002", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-02-04-0003", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-02-04-0004", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-02-04-0005", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-02-04-0006", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["semiconductors"], "companies": [], "geographies": ["Taiwan"], "severity": 4, "description": "台湾南部发生地震，鉴于台湾是全球半导体供应链的核心枢纽，该自然灾害可能导致当地半导体制造设施受损或停产，进而引发全球芯片供应中断风险。", "trigger_phrases": ["earthquake", "southern taiwan"], "confidence": 0.85, "uncertainty_notes": "原文未明确提及具体工厂受损或停产，但基于台湾在半导体供应链中的关键地位及地震的破坏力，推断存在潜在的供应链中断风险。", "signal_id": "renesas_earthquake_2016-2016-02-06-0000-1", "input_id": "renesas_earthquake_2016-2016-02-06-0000", "signal_date": "2016-02-06"}
+{"input_id": "renesas_earthquake_2016-2016-02-06-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-02-06-0002", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-02-08-0000", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["semiconductors"], "companies": [], "geographies": ["Taiwan"], "severity": 3, "description": "台湾发生地震导致建筑物倒塌，作为全球半导体制造枢纽，该自然灾害可能对当地半导体供应链造成潜在中断风险。", "trigger_phrases": ["taiwan earthquake", "rescued", "collpased building"], "confidence": 0.65, "uncertainty_notes": "原文仅提及地震及救援，未直接提及工厂停产或供应链中断，但根据领域速查表，台湾地震属于半导体供应链潜在风险场景。", "signal_id": "renesas_earthquake_2016-2016-02-08-0001-1", "input_id": "renesas_earthquake_2016-2016-02-08-0001", "signal_date": "2016-02-08"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["semiconductors"], "companies": [], "geographies": ["Taiwan"], "severity": 3, "description": "台湾发生强震，当地当局下令提高全市灾害警戒级别，存在对半导体供应链造成潜在中断的风险。", "trigger_phrases": ["taiwan s strong earthquake", "heightened city wide disaster readiness"], "confidence": 0.85, "uncertainty_notes": "新闻仅提及地震和警戒级别，未明确说明工厂停产或物流中断，故判定为潜在风险。", "signal_id": "renesas_earthquake_2016-2016-02-09-0000-1", "input_id": "renesas_earthquake_2016-2016-02-09-0000", "signal_date": "2016-02-09"}
+{"input_id": "renesas_earthquake_2016-2016-02-11-0000", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["containerized goods", "automotive parts", "consumer goods"], "companies": [], "geographies": ["Los Angeles", "United States"], "severity": 4, "description": "新闻指出洛杉矶及类似地区面临双倍的震级风险，作为主要港口和物流枢纽，潜在的地震灾害可能严重中断供应链。", "trigger_phrases": ["los angeles", "earthquakes", "double earthquake risk"], "confidence": 0.6, "uncertainty_notes": "原文仅提及风险增加，未提及具体地震发生或供应链中断，属于潜在风险信号。", "signal_id": "renesas_earthquake_2016-2016-02-11-0001-1", "input_id": "renesas_earthquake_2016-2016-02-11-0001", "signal_date": "2016-02-11"}
+{"input_id": "renesas_earthquake_2016-2016-02-11-0002", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["semiconductors"], "companies": [], "geographies": ["Taiwan"], "severity": 3, "description": "台湾发生地震导致公寓倒塌，作为全球半导体制造枢纽，该自然灾害可能对当地半导体供应链造成潜在中断风险。", "trigger_phrases": ["taiwan earthquake", "collapsed apartment"], "confidence": 0.65, "uncertainty_notes": "原文仅提及公寓倒塌和救援，未直接提及工厂停产或物流中断，但基于台湾在半导体供应链中的关键地位，推断存在潜在风险。", "signal_id": "renesas_earthquake_2016-2016-02-11-0003-1", "input_id": "renesas_earthquake_2016-2016-02-11-0003", "signal_date": "2016-02-11"}
+{"input_id": "renesas_earthquake_2016-2016-02-12-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-02-12-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-02-13-0000", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["semiconductors", "electronics"], "companies": [], "geographies": ["Taiwan"], "severity": 3, "description": "台湾台南发生地震，作为全球半导体和电子制造的关键枢纽，该自然灾害可能导致当地供应链中断或产能受损。", "trigger_phrases": ["taiwan tainan earthquake"], "confidence": 0.85, "uncertainty_notes": "原文仅提及地震发生，未具体说明对供应链的影响程度，但基于领域速查表，台湾地震属于高风险自然灾难信号。", "signal_id": "renesas_earthquake_2016-2016-02-13-0001-1", "input_id": "renesas_earthquake_2016-2016-02-13-0001", "signal_date": "2016-02-13"}
+{"input_id": "renesas_earthquake_2016-2016-02-13-0002", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-02-14-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-02-15-0000", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["construction materials", "agricultural products"], "companies": [], "geographies": ["New Zealand", "Christchurch"], "severity": 2, "description": "新西兰基督城附近发生地震导致悬崖崩塌，可能对当地基础设施及物流通道造成潜在影响，但尚未确认具体供应链中断。", "trigger_phrases": ["cliff collapses", "earthquake strikes", "christchurch new zealand"], "confidence": 0.6, "uncertainty_notes": "新闻仅提及地震和悬崖崩塌，未明确提及港口、工厂或主要运输路线受损，因此供应链影响为潜在且不确定。", "signal_id": "renesas_earthquake_2016-2016-02-15-0001-1", "input_id": "renesas_earthquake_2016-2016-02-15-0001", "signal_date": "2016-02-15"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["agricultural products", "construction materials"], "companies": [], "geographies": ["Canterbury", "New Zealand"], "severity": 3, "description": "Canterbury 地区地震活动向东移动，存在引发后续破坏及供应链中断的潜在风险", "trigger_phrases": ["canterbury earthquakes", "moving east"], "confidence": 0.65, "uncertainty_notes": "原文标题极为简短，未明确提及具体供应链中断事实，基于地震灾害对当地农业及基础设施的潜在影响进行推断。", "signal_id": "renesas_earthquake_2016-2016-02-15-0002-1", "input_id": "renesas_earthquake_2016-2016-02-15-0002", "signal_date": "2016-02-15"}
+{"input_id": "renesas_earthquake_2016-2016-02-15-0003", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-02-16-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["oil", "natural gas"], "companies": [{"name": "Oklahoma Corporation Commission", "role": "government"}], "geographies": ["Oklahoma"], "severity": 3, "description": "Oklahoma agency orders well cutbacks in response to earthquakes, impacting local oil and gas production.", "trigger_phrases": ["oklahoma earthquakes", "order well cutbacks"], "confidence": 0.85, "uncertainty_notes": "", "signal_id": "renesas_earthquake_2016-2016-02-17-0000-1", "input_id": "renesas_earthquake_2016-2016-02-17-0000", "signal_date": "2016-02-17"}
+{"input_id": "renesas_earthquake_2016-2016-02-17-0001", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["containerized goods", "agricultural products"], "companies": [], "geographies": ["New Zealand"], "severity": 3, "description": "新西兰城市发生强烈地震，可能导致当地基础设施受损及物流中断，进而影响出口商品供应。", "trigger_phrases": ["strong earthquake", "rattles new zealand city"], "confidence": 0.65, "uncertainty_notes": "原文未提及具体受损程度或供应链中断事实，仅确认地震发生，故判定为潜在风险。", "signal_id": "renesas_earthquake_2016-2016-02-17-0002-1", "input_id": "renesas_earthquake_2016-2016-02-17-0002", "signal_date": "2016-02-17"}
+{"input_id": "renesas_earthquake_2016-2016-02-18-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-02-18-0001", "status": "empty"}
+{"temporality": "confirmation", "event_type": "operations", "commodities": ["automotive parts"], "companies": [{"name": "Toyota", "role": "supplier"}], "geographies": ["Worldwide"], "severity": 3, "description": "Toyota initiates a global recall of millions of vehicles, indicating a quality or safety defect that disrupts production and logistics flows.", "trigger_phrases": ["toyota recalls", "millions of cars"], "confidence": 0.85, "uncertainty_notes": "The specific defect is not detailed in the text, but the scale of the recall implies significant operational impact.", "signal_id": "renesas_earthquake_2016-2016-02-19-0000-1", "input_id": "renesas_earthquake_2016-2016-02-19-0000", "signal_date": "2016-02-19"}
+{"input_id": "renesas_earthquake_2016-2016-02-19-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-02-26-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-02-26-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-02-27-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-03-01-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-03-01-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-03-02-0000", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["containerized goods"], "companies": [], "geographies": ["Indonesia", "Malaysia"], "severity": 2, "description": "印尼发生地震，马来西亚雪兰莪州居民报告感受到震动，存在潜在的地缘或物流扰动风险，但尚未确认对供应链造成实际中断。", "trigger_phrases": ["indonesia earthquake", "tremors felt"], "confidence": 0.4, "uncertainty_notes": "新闻标题极为简短，未提及具体震级、受损情况或物流影响，仅基于地震事件本身推断潜在的供应链风险。", "signal_id": "renesas_earthquake_2016-2016-03-02-0001-1", "input_id": "renesas_earthquake_2016-2016-03-02-0001", "signal_date": "2016-03-02"}
+{"input_id": "renesas_earthquake_2016-2016-03-07-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-03-07-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-03-07-0002", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-03-08-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-03-09-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-03-12-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-03-15-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-03-15-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-03-18-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-03-21-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-03-21-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-03-22-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-03-23-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-03-24-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-03-27-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-03-27-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-03-30-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-03-31-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-03-31-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-04-04-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-04-04-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-04-04-0002", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-04-04-0003", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-04-04-0004", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-04-05-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-04-05-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-04-08-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-04-09-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-04-10-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-04-10-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-04-11-0000", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-04-11-0001", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-04-14-0000", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "natural_disaster", "commodities": ["construction materials", "consumer goods"], "companies": [], "geographies": ["Worldwide"], "severity": 4, "description": "预测全球将发生大规模地震及主要震感，可能导致基础设施损坏及供应链中断", "trigger_phrases": ["massive earthquake predicted", "major tremors worldwide"], "confidence": 0.4, "uncertainty_notes": "新闻标题过于笼统，未指明具体震中、震级或受影响的具体供应链节点，且为2016年旧闻，实际发生概率及影响范围高度不确定。", "signal_id": "renesas_earthquake_2016-2016-04-15-0000-1", "input_id": "renesas_earthquake_2016-2016-04-15-0000", "signal_date": "2016-04-15"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["automotive parts", "electronics", "consumer goods"], "companies": [], "geographies": ["Japan"], "severity": 3, "description": "日本南部发生致命地震，导致房屋倒塌，可能引发当地基础设施受损及供应链中断风险。", "trigger_phrases": ["deadly earthquake", "topples houses", "southern japan"], "confidence": 0.85, "uncertainty_notes": "原文仅提及地震和房屋倒塌，未明确提及具体工厂停产或物流中断，故判定为潜在风险（latent），严重度基于日本南部作为重要制造基地的潜在影响推断。", "signal_id": "renesas_earthquake_2016-2016-04-15-0001-1", "input_id": "renesas_earthquake_2016-2016-04-15-0001", "signal_date": "2016-04-15"}
+{"input_id": "renesas_earthquake_2016-2016-04-15-0002", "status": "empty"}
+{"input_id": "renesas_earthquake_2016-2016-04-15-0003", "status": "empty"}
+{"temporality": "latent", "event_type": "natural_disaster", "commodities": ["automotive parts", "electronics", "consumer goods"], "companies": [], "geographies": ["Japan"], "severity": 3, "description": "日本发生地震，造成9人死亡、数百人受伤，可能影响当地制造业及物流基础设施，进而波及汽车、电子等关键零部件供应。", "trigger_phrases": ["japan earthquake", "leaves nine dead", "hundreds injured"], "confidence": 0.85, "uncertainty_notes": "原文未提及具体工厂停产或物流中断，但地震作为自然灾害事件，对日本供应链构成潜在风险。", "signal_id": "renesas_earthquake_2016-2016-04-15-0004-1", "input_id": "renesas_earthquake_2016-2016-04-15-0004", "signal_date": "2016-04-15"}
+{"input_id": "renesas_earthquake_2016-2016-04-15-0005", "status": "empty"}

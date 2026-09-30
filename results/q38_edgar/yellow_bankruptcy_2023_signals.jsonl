@@ -1,0 +1,18 @@
+{"input_id": "yellow_bankruptcy_2023-2023-02-09-000", "status": "empty"}
+{"input_id": "yellow_bankruptcy_2023-2023-02-09-001", "status": "empty"}
+{"input_id": "yellow_bankruptcy_2023-2023-03-09-002", "status": "empty"}
+{"input_id": "yellow_bankruptcy_2023-2023-03-16-003", "status": "empty"}
+{"input_id": "yellow_bankruptcy_2023-2023-04-25-004", "status": "empty"}
+{"input_id": "yellow_bankruptcy_2023-2023-04-27-005", "status": "empty"}
+{"input_id": "yellow_bankruptcy_2023-2023-04-27-006", "status": "empty"}
+{"input_id": "yellow_bankruptcy_2023-2023-05-03-007", "status": "empty"}
+{"input_id": "yellow_bankruptcy_2023-2023-05-03-008", "status": "empty"}
+{"input_id": "yellow_bankruptcy_2023-2023-05-18-009", "status": "empty"}
+{"input_id": "yellow_bankruptcy_2023-2023-05-25-010", "status": "empty"}
+{"input_id": "yellow_bankruptcy_2023-2023-06-02-011", "status": "empty"}
+{"input_id": "yellow_bankruptcy_2023-2023-06-02-012", "status": "empty"}
+{"input_id": "yellow_bankruptcy_2023-2023-06-09-013", "status": "empty"}
+{"input_id": "yellow_bankruptcy_2023-2023-06-15-014", "status": "empty"}
+{"temporality": "confirmation", "event_type": "credit_event", "commodities": ["freight services"], "companies": [{"name": "Yellow Corporation", "role": "supplier"}], "geographies": ["United States"], "severity": 3, "description": "Yellow Corporation 与贷款方达成第三修正案及有限豁免协议，豁免了截至 2023 年 6 月 30 日和 9 月 30 日的最低合并 EBITDA 财务契约，并接受了严格的流动性监控、预算报告及运营顾问介入等限制性条款，表明公司面临财务契约压力。", "trigger_phrases": ["waiver of the minimum Consolidated EBITDA financial covenant", "Amendment No. 3 and Limited Waiver", "requires weekly delivery of a liquidity report"], "confidence": 0.95, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "yellow_bankruptcy_2023-2023-07-10-015-1", "input_id": "yellow_bankruptcy_2023-2023-07-10-015", "signal_date": "2023-07-10"}
+{"temporality": "confirmation", "event_type": "credit_event", "commodities": ["freight services"], "companies": [{"name": "Yellow Corporation", "role": "supplier"}], "geographies": ["United States"], "severity": 3, "description": "Yellow Corporation 就 UST Tranche A 和 Tranche B 定期贷款信用协议达成豁免协议，豁免了截至 2023 年 6 月 30 日的最低合并 EBITDA 财务契约，进一步证实公司存在财务契约合规风险。", "trigger_phrases": ["Waiver Agreement", "waiver of the minimum Consolidated EBITDA financial covenant", "UST Credit Agreements"], "confidence": 0.95, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "yellow_bankruptcy_2023-2023-07-10-015-2", "input_id": "yellow_bankruptcy_2023-2023-07-10-015", "signal_date": "2023-07-10"}
+{"temporality": "confirmation", "event_type": "liquidity_crisis", "commodities": ["freight services"], "companies": [{"name": "Yellow Corporation", "role": "supplier"}], "geographies": ["United States"], "severity": 3, "description": "贷款协议修正案要求公司每周提交流动性报告，并规定流动性不得低于 3,500 万美元，同时要求每周提交 13 周合并运营预算及差异报告，显示贷款方对公司短期流动性状况高度关注并施加了严格监控。", "trigger_phrases": ["requires weekly delivery of a liquidity report", "not permit Liquidity to fall below $35.00 million", "weekly delivery of a 13-week consolidated operating budget"], "confidence": 0.9, "impact_uncertainty": false, "uncertainty_notes": "", "signal_id": "yellow_bankruptcy_2023-2023-07-10-015-3", "input_id": "yellow_bankruptcy_2023-2023-07-10-015", "signal_date": "2023-07-10"}

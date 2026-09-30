@@ -1,0 +1,172 @@
+{
+  "window_days": 180,
+  "match_columns": [
+    "url",
+    "actor1_name",
+    "actor2_name",
+    "actor1_geo",
+    "actor2_geo",
+    "action_geo"
+  ],
+  "note": "Queries derived mechanically from gt_events.json a priori entity tables. No hand-written per-event keywords.",
+  "queries": {
+    "suez_ever_given_2021": {
+      "entities": [
+        {
+          "field": "companies",
+          "value": "Ever Given (Evergreen)"
+        },
+        {
+          "field": "geographies",
+          "value": "Suez Canal"
+        },
+        {
+          "field": "geographies",
+          "value": "Egypt"
+        },
+        {
+          "field": "commodities",
+          "value": "containerized goods"
+        },
+        {
+          "field": "commodities",
+          "value": "oil"
+        },
+        {
+          "field": "commodities",
+          "value": "consumer goods"
+        }
+      ],
+      "phrase_keywords": [
+        "consumer goods",
+        "containerized goods",
+        "egypt",
+        "ever given",
+        "evergreen",
+        "oil",
+        "suez canal"
+      ],
+      "token_keywords": [
+        "canal",
+        "consumer",
+        "containerized",
+        "egypt",
+        "ever",
+        "evergreen",
+        "given",
+        "suez"
+      ]
+    },
+    "renesas_naka_plant_fire_2021": {
+      "entities": [
+        {
+          "field": "companies",
+          "value": "Renesas"
+        },
+        {
+          "field": "companies",
+          "value": "Toyota"
+        },
+        {
+          "field": "companies",
+          "value": "Nissan"
+        },
+        {
+          "field": "companies",
+          "value": "Honda"
+        },
+        {
+          "field": "geographies",
+          "value": "Japan"
+        },
+        {
+          "field": "geographies",
+          "value": "Ibaraki"
+        },
+        {
+          "field": "geographies",
+          "value": "Naka"
+        },
+        {
+          "field": "commodities",
+          "value": "automotive microcontrollers"
+        },
+        {
+          "field": "commodities",
+          "value": "semiconductors"
+        }
+      ],
+      "phrase_keywords": [
+        "automotive microcontrollers",
+        "honda",
+        "ibaraki",
+        "japan",
+        "naka",
+        "nissan",
+        "renesas",
+        "semiconductors",
+        "toyota"
+      ],
+      "token_keywords": [
+        "automotive",
+        "honda",
+        "ibaraki",
+        "japan",
+        "microcontrollers",
+        "naka",
+        "nissan",
+        "renesas",
+        "semiconductors",
+        "toyota"
+      ]
+    },
+    "beirut_port_explosion_2020": {
+      "entities": [
+        {
+          "field": "companies",
+          "value": "Port of Beirut"
+        },
+        {
+          "field": "geographies",
+          "value": "Beirut"
+        },
+        {
+          "field": "geographies",
+          "value": "Lebanon"
+        },
+        {
+          "field": "commodities",
+          "value": "grain"
+        },
+        {
+          "field": "commodities",
+          "value": "container shipping"
+        },
+        {
+          "field": "commodities",
+          "value": "chemicals"
+        }
+      ],
+      "phrase_keywords": [
+        "beirut",
+        "chemicals",
+        "container shipping",
+        "grain",
+        "lebanon",
+        "port of beirut"
+      ],
+      "token_keywords": [
+        "beirut",
+        "chemicals",
+        "container",
+        "grain",
+        "lebanon"
+      ]
+    }
+  },
+  "results": {
+    "suez_ever_given_2021": 11,
+    "renesas_naka_plant_fire_2021": 43,
+    "beirut_port_explosion_2020": 195
+  }
+}

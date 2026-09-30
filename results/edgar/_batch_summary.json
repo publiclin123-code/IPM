@@ -1,0 +1,122 @@
+[
+  {
+    "event_id": "bbby_bankruptcy_2023",
+    "n_filings": 34,
+    "signals": 27,
+    "empty": 20,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "event_id": "rite_aid_bankruptcy_2023",
+    "n_filings": 12,
+    "signals": 4,
+    "empty": 10,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "event_id": "party_city_bankruptcy_2023",
+    "n_filings": 10,
+    "signals": 2,
+    "empty": 8,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "event_id": "yellow_bankruptcy_2023",
+    "n_filings": 16,
+    "signals": 3,
+    "empty": 15,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "event_id": "joann_bankruptcy_2024",
+    "n_filings": 5,
+    "signals": 0,
+    "empty": 5,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "event_id": "big_lots_bankruptcy_2024",
+    "n_filings": 10,
+    "signals": 1,
+    "empty": 9,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "event_id": "express_bankruptcy_2024",
+    "n_filings": 5,
+    "signals": 1,
+    "empty": 4,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "event_id": "wework_bankruptcy_2023",
+    "n_filings": 20,
+    "signals": 11,
+    "empty": 15,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "event_id": "lordstown_bankruptcy_2023",
+    "n_filings": 16,
+    "signals": 13,
+    "empty": 9,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "event_id": "tuesday_morning_bankruptcy_2023",
+    "n_filings": 19,
+    "signals": 9,
+    "empty": 15,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "event_id": "smiledirect_bankruptcy_2023",
+    "n_filings": 11,
+    "signals": 3,
+    "empty": 9,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  },
+  {
+    "event_id": "audacy_bankruptcy_2024",
+    "n_filings": 14,
+    "signals": 10,
+    "empty": 6,
+    "errors": 0,
+    "rc_extract": 0,
+    "rc_validate": 0,
+    "rc_metrics": 0
+  }
+]

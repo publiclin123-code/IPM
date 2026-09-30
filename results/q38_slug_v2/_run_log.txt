@@ -1,0 +1,69 @@
+2026-09-19T12:21:04  === EXTRACT europe_energy_crisis_2022 n_articles=126 prompt=event_extraction_prompt_v2_temporal.md ===
+2026-09-19T12:21:04  >>> europe_energy_crisis_2022: extract
+2026-09-19T12:21:04      /home/e/miniconda3/bin/python /home/e/LF_projects/Risk_analysis/pipeline/extract_events.py --input data/by_event/europe_energy_crisis_2022.jsonl --output results/q38_slug_v2/europe_energy_crisis_2022_signals.jsonl --model qwen3.8-27b --prompt prompts/event_extraction_prompt_v2_temporal.md --resume --base-url http://localhost:8080 --no-thinking
+2026-09-19T12:21:04  === EXTRACT renesas_earthquake_2016 n_articles=185 prompt=event_extraction_prompt_v2_temporal.md ===
+2026-09-19T12:21:04  >>> renesas_earthquake_2016: extract
+2026-09-19T12:21:04      /home/e/miniconda3/bin/python /home/e/LF_projects/Risk_analysis/pipeline/extract_events.py --input data/by_event/renesas_earthquake_2016.jsonl --output results/q38_slug_v2/renesas_earthquake_2016_signals.jsonl --model qwen3.8-27b --prompt prompts/event_extraction_prompt_v2_temporal.md --resume --base-url http://localhost:8080 --no-thinking
+2026-09-19T12:21:04  === EXTRACT russia_ukraine_war_2022 n_articles=277 prompt=event_extraction_prompt_v2_temporal.md ===
+2026-09-19T12:21:04  >>> russia_ukraine_war_2022: extract
+2026-09-19T12:21:04      /home/e/miniconda3/bin/python /home/e/LF_projects/Risk_analysis/pipeline/extract_events.py --input data/by_event/russia_ukraine_war_2022.jsonl --output results/q38_slug_v2/russia_ukraine_war_2022_signals.jsonl --model qwen3.8-27b --prompt prompts/event_extraction_prompt_v2_temporal.md --resume --base-url http://localhost:8080 --no-thinking
+2026-09-19T12:21:04  === EXTRACT us_chip_export_controls_2022 n_articles=673 prompt=event_extraction_prompt_v2_temporal.md ===
+2026-09-19T12:21:04  >>> us_chip_export_controls_2022: extract
+2026-09-19T12:21:04      /home/e/miniconda3/bin/python /home/e/LF_projects/Risk_analysis/pipeline/extract_events.py --input data/by_event/us_chip_export_controls_2022.jsonl --output results/q38_slug_v2/us_chip_export_controls_2022_signals.jsonl --model qwen3.8-27b --prompt prompts/event_extraction_prompt_v2_temporal.md --resume --base-url http://localhost:8080 --no-thinking
+2026-09-19T12:26:14      counts renesas_earthquake_2016: {'signals': 44, 'errors': 0, 'empty': 141}
+2026-09-19T12:26:14  === EXTRACT covid_supply_disruption_2020 n_articles=71 prompt=event_extraction_prompt_v2_temporal.md ===
+2026-09-19T12:26:14  >>> covid_supply_disruption_2020: extract
+2026-09-19T12:26:14      /home/e/miniconda3/bin/python /home/e/LF_projects/Risk_analysis/pipeline/extract_events.py --input data/by_event/covid_supply_disruption_2020.jsonl --output results/q38_slug_v2/covid_supply_disruption_2020_signals.jsonl --model qwen3.8-27b --prompt prompts/event_extraction_prompt_v2_temporal.md --resume --base-url http://localhost:8080 --no-thinking
+2026-09-19T12:27:28      counts covid_supply_disruption_2020: {'signals': 7, 'errors': 0, 'empty': 64}
+2026-09-19T12:27:28  === EXTRACT india_wheat_export_ban_2022 n_articles=76 prompt=event_extraction_prompt_v2_temporal.md ===
+2026-09-19T12:27:28  >>> india_wheat_export_ban_2022: extract
+2026-09-19T12:27:28      /home/e/miniconda3/bin/python /home/e/LF_projects/Risk_analysis/pipeline/extract_events.py --input data/by_event/india_wheat_export_ban_2022.jsonl --output results/q38_slug_v2/india_wheat_export_ban_2022_signals.jsonl --model qwen3.8-27b --prompt prompts/event_extraction_prompt_v2_temporal.md --resume --base-url http://localhost:8080 --no-thinking
+2026-09-19T12:28:57      counts us_chip_export_controls_2022: {'signals': 35, 'errors': 1, 'empty': 637}
+2026-09-19T12:28:57  === EXTRACT hurricane_maria_2017 n_articles=49 prompt=event_extraction_prompt_v2_temporal.md ===
+2026-09-19T12:28:57  >>> hurricane_maria_2017: extract
+2026-09-19T12:28:57      /home/e/miniconda3/bin/python /home/e/LF_projects/Risk_analysis/pipeline/extract_events.py --input data/by_event/hurricane_maria_2017.jsonl --output results/q38_slug_v2/hurricane_maria_2017_signals.jsonl --model qwen3.8-27b --prompt prompts/event_extraction_prompt_v2_temporal.md --resume --base-url http://localhost:8080 --no-thinking
+2026-09-19T12:29:08      counts europe_energy_crisis_2022: {'signals': 88, 'errors': 0, 'empty': 38}
+2026-09-19T12:29:08  === EXTRACT egg_shortage_birdflu_2025 n_articles=116 prompt=event_extraction_prompt_v2_temporal.md ===
+2026-09-19T12:29:08  >>> egg_shortage_birdflu_2025: extract
+2026-09-19T12:29:08      /home/e/miniconda3/bin/python /home/e/LF_projects/Risk_analysis/pipeline/extract_events.py --input data/by_event/egg_shortage_birdflu_2025.jsonl --output results/q38_slug_v2/egg_shortage_birdflu_2025_signals.jsonl --model qwen3.8-27b --prompt prompts/event_extraction_prompt_v2_temporal.md --resume --base-url http://localhost:8080 --no-thinking
+2026-09-19T12:29:50      counts india_wheat_export_ban_2022: {'signals': 29, 'errors': 0, 'empty': 47}
+2026-09-19T12:29:50  === EXTRACT uaw_auto_strike_2023 n_articles=88 prompt=event_extraction_prompt_v2_temporal.md ===
+2026-09-19T12:29:50  >>> uaw_auto_strike_2023: extract
+2026-09-19T12:29:50      /home/e/miniconda3/bin/python /home/e/LF_projects/Risk_analysis/pipeline/extract_events.py --input data/by_event/uaw_auto_strike_2023.jsonl --output results/q38_slug_v2/uaw_auto_strike_2023_signals.jsonl --model qwen3.8-27b --prompt prompts/event_extraction_prompt_v2_temporal.md --resume --base-url http://localhost:8080 --no-thinking
+2026-09-19T12:30:14      counts hurricane_maria_2017: {'signals': 15, 'errors': 0, 'empty': 34}
+2026-09-19T12:30:14  === EXTRACT beirut_port_explosion_2020 n_articles=13 prompt=event_extraction_prompt_v2_temporal.md ===
+2026-09-19T12:30:14  >>> beirut_port_explosion_2020: extract
+2026-09-19T12:30:14      /home/e/miniconda3/bin/python /home/e/LF_projects/Risk_analysis/pipeline/extract_events.py --input data/by_event/beirut_port_explosion_2020.jsonl --output results/q38_slug_v2/beirut_port_explosion_2020_signals.jsonl --model qwen3.8-27b --prompt prompts/event_extraction_prompt_v2_temporal.md --resume --base-url http://localhost:8080 --no-thinking
+2026-09-19T12:30:21      counts beirut_port_explosion_2020: {'signals': 0, 'errors': 0, 'empty': 13}
+2026-09-19T12:30:21  === EXTRACT renesas_naka_plant_fire_2021 n_articles=1 prompt=event_extraction_prompt_v2_temporal.md ===
+2026-09-19T12:30:21  >>> renesas_naka_plant_fire_2021: extract
+2026-09-19T12:30:21      /home/e/miniconda3/bin/python /home/e/LF_projects/Risk_analysis/pipeline/extract_events.py --input data/by_event/renesas_naka_plant_fire_2021.jsonl --output results/q38_slug_v2/renesas_naka_plant_fire_2021_signals.jsonl --model qwen3.8-27b --prompt prompts/event_extraction_prompt_v2_temporal.md --resume --base-url http://localhost:8080 --no-thinking
+2026-09-19T12:30:21      counts renesas_naka_plant_fire_2021: {'signals': 0, 'errors': 0, 'empty': 1}
+2026-09-19T12:30:21  summary -> results/q38_slug_v2/_batch_summary.json
+2026-09-19T12:31:15      counts russia_ukraine_war_2022: {'signals': 91, 'errors': 0, 'empty': 186}
+2026-09-19T12:31:15  === EXTRACT port_los_angeles_backlog_2021 n_articles=53 prompt=event_extraction_prompt_v2_temporal.md ===
+2026-09-19T12:31:15  >>> port_los_angeles_backlog_2021: extract
+2026-09-19T12:31:15      /home/e/miniconda3/bin/python /home/e/LF_projects/Risk_analysis/pipeline/extract_events.py --input data/by_event/port_los_angeles_backlog_2021.jsonl --output results/q38_slug_v2/port_los_angeles_backlog_2021_signals.jsonl --model qwen3.8-27b --prompt prompts/event_extraction_prompt_v2_temporal.md --resume --base-url http://localhost:8080 --no-thinking
+2026-09-19T12:31:43      counts egg_shortage_birdflu_2025: {'signals': 31, 'errors': 0, 'empty': 85}
+2026-09-19T12:31:43  === EXTRACT red_sea_crisis_2023 n_articles=108 prompt=event_extraction_prompt_v2_temporal.md ===
+2026-09-19T12:31:43  >>> red_sea_crisis_2023: extract
+2026-09-19T12:31:43      /home/e/miniconda3/bin/python /home/e/LF_projects/Risk_analysis/pipeline/extract_events.py --input data/by_event/red_sea_crisis_2023.jsonl --output results/q38_slug_v2/red_sea_crisis_2023_signals.jsonl --model qwen3.8-27b --prompt prompts/event_extraction_prompt_v2_temporal.md --resume --base-url http://localhost:8080 --no-thinking
+2026-09-19T12:31:47      counts uaw_auto_strike_2023: {'signals': 22, 'errors': 0, 'empty': 66}
+2026-09-19T12:31:47  summary -> results/q38_slug_v2/_batch_summary.json
+2026-09-19T12:32:09      counts port_los_angeles_backlog_2021: {'signals': 13, 'errors': 0, 'empty': 40}
+2026-09-19T12:32:09  === EXTRACT black_sea_grain_exit_2023 n_articles=69 prompt=event_extraction_prompt_v2_temporal.md ===
+2026-09-19T12:32:09  >>> black_sea_grain_exit_2023: extract
+2026-09-19T12:32:09      /home/e/miniconda3/bin/python /home/e/LF_projects/Risk_analysis/pipeline/extract_events.py --input data/by_event/black_sea_grain_exit_2023.jsonl --output results/q38_slug_v2/black_sea_grain_exit_2023_signals.jsonl --model qwen3.8-27b --prompt prompts/event_extraction_prompt_v2_temporal.md --resume --base-url http://localhost:8080 --no-thinking
+2026-09-19T12:33:20      counts red_sea_crisis_2023: {'signals': 29, 'errors': 0, 'empty': 79}
+2026-09-19T12:33:20  === EXTRACT taiwan_strait_crisis_2022 n_articles=104 prompt=event_extraction_prompt_v2_temporal.md ===
+2026-09-19T12:33:20  >>> taiwan_strait_crisis_2022: extract
+2026-09-19T12:33:20      /home/e/miniconda3/bin/python /home/e/LF_projects/Risk_analysis/pipeline/extract_events.py --input data/by_event/taiwan_strait_crisis_2022.jsonl --output results/q38_slug_v2/taiwan_strait_crisis_2022_signals.jsonl --model qwen3.8-27b --prompt prompts/event_extraction_prompt_v2_temporal.md --resume --base-url http://localhost:8080 --no-thinking
+2026-09-19T12:34:11      counts black_sea_grain_exit_2023: {'signals': 49, 'errors': 0, 'empty': 20}
+2026-09-19T12:34:11  SKIP suez_ever_given_2021: 0 articles (designed negative)
+2026-09-19T12:34:11  summary -> results/q38_slug_v2/_batch_summary.json
+2026-09-19T12:34:28      counts taiwan_strait_crisis_2022: {'signals': 22, 'errors': 0, 'empty': 82}
+2026-09-19T12:34:28  === EXTRACT us_china_tariff_war_2018 n_articles=90 prompt=event_extraction_prompt_v2_temporal.md ===
+2026-09-19T12:34:28  >>> us_china_tariff_war_2018: extract
+2026-09-19T12:34:28      /home/e/miniconda3/bin/python /home/e/LF_projects/Risk_analysis/pipeline/extract_events.py --input data/by_event/us_china_tariff_war_2018.jsonl --output results/q38_slug_v2/us_china_tariff_war_2018_signals.jsonl --model qwen3.8-27b --prompt prompts/event_extraction_prompt_v2_temporal.md --resume --base-url http://localhost:8080 --no-thinking
+2026-09-19T12:35:42      counts us_china_tariff_war_2018: {'signals': 44, 'errors': 0, 'empty': 46}
+2026-09-19T12:35:42  summary -> results/q38_slug_v2/_batch_summary.json

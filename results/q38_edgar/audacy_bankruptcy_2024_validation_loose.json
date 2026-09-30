@@ -1,0 +1,144 @@
+{
+  "per_event": [
+    {
+      "event_id": "bbby_bankruptcy_2023",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2023-04-23",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "rite_aid_bankruptcy_2023",
+      "event_name": "",
+      "hit": true,
+      "gt_onset_date": "2023-10-15",
+      "earliest_signal_date": "2023-10-02",
+      "lead_time_days": 13,
+      "n_signals_in_window": 1,
+      "matched_signal_ids": [
+        "audacy_bankruptcy_2024-2023-10-02-002-2"
+      ]
+    },
+    {
+      "event_id": "party_city_bankruptcy_2023",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2023-01-17",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "yellow_bankruptcy_2023",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2023-08-06",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "joann_bankruptcy_2024",
+      "event_name": "",
+      "hit": true,
+      "gt_onset_date": "2024-03-18",
+      "earliest_signal_date": "2023-10-02",
+      "lead_time_days": 168,
+      "n_signals_in_window": 5,
+      "matched_signal_ids": [
+        "audacy_bankruptcy_2024-2023-10-02-002-2",
+        "audacy_bankruptcy_2024-2023-10-30-005-2",
+        "audacy_bankruptcy_2024-2023-11-06-006-3",
+        "audacy_bankruptcy_2024-2023-11-15-010-2",
+        "audacy_bankruptcy_2024-2023-11-30-012-3"
+      ]
+    },
+    {
+      "event_id": "big_lots_bankruptcy_2024",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2024-09-09",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "express_bankruptcy_2024",
+      "event_name": "",
+      "hit": true,
+      "gt_onset_date": "2024-04-22",
+      "earliest_signal_date": "2023-10-30",
+      "lead_time_days": 175,
+      "n_signals_in_window": 4,
+      "matched_signal_ids": [
+        "audacy_bankruptcy_2024-2023-10-30-005-2",
+        "audacy_bankruptcy_2024-2023-11-06-006-3",
+        "audacy_bankruptcy_2024-2023-11-15-010-2",
+        "audacy_bankruptcy_2024-2023-11-30-012-3"
+      ]
+    },
+    {
+      "event_id": "wework_bankruptcy_2023",
+      "event_name": "",
+      "hit": true,
+      "gt_onset_date": "2023-11-06",
+      "earliest_signal_date": "2023-10-02",
+      "lead_time_days": 35,
+      "n_signals_in_window": 2,
+      "matched_signal_ids": [
+        "audacy_bankruptcy_2024-2023-10-02-002-2",
+        "audacy_bankruptcy_2024-2023-10-30-005-2"
+      ]
+    },
+    {
+      "event_id": "lordstown_bankruptcy_2023",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2023-06-27",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "tuesday_morning_bankruptcy_2023",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2023-02-14",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "smiledirect_bankruptcy_2023",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2023-09-29",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "audacy_bankruptcy_2024",
+      "event_name": "",
+      "hit": true,
+      "gt_onset_date": "2024-01-07",
+      "earliest_signal_date": "2023-10-02",
+      "lead_time_days": 97,
+      "n_signals_in_window": 5,
+      "matched_signal_ids": [
+        "audacy_bankruptcy_2024-2023-10-02-002-2",
+        "audacy_bankruptcy_2024-2023-10-30-005-2",
+        "audacy_bankruptcy_2024-2023-11-06-006-3",
+        "audacy_bankruptcy_2024-2023-11-15-010-2",
+        "audacy_bankruptcy_2024-2023-11-30-012-3"
+      ]
+    }
+  ],
+  "summary": {
+    "n_gt_events": 12,
+    "n_hit": 5,
+    "hit_rate": 0.417,
+    "mean_lead_time_days": 97.6,
+    "median_lead_time_days": 97,
+    "precision": 1.0,
+    "n_warning_signals_in_windows": 5,
+    "n_matched_signals": 5,
+    "strict_matching": false,
+    "window_days": 180
+  }
+}

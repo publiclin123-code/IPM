@@ -1,0 +1,87 @@
+{
+  "variant": "title",
+  "rule": "R4_identity",
+  "specification": {
+    "B": 2000,
+    "seed": 42,
+    "unit": "event-then-signal",
+    "interval": "percentile 2.5/97.5"
+  },
+  "point": {
+    "tp": 153,
+    "n": 200,
+    "precision": 0.765,
+    "fwgs": 0.4479522919712945
+  },
+  "bootstrap": {
+    "B": 2000,
+    "seed": 42,
+    "unit": "event-then-signal",
+    "interval": "percentile 2.5/97.5",
+    "precision_ci": [
+      0.5519125683060109,
+      0.8944099378881988
+    ],
+    "fwgs_ci": [
+      0.2467843388936135,
+      0.6079821346165621
+    ],
+    "n_replicates": 2000
+  },
+  "beta0": {
+    "title_naive": {
+      "B": 2000,
+      "seed": 42,
+      "unit": "event-then-signal",
+      "interval": "percentile 2.5/97.5",
+      "n": 84,
+      "point": 0.5,
+      "ci": [
+        0.25675675675675674,
+        0.72
+      ]
+    },
+    "title_v2": {
+      "B": 2000,
+      "seed": 42,
+      "unit": "event-then-signal",
+      "interval": "percentile 2.5/97.5",
+      "n": 86,
+      "point": 0.23255813953488372,
+      "ci": [
+        0.10126582278481013,
+        0.3977272727272727
+      ]
+    },
+    "body_naive": {
+      "B": 2000,
+      "seed": 42,
+      "unit": "event-then-signal",
+      "interval": "percentile 2.5/97.5",
+      "n": 238,
+      "point": 0.453781512605042,
+      "ci": [
+        0.3250883392226148,
+        0.5823293172690763
+      ]
+    },
+    "body_v2": {
+      "B": 2000,
+      "seed": 42,
+      "unit": "event-then-signal",
+      "interval": "percentile 2.5/97.5",
+      "n": 208,
+      "point": 0.2644230769230769,
+      "ci": [
+        0.14375,
+        0.3944223107569721
+      ]
+    }
+  },
+  "recall_sensitivity": {
+    "1.0": 0.765,
+    "0.9": 0.7050691244239631,
+    "0.7": 0.576116191500807,
+    "0.5": 0.43342776203966005
+  }
+}

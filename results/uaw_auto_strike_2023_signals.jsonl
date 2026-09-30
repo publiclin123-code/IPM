@@ -1,0 +1,88 @@
+{"input_id": "uaw_auto_strike_2023-2022-04-11-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2022-08-25-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-03-21-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-03-23-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-03-25-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-03-26-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-03-31-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-04-09-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-04-09-0001", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-04-11-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-04-12-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-04-15-0000", "status": "empty"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["hard disk drives", "storage devices"], "companies": [{"name": "Seagate", "role": "supplier"}, {"name": "Huawei", "role": "buyer"}, {"name": "U.S. Government", "role": "government"}], "geographies": ["United States", "China"], "severity": 3, "description": "美国政府对希捷科技处以3亿美元罚款，因其向华为销售产品，这反映了针对关键科技组件的出口管制合规风险及潜在的供应链中断压力。", "trigger_phrases": ["fines seagate", "300 million", "selling to huawei"], "confidence": 0.95, "uncertainty_notes": "", "signal_id": "uaw_auto_strike_2023-2023-04-21-0000-1", "input_id": "uaw_auto_strike_2023-2023-04-21-0000", "signal_date": "2023-04-21"}
+{"input_id": "uaw_auto_strike_2023-2023-04-22-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-04-27-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-04-28-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-04-29-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-05-05-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-05-08-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-05-10-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-05-11-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-05-27-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-06-12-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-06-14-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-06-15-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-06-16-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-06-17-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-06-19-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-06-20-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-06-21-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-06-26-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-06-29-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-06-30-0000", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "regulatory", "commodities": ["semiconductors", "telecommunications equipment"], "companies": [{"name": "Huawei", "role": "supplier"}], "geographies": ["China", "Global"], "severity": 3, "description": "Bretton's restrictive stance on Huawei and Chinese firms poses a risk to global tech cooperation, potentially leading to supply chain fragmentation or regulatory barriers.", "trigger_phrases": ["restrictive stance", "risks global tech cooperation"], "confidence": 0.75, "uncertainty_notes": "The text is brief and lacks specific details on the nature of the restrictions or immediate impact, but the risk to cooperation implies potential regulatory or supply chain disruptions.", "signal_id": "uaw_auto_strike_2023-2023-06-30-0001-1", "input_id": "uaw_auto_strike_2023-2023-06-30-0001", "signal_date": "2023-06-30"}
+{"input_id": "uaw_auto_strike_2023-2023-07-04-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-07-04-0001", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-07-10-0000", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "operations", "commodities": ["automotive parts", "vehicles"], "companies": [{"name": "UAW", "role": "unknown"}, {"name": "Big Three", "role": "supplier"}], "geographies": ["United States"], "severity": 3, "description": "劳工专家警告通用、福特、斯特兰蒂斯（Big Three）与UAW的谈判可能引发罢工，威胁汽车供应链稳定。", "trigger_phrases": ["warns", "potential uaw strike", "big three negotiations"], "confidence": 0.85, "uncertainty_notes": "", "signal_id": "uaw_auto_strike_2023-2023-07-12-0000-1", "input_id": "uaw_auto_strike_2023-2023-07-12-0000", "signal_date": "2023-07-12"}
+{"input_id": "uaw_auto_strike_2023-2023-07-12-0001", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-07-13-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-07-13-0001", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-07-14-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-07-17-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-07-21-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-08-02-0000", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "operations", "commodities": ["automotive parts", "vehicles"], "companies": [{"name": "UAW", "role": "unknown"}, {"name": "automakers", "role": "buyer"}], "geographies": ["United States"], "severity": 3, "description": "UAW 本周将向汽车制造商展示经济诉求清单，若工厂关闭将要求支付工人工资，暗示潜在的罢工或停工风险。", "trigger_phrases": ["UAW to show list", "economic demands", "if plants close"], "confidence": 0.8, "uncertainty_notes": "原文未明确提及罢工，但'plants close'与工会诉求通常关联停工风险。", "signal_id": "uaw_auto_strike_2023-2023-08-02-0001-1", "input_id": "uaw_auto_strike_2023-2023-08-02-0001", "signal_date": "2023-08-02"}
+{"input_id": "uaw_auto_strike_2023-2023-08-04-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-08-05-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-08-07-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-08-09-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-08-11-0000", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "operations", "commodities": ["automotive parts", "electric vehicles"], "companies": [{"name": "UAW", "role": "unknown"}], "geographies": ["United States"], "severity": 3, "description": "UAW 罢工可能导致电动汽车生产中断", "trigger_phrases": ["potential uaw strike", "ev production"], "confidence": 0.7, "uncertainty_notes": "标题简短，未指明具体车企，但 UAW 罢工通常涉及美国主要汽车制造商（如通用、福特、Stellantis），对 EV 供应链有潜在重大影响。", "signal_id": "uaw_auto_strike_2023-2023-08-16-0000-1", "input_id": "uaw_auto_strike_2023-2023-08-16-0000", "signal_date": "2023-08-16"}
+{"temporality": "latent", "event_type": "operations", "commodities": ["automotive parts", "vehicles"], "companies": [{"name": "UAW", "role": "unknown"}], "geographies": ["Detroit", "United States"], "severity": 3, "description": "UAW 成员将在大底特律地区进行罢工授权投票，若通过可能导致汽车制造业停工，影响供应链。", "trigger_phrases": ["vote on strike authorization", "metro detroit"], "confidence": 0.85, "uncertainty_notes": "罢工尚未发生，仅为授权投票阶段，但底特律是汽车制造中心，潜在影响较大。", "signal_id": "uaw_auto_strike_2023-2023-08-16-0001-1", "input_id": "uaw_auto_strike_2023-2023-08-16-0001", "signal_date": "2023-08-16"}
+{"input_id": "uaw_auto_strike_2023-2023-08-17-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-08-17-0001", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-08-19-0000", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "regulatory", "commodities": ["semiconductors", "telecommunications equipment"], "companies": [{"name": "Huawei", "role": "supplier"}, {"name": "European Commission", "role": "government"}], "geographies": ["Europe"], "severity": 3, "description": "欧盟委员会确认计划对华为参与“地平线欧洲”研发计划施加限制，可能影响华为在欧洲的研发合作与市场准入。", "trigger_phrases": ["commission confirms", "planning restrictions", "huawei", "horizon europe"], "confidence": 0.85, "uncertainty_notes": "", "signal_id": "uaw_auto_strike_2023-2023-08-22-0000-1", "input_id": "uaw_auto_strike_2023-2023-08-22-0000", "signal_date": "2023-08-22"}
+{"input_id": "uaw_auto_strike_2023-2023-08-23-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-08-24-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-08-25-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-08-31-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-09-01-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-09-01-0001", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-09-04-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-09-04-0001", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "operations", "commodities": ["automotive parts", "vehicles"], "companies": [{"name": "UAW", "role": "unknown"}], "geographies": ["United States"], "severity": 4, "description": "专家预测美国汽车工人联合会（UAW）罢工可能性大于和解，可能引发汽车行业大规模停产和供应链中断。", "trigger_phrases": ["UAW strike", "more likely than settlement"], "confidence": 0.85, "uncertainty_notes": "原文未指明具体车企，但UAW罢工通常涉及美国三大汽车制造商（通用、福特、Stellantis），对汽车供应链影响重大。", "signal_id": "uaw_auto_strike_2023-2023-09-06-0000-1", "input_id": "uaw_auto_strike_2023-2023-09-06-0000", "signal_date": "2023-09-06"}
+{"input_id": "uaw_auto_strike_2023-2023-09-06-0001", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-09-06-0002", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-09-07-0000", "status": "empty"}
+{"temporality": "latent", "event_type": "regulatory", "commodities": ["semiconductors", "consumer electronics"], "companies": [{"name": "Huawei", "role": "supplier"}], "geographies": ["China"], "severity": 3, "description": "华为新芯片手机引发关于涉嫌贸易违规的争议，暗示潜在的监管审查或出口管制风险，可能影响其供应链稳定性。", "trigger_phrases": ["alleged trade violations", "new chips huawei phones"], "confidence": 0.75, "uncertainty_notes": "原文仅提及争议和涉嫌违规，未明确说明已实施制裁或具体中断措施，故判定为潜在监管风险。", "signal_id": "uaw_auto_strike_2023-2023-09-07-0001-1", "input_id": "uaw_auto_strike_2023-2023-09-07-0001", "signal_date": "2023-09-07"}
+{"input_id": "uaw_auto_strike_2023-2023-09-07-0002", "status": "empty"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["semiconductors"], "companies": [{"name": "SMIC", "role": "supplier"}, {"name": "Huawei", "role": "buyer"}, {"name": "US Government", "role": "government"}], "geographies": ["China", "United States"], "severity": 4, "description": "SMIC 被指违反美国制裁向华为出售芯片，面临监管处罚及供应链中断风险", "trigger_phrases": ["allegedly violated us sanctions", "selling chips to huawei"], "confidence": 0.85, "uncertainty_notes": "原文使用 'allegedly' (据称/涉嫌)，表明指控尚未最终司法确认，但事件本身已构成明确的监管合规风险信号。", "signal_id": "uaw_auto_strike_2023-2023-09-07-0003-1", "input_id": "uaw_auto_strike_2023-2023-09-07-0003", "signal_date": "2023-09-07"}
+{"temporality": "latent", "event_type": "operations", "commodities": ["automotive parts", "vehicles"], "companies": [{"name": "UAW", "role": "unknown"}, {"name": "carmakers", "role": "buyer"}], "geographies": ["Michigan", "United States"], "severity": 3, "description": "密歇根州州长惠特默正与美国汽车工人联合会（UAW）及汽车制造商进行谈判，以预防罢工发生。罢工若发生将导致汽车生产中断。", "trigger_phrases": ["talking to uaw carmakers", "avert strike"], "confidence": 0.85, "uncertainty_notes": "", "signal_id": "uaw_auto_strike_2023-2023-09-07-0004-1", "input_id": "uaw_auto_strike_2023-2023-09-07-0004", "signal_date": "2023-09-07"}
+{"input_id": "uaw_auto_strike_2023-2023-09-08-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-09-09-0000", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "operations", "commodities": ["automotive parts", "vehicles"], "companies": [{"name": "UAW", "role": "unknown"}, {"name": "automotive companies", "role": "buyer"}], "geographies": ["United States"], "severity": 3, "description": "UAW 地方工会领导人和工人准备应对可能的罢工，因为公司提供的报价低于工会要求，可能导致汽车生产中断。", "trigger_phrases": ["brace for possible strike", "offers below union demands"], "confidence": 0.85, "uncertainty_notes": "", "signal_id": "uaw_auto_strike_2023-2023-09-11-0000-1", "input_id": "uaw_auto_strike_2023-2023-09-11-0000", "signal_date": "2023-09-11"}
+{"temporality": "confirmation", "event_type": "regulatory", "commodities": ["semiconductors"], "companies": [{"name": "Huawei", "role": "supplier"}, {"name": "US Government", "role": "government"}], "geographies": ["China", "United States"], "severity": 4, "description": "Reports allege Huawei has established secret chip fabrication facilities to bypass US export controls, indicating a potential escalation in regulatory evasion and supply chain fragmentation.", "trigger_phrases": ["alleged secret chip fabs", "bypass us sanctions"], "confidence": 0.75, "uncertainty_notes": "The text uses 'alleged', indicating the facts are not fully confirmed, but the risk of regulatory tightening or further sanctions is high.", "signal_id": "uaw_auto_strike_2023-2023-09-11-0001-1", "input_id": "uaw_auto_strike_2023-2023-09-11-0001", "signal_date": "2023-09-11"}
+{"input_id": "uaw_auto_strike_2023-2023-09-12-0000", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "operations", "commodities": ["automotive parts", "vehicles"], "companies": [{"name": "UAW", "role": "unknown"}], "geographies": ["United States"], "severity": 3, "description": "UAW 潜在罢工可能影响消费者，暗示汽车供应链可能面临中断风险", "trigger_phrases": ["potential uaw strike", "could impact consumers"], "confidence": 0.75, "uncertainty_notes": "原文未明确提及具体车企，但 UAW 主要涉及美国三大汽车制造商，故推断为汽车供应链风险。", "signal_id": "uaw_auto_strike_2023-2023-09-12-0001-1", "input_id": "uaw_auto_strike_2023-2023-09-12-0001", "signal_date": "2023-09-12"}
+{"input_id": "uaw_auto_strike_2023-2023-09-13-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-09-13-0001", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-09-14-0000", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-09-14-0001", "status": "empty"}
+{"input_id": "uaw_auto_strike_2023-2023-09-14-0002", "status": "empty"}
+{"temporality": "latent", "event_type": "operations", "commodities": ["automotive parts", "vehicles"], "companies": [{"name": "UAW", "role": "unknown"}, {"name": "Auto Union", "role": "unknown"}], "geographies": ["United States"], "severity": 3, "description": "汽车工会谈判进展缓慢，罢工威胁迫近，可能导致汽车生产中断。", "trigger_phrases": ["negotiations making slow progress", "strike looms"], "confidence": 0.85, "uncertainty_notes": "", "signal_id": "uaw_auto_strike_2023-2023-09-14-0003-1", "input_id": "uaw_auto_strike_2023-2023-09-14-0003", "signal_date": "2023-09-14"}
+{"input_id": "uaw_auto_strike_2023-2023-09-14-0004", "status": "empty"}
+{"temporality": "forward_looking", "event_type": "operations", "commodities": ["automotive parts", "vehicles"], "companies": [{"name": "United Auto Workers", "role": "unknown"}], "geographies": ["United States"], "severity": 3, "description": "United Auto Workers union warns of potential strike if no agreement is reached by Thursday night, posing a risk of production disruptions in the automotive sector.", "trigger_phrases": ["could strike", "if no deal reached"], "confidence": 0.85, "uncertainty_notes": "", "signal_id": "uaw_auto_strike_2023-2023-09-14-0005-1", "input_id": "uaw_auto_strike_2023-2023-09-14-0005", "signal_date": "2023-09-14"}
+{"temporality": "latent", "event_type": "operations", "commodities": ["automotive parts", "vehicles"], "companies": [{"name": "United Auto Workers", "role": "unknown"}], "geographies": ["United States"], "severity": 3, "description": "美国汽车工人联合会（UAW）正在为历史性罢工做准备，可能导致汽车制造业生产中断。", "trigger_phrases": ["United Auto Workers", "prepares for historic strike"], "confidence": 0.85, "uncertainty_notes": "", "signal_id": "uaw_auto_strike_2023-2023-09-14-0006-1", "input_id": "uaw_auto_strike_2023-2023-09-14-0006", "signal_date": "2023-09-14"}

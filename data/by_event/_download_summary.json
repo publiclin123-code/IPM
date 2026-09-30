@@ -1,0 +1,23 @@
+{
+  "window_days": 180,
+  "events": [
+    {
+      "event_id": "beirut_port_explosion_2020",
+      "status": "ok",
+      "n_articles": 13,
+      "n_files_ok": 360,
+      "n_files_fail": 360,
+      "window_start": "2020-02-06",
+      "window_end": "2020-08-04",
+      "keywords": [
+        "beirut",
+        "beirut-explosion",
+        "beirut-blast",
+        "lebanon-port",
+        "beirut-port",
+        "ammonium-nitrate",
+        "lebanon-explosion"
+      ]
+    }
+  ]
+}

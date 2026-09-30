@@ -1,0 +1,187 @@
+{
+  "n_events": 16,
+  "total_articles": 2265,
+  "total_forward_signals": 209,
+  "total_tp": 180,
+  "total_fp": 29,
+  "aggregate_precision": 0.8612,
+  "pooled_fwgs": 0.5651,
+  "per_event": [
+    {
+      "event_id": "red_sea_crisis_2023",
+      "n_articles": 108,
+      "n_sig": 8,
+      "tp": 7,
+      "fp": 1,
+      "fwgs": 0.7049,
+      "hit": true,
+      "earliest_lead_days": 157,
+      "prec": 0.875
+    },
+    {
+      "event_id": "suez_ever_given_2021",
+      "n_articles": 0,
+      "n_sig": 0,
+      "tp": 0,
+      "fp": 0,
+      "fwgs": null,
+      "hit": false,
+      "earliest_lead_days": null,
+      "prec": null
+    },
+    {
+      "event_id": "us_chip_export_controls_2022",
+      "n_articles": 673,
+      "n_sig": 19,
+      "tp": 14,
+      "fp": 5,
+      "fwgs": 0.6342,
+      "hit": true,
+      "earliest_lead_days": 171,
+      "prec": 0.7368421052631579
+    },
+    {
+      "event_id": "covid_supply_disruption_2020",
+      "n_articles": 71,
+      "n_sig": 2,
+      "tp": 2,
+      "fp": 0,
+      "fwgs": 0.064,
+      "hit": true,
+      "earliest_lead_days": 3,
+      "prec": 1.0
+    },
+    {
+      "event_id": "renesas_earthquake_2016",
+      "n_articles": 185,
+      "n_sig": 9,
+      "tp": 0,
+      "fp": 9,
+      "fwgs": 0.0,
+      "hit": false,
+      "earliest_lead_days": null,
+      "prec": 0.0
+    },
+    {
+      "event_id": "port_los_angeles_backlog_2021",
+      "n_articles": 53,
+      "n_sig": 11,
+      "tp": 5,
+      "fp": 6,
+      "fwgs": 0.3234,
+      "hit": true,
+      "earliest_lead_days": 105,
+      "prec": 0.45454545454545453
+    },
+    {
+      "event_id": "toyota_steel_explosion_2019",
+      "n_articles": 456,
+      "n_sig": 32,
+      "tp": 27,
+      "fp": 5,
+      "fwgs": 0.5728,
+      "hit": true,
+      "earliest_lead_days": 170,
+      "prec": 0.84375
+    },
+    {
+      "event_id": "europe_energy_crisis_2022",
+      "n_articles": 126,
+      "n_sig": 24,
+      "tp": 24,
+      "fp": 0,
+      "fwgs": 0.907,
+      "hit": true,
+      "earliest_lead_days": 180,
+      "prec": 1.0
+    },
+    {
+      "event_id": "renesas_naka_plant_fire_2021",
+      "n_articles": 1,
+      "n_sig": 0,
+      "tp": 0,
+      "fp": 0,
+      "fwgs": null,
+      "hit": false,
+      "earliest_lead_days": null,
+      "prec": null
+    },
+    {
+      "event_id": "taiwan_strait_crisis_2022",
+      "n_articles": 104,
+      "n_sig": 14,
+      "tp": 13,
+      "fp": 1,
+      "fwgs": 0.1679,
+      "hit": true,
+      "earliest_lead_days": 38,
+      "prec": 0.9285714285714286
+    },
+    {
+      "event_id": "us_china_tariff_war_2018",
+      "n_articles": 90,
+      "n_sig": 35,
+      "tp": 34,
+      "fp": 1,
+      "fwgs": 0.8008,
+      "hit": true,
+      "earliest_lead_days": 155,
+      "prec": 0.9714285714285714
+    },
+    {
+      "event_id": "hurricane_maria_2017",
+      "n_articles": 49,
+      "n_sig": 12,
+      "tp": 12,
+      "fp": 0,
+      "fwgs": 0.0611,
+      "hit": true,
+      "earliest_lead_days": 14,
+      "prec": 1.0
+    },
+    {
+      "event_id": "uaw_auto_strike_2023",
+      "n_articles": 88,
+      "n_sig": 12,
+      "tp": 12,
+      "fp": 0,
+      "fwgs": 0.3696,
+      "hit": true,
+      "earliest_lead_days": 77,
+      "prec": 1.0
+    },
+    {
+      "event_id": "black_sea_grain_exit_2023",
+      "n_articles": 69,
+      "n_sig": 24,
+      "tp": 23,
+      "fp": 1,
+      "fwgs": 0.6686,
+      "hit": true,
+      "earliest_lead_days": 134,
+      "prec": 0.9583333333333334
+    },
+    {
+      "event_id": "india_wheat_export_ban_2022",
+      "n_articles": 76,
+      "n_sig": 6,
+      "tp": 6,
+      "fp": 0,
+      "fwgs": 0.7446,
+      "hit": true,
+      "earliest_lead_days": 141,
+      "prec": 1.0
+    },
+    {
+      "event_id": "egg_shortage_birdflu_2025",
+      "n_articles": 116,
+      "n_sig": 1,
+      "tp": 1,
+      "fp": 0,
+      "fwgs": 0.5796,
+      "hit": true,
+      "earliest_lead_days": 26,
+      "prec": 1.0
+    }
+  ]
+}

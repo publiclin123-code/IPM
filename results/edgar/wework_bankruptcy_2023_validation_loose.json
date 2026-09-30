@@ -1,0 +1,165 @@
+{
+  "per_event": [
+    {
+      "event_id": "bbby_bankruptcy_2023",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2023-04-23",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "rite_aid_bankruptcy_2023",
+      "event_name": "",
+      "hit": true,
+      "gt_onset_date": "2023-10-15",
+      "earliest_signal_date": "2023-05-24",
+      "lead_time_days": 144,
+      "n_signals_in_window": 6,
+      "matched_signal_ids": [
+        "wework_bankruptcy_2023-2023-05-24-005-1",
+        "wework_bankruptcy_2023-2023-08-18-011-1",
+        "wework_bankruptcy_2023-2023-08-18-011-2",
+        "wework_bankruptcy_2023-2023-09-01-015-1",
+        "wework_bankruptcy_2023-2023-09-01-015-2",
+        "wework_bankruptcy_2023-2023-10-02-016-2"
+      ]
+    },
+    {
+      "event_id": "party_city_bankruptcy_2023",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2023-01-17",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "yellow_bankruptcy_2023",
+      "event_name": "",
+      "hit": true,
+      "gt_onset_date": "2023-08-06",
+      "earliest_signal_date": "2023-05-24",
+      "lead_time_days": 74,
+      "n_signals_in_window": 1,
+      "matched_signal_ids": [
+        "wework_bankruptcy_2023-2023-05-24-005-1"
+      ]
+    },
+    {
+      "event_id": "joann_bankruptcy_2024",
+      "event_name": "",
+      "hit": true,
+      "gt_onset_date": "2024-03-18",
+      "earliest_signal_date": "2023-10-02",
+      "lead_time_days": 168,
+      "n_signals_in_window": 2,
+      "matched_signal_ids": [
+        "wework_bankruptcy_2023-2023-10-02-016-2",
+        "wework_bankruptcy_2023-2023-10-31-019-3"
+      ]
+    },
+    {
+      "event_id": "big_lots_bankruptcy_2024",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2024-09-09",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "express_bankruptcy_2024",
+      "event_name": "",
+      "hit": true,
+      "gt_onset_date": "2024-04-22",
+      "earliest_signal_date": "2023-10-31",
+      "lead_time_days": 174,
+      "n_signals_in_window": 1,
+      "matched_signal_ids": [
+        "wework_bankruptcy_2023-2023-10-31-019-3"
+      ]
+    },
+    {
+      "event_id": "wework_bankruptcy_2023",
+      "event_name": "",
+      "hit": true,
+      "gt_onset_date": "2023-11-06",
+      "earliest_signal_date": "2023-05-24",
+      "lead_time_days": 166,
+      "n_signals_in_window": 7,
+      "matched_signal_ids": [
+        "wework_bankruptcy_2023-2023-05-24-005-1",
+        "wework_bankruptcy_2023-2023-08-18-011-1",
+        "wework_bankruptcy_2023-2023-08-18-011-2",
+        "wework_bankruptcy_2023-2023-09-01-015-1",
+        "wework_bankruptcy_2023-2023-09-01-015-2",
+        "wework_bankruptcy_2023-2023-10-02-016-2",
+        "wework_bankruptcy_2023-2023-10-31-019-3"
+      ]
+    },
+    {
+      "event_id": "lordstown_bankruptcy_2023",
+      "event_name": "",
+      "hit": true,
+      "gt_onset_date": "2023-06-27",
+      "earliest_signal_date": "2023-05-24",
+      "lead_time_days": 34,
+      "n_signals_in_window": 1,
+      "matched_signal_ids": [
+        "wework_bankruptcy_2023-2023-05-24-005-1"
+      ]
+    },
+    {
+      "event_id": "tuesday_morning_bankruptcy_2023",
+      "event_name": "",
+      "hit": false,
+      "gt_onset_date": "2023-02-14",
+      "lead_time_days": null,
+      "n_signals_in_window": 0
+    },
+    {
+      "event_id": "smiledirect_bankruptcy_2023",
+      "event_name": "",
+      "hit": true,
+      "gt_onset_date": "2023-09-29",
+      "earliest_signal_date": "2023-05-24",
+      "lead_time_days": 128,
+      "n_signals_in_window": 5,
+      "matched_signal_ids": [
+        "wework_bankruptcy_2023-2023-05-24-005-1",
+        "wework_bankruptcy_2023-2023-08-18-011-1",
+        "wework_bankruptcy_2023-2023-08-18-011-2",
+        "wework_bankruptcy_2023-2023-09-01-015-1",
+        "wework_bankruptcy_2023-2023-09-01-015-2"
+      ]
+    },
+    {
+      "event_id": "audacy_bankruptcy_2024",
+      "event_name": "",
+      "hit": true,
+      "gt_onset_date": "2024-01-07",
+      "earliest_signal_date": "2023-08-18",
+      "lead_time_days": 142,
+      "n_signals_in_window": 6,
+      "matched_signal_ids": [
+        "wework_bankruptcy_2023-2023-08-18-011-1",
+        "wework_bankruptcy_2023-2023-08-18-011-2",
+        "wework_bankruptcy_2023-2023-09-01-015-1",
+        "wework_bankruptcy_2023-2023-09-01-015-2",
+        "wework_bankruptcy_2023-2023-10-02-016-2",
+        "wework_bankruptcy_2023-2023-10-31-019-3"
+      ]
+    }
+  ],
+  "summary": {
+    "n_gt_events": 12,
+    "n_hit": 8,
+    "hit_rate": 0.667,
+    "mean_lead_time_days": 128.75,
+    "median_lead_time_days": 144,
+    "precision": 1.0,
+    "n_warning_signals_in_windows": 7,
+    "n_matched_signals": 7,
+    "strict_matching": false,
+    "window_days": 180
+  }
+}

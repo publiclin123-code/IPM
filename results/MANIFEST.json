@@ -1,0 +1,750 @@
+{
+  "generated": "2026-09-28T16:48:28",
+  "model": "qwen3.8-27b (Qwen3.8-27B-NVFP4-MTP-Q8attn.gguf)",
+  "rule": "R4_identity",
+  "events_in_ground_truth": 17,
+  "note": "one ground-truth event, suez_ever_given_2021, has no pre-onset corpus because its query keywords exist only post-onset; it is therefore absent from every cell and all rates are over 16 evaluable events",
+  "cells": {
+    "slug_single_field": {
+      "corpus": "slug",
+      "schema": "single-field",
+      "dir": "results/q38_slug_v1",
+      "n_forward": 386,
+      "tp": 271,
+      "fp": 115,
+      "precision": 0.7020725388601037,
+      "hit_events": 12,
+      "fwgs": 0.41887775621743656,
+      "per_event_tp": {
+        "red_sea_crisis_2023": 15,
+        "us_chip_export_controls_2022": 13,
+        "covid_supply_disruption_2020": 9,
+        "renesas_earthquake_2016": 0,
+        "port_los_angeles_backlog_2021": 0,
+        "europe_energy_crisis_2022": 40,
+        "renesas_naka_plant_fire_2021": 0,
+        "taiwan_strait_crisis_2022": 17,
+        "us_china_tariff_war_2018": 40,
+        "hurricane_maria_2017": 4,
+        "uaw_auto_strike_2023": 14,
+        "black_sea_grain_exit_2023": 38,
+        "india_wheat_export_ban_2022": 6,
+        "egg_shortage_birdflu_2025": 6,
+        "russia_ukraine_war_2022": 69,
+        "beirut_port_explosion_2020": 0
+      }
+    },
+    "slug_clock_split": {
+      "corpus": "slug",
+      "schema": "clock-split",
+      "dir": "results/q38_slug_v2",
+      "n_forward": 284,
+      "tp": 229,
+      "fp": 55,
+      "precision": 0.8063380281690141,
+      "hit_events": 12,
+      "fwgs": 0.49902761077859725,
+      "per_event_tp": {
+        "red_sea_crisis_2023": 2,
+        "us_chip_export_controls_2022": 11,
+        "covid_supply_disruption_2020": 1,
+        "renesas_earthquake_2016": 0,
+        "port_los_angeles_backlog_2021": 0,
+        "europe_energy_crisis_2022": 34,
+        "renesas_naka_plant_fire_2021": 0,
+        "taiwan_strait_crisis_2022": 15,
+        "us_china_tariff_war_2018": 34,
+        "hurricane_maria_2017": 4,
+        "uaw_auto_strike_2023": 13,
+        "black_sea_grain_exit_2023": 32,
+        "india_wheat_export_ban_2022": 6,
+        "egg_shortage_birdflu_2025": 2,
+        "russia_ukraine_war_2022": 75,
+        "beirut_port_explosion_2020": 0
+      }
+    },
+    "body_single_field": {
+      "corpus": "body",
+      "schema": "single-field",
+      "dir": "results/q38_body_v1",
+      "n_forward": 1286,
+      "tp": 894,
+      "fp": 392,
+      "precision": 0.6951788491446346,
+      "hit_events": 14,
+      "fwgs": 0.3958275455832474,
+      "per_event_tp": {
+        "red_sea_crisis_2023": 25,
+        "us_chip_export_controls_2022": 69,
+        "covid_supply_disruption_2020": 39,
+        "renesas_earthquake_2016": 3,
+        "port_los_angeles_backlog_2021": 4,
+        "europe_energy_crisis_2022": 107,
+        "renesas_naka_plant_fire_2021": 0,
+        "taiwan_strait_crisis_2022": 35,
+        "us_china_tariff_war_2018": 121,
+        "hurricane_maria_2017": 3,
+        "uaw_auto_strike_2023": 29,
+        "black_sea_grain_exit_2023": 69,
+        "india_wheat_export_ban_2022": 26,
+        "egg_shortage_birdflu_2025": 61,
+        "russia_ukraine_war_2022": 303,
+        "beirut_port_explosion_2020": 0
+      }
+    },
+    "body_clock_split": {
+      "corpus": "body",
+      "schema": "clock-split",
+      "dir": "results/q38_body_v2",
+      "n_forward": 923,
+      "tp": 681,
+      "fp": 242,
+      "precision": 0.7378114842903575,
+      "hit_events": 14,
+      "fwgs": 0.4152953989539733,
+      "per_event_tp": {
+        "red_sea_crisis_2023": 13,
+        "us_chip_export_controls_2022": 52,
+        "covid_supply_disruption_2020": 29,
+        "renesas_earthquake_2016": 2,
+        "port_los_angeles_backlog_2021": 3,
+        "europe_energy_crisis_2022": 75,
+        "renesas_naka_plant_fire_2021": 0,
+        "taiwan_strait_crisis_2022": 32,
+        "us_china_tariff_war_2018": 100,
+        "hurricane_maria_2017": 1,
+        "uaw_auto_strike_2023": 27,
+        "black_sea_grain_exit_2023": 44,
+        "india_wheat_export_ban_2022": 23,
+        "egg_shortage_birdflu_2025": 29,
+        "russia_ukraine_war_2022": 251,
+        "beirut_port_explosion_2020": 0
+      }
+    }
+  },
+  "match_ladder": {
+    "slug_single_field": {
+      "R0_loose_substring": {
+        "tp": 340,
+        "precision": 0.8808290155440415,
+        "hit_events": 14,
+        "fwgs": 0.5204744949036864
+      },
+      "R1_loose_word": {
+        "tp": 336,
+        "precision": 0.8704663212435233,
+        "hit_events": 14,
+        "fwgs": 0.5146625970084059
+      },
+      "R2_two_dimension": {
+        "tp": 244,
+        "precision": 0.6321243523316062,
+        "hit_events": 12,
+        "fwgs": 0.38162152664477933
+      },
+      "R3_company_only": {
+        "tp": 39,
+        "precision": 0.10103626943005181,
+        "hit_events": 5,
+        "fwgs": 0.052266467310715534
+      },
+      "R4_identity": {
+        "tp": 271,
+        "precision": 0.7020725388601037,
+        "hit_events": 12,
+        "fwgs": 0.41887775621743656
+      }
+    },
+    "slug_clock_split": {
+      "R0_loose_substring": {
+        "tp": 273,
+        "precision": 0.9612676056338029,
+        "hit_events": 13,
+        "fwgs": 0.5977944339369556
+      },
+      "R1_loose_word": {
+        "tp": 270,
+        "precision": 0.9507042253521126,
+        "hit_events": 13,
+        "fwgs": 0.5907193602540581
+      },
+      "R2_two_dimension": {
+        "tp": 207,
+        "precision": 0.7288732394366197,
+        "hit_events": 12,
+        "fwgs": 0.4616244685653178
+      },
+      "R3_company_only": {
+        "tp": 42,
+        "precision": 0.14788732394366197,
+        "hit_events": 7,
+        "fwgs": 0.08508075146302084
+      },
+      "R4_identity": {
+        "tp": 229,
+        "precision": 0.8063380281690141,
+        "hit_events": 12,
+        "fwgs": 0.49902761077859725
+      }
+    },
+    "body_single_field": {
+      "R0_loose_substring": {
+        "tp": 1140,
+        "precision": 0.8864696734059098,
+        "hit_events": 15,
+        "fwgs": 0.5140941832432899
+      },
+      "R1_loose_word": {
+        "tp": 1132,
+        "precision": 0.880248833592535,
+        "hit_events": 15,
+        "fwgs": 0.5099417665890171
+      },
+      "R2_two_dimension": {
+        "tp": 720,
+        "precision": 0.5598755832037325,
+        "hit_events": 14,
+        "fwgs": 0.3245597198857797
+      },
+      "R3_company_only": {
+        "tp": 162,
+        "precision": 0.12597200622083982,
+        "hit_events": 9,
+        "fwgs": 0.07293429690900376
+      },
+      "R4_identity": {
+        "tp": 894,
+        "precision": 0.6951788491446346,
+        "hit_events": 14,
+        "fwgs": 0.3958275455832474
+      }
+    },
+    "body_clock_split": {
+      "R0_loose_substring": {
+        "tp": 845,
+        "precision": 0.9154929577464789,
+        "hit_events": 14,
+        "fwgs": 0.5270854558541096
+      },
+      "R1_loose_word": {
+        "tp": 839,
+        "precision": 0.9089924160346695,
+        "hit_events": 14,
+        "fwgs": 0.5217196470976941
+      },
+      "R2_two_dimension": {
+        "tp": 531,
+        "precision": 0.5752979414951246,
+        "hit_events": 14,
+        "fwgs": 0.3239999337152272
+      },
+      "R3_company_only": {
+        "tp": 133,
+        "precision": 0.14409534127843987,
+        "hit_events": 9,
+        "fwgs": 0.07626006363715829
+      },
+      "R4_identity": {
+        "tp": 681,
+        "precision": 0.7378114842903575,
+        "hit_events": 14,
+        "fwgs": 0.4152953989539733
+      }
+    }
+  },
+  "stats_canonical": {
+    "variant": "title",
+    "rule": "R4_identity",
+    "specification": {
+      "B": 2000,
+      "seed": 42,
+      "unit": "event-then-signal",
+      "interval": "percentile 2.5/97.5"
+    },
+    "point": {
+      "tp": 229,
+      "n": 284,
+      "precision": 0.8063380281690141,
+      "fwgs": 0.49902761077859725
+    },
+    "bootstrap": {
+      "B": 2000,
+      "seed": 42,
+      "unit": "event-then-signal",
+      "interval": "percentile 2.5/97.5",
+      "precision_ci": [
+        0.6020942408376964,
+        0.910941475826972
+      ],
+      "fwgs_ci": [
+        0.33881738647371834,
+        0.6271383369674667
+      ],
+      "n_replicates": 2000
+    },
+    "beta0": {
+      "title_naive": {
+        "B": 2000,
+        "seed": 42,
+        "unit": "event-then-signal",
+        "interval": "percentile 2.5/97.5",
+        "n": 110,
+        "point": 0.5545454545454546,
+        "ci": [
+          0.3302752293577982,
+          0.7559055118110236
+        ]
+      },
+      "title_v2": {
+        "B": 2000,
+        "seed": 42,
+        "unit": "event-then-signal",
+        "interval": "percentile 2.5/97.5",
+        "n": 111,
+        "point": 0.24324324324324326,
+        "ci": [
+          0.12280701754385964,
+          0.4
+        ]
+      },
+      "body_naive": {
+        "B": 2000,
+        "seed": 42,
+        "unit": "event-then-signal",
+        "interval": "percentile 2.5/97.5",
+        "n": 329,
+        "point": 0.5197568389057751,
+        "ci": [
+          0.43543543543543545,
+          0.5977011494252874
+        ]
+      },
+      "body_v2": {
+        "B": 2000,
+        "seed": 42,
+        "unit": "event-then-signal",
+        "interval": "percentile 2.5/97.5",
+        "n": 286,
+        "point": 0.3531468531468531,
+        "ci": [
+          0.2589928057553957,
+          0.446875
+        ]
+      }
+    },
+    "recall_sensitivity": {
+      "1.0": 0.8063380281690141,
+      "0.9": 0.7400359066427289,
+      "0.7": 0.5992523364485981,
+      "0.5": 0.44639376218323584
+    }
+  },
+  "paired_slug": {
+    "a": "results/q38_slug_v1",
+    "b": "results/q38_slug_v2",
+    "labels": [
+      "single-field (3.8)",
+      "clock-split (3.8)"
+    ],
+    "rule": "R4_identity",
+    "events": 16,
+    "input_corpus_invariant": true,
+    "articles_attempted_A": 2099,
+    "articles_attempted_B": 2099,
+    "point": {
+      "nA": 386,
+      "tpA": 271,
+      "fpA": 115,
+      "nB": 284,
+      "tpB": 229,
+      "fpB": 55,
+      "precision_A": 0.7020725388601037,
+      "precision_B": 0.8063380281690141,
+      "d_precision": 0.10426548930891044,
+      "d_tp": -42,
+      "d_fp": -60
+    },
+    "paired": {
+      "d_precision_ci": [
+        -0.0016092932244412207,
+        0.22190933802215884
+      ],
+      "d_tp_ci": [
+        -76.0,
+        -11.0
+      ],
+      "d_fp_ci": [
+        -125.0,
+        -20.0
+      ],
+      "p_precision_rises": 0.9725,
+      "p_fp_falls": 1.0
+    },
+    "c_star": 0.7,
+    "c_star_ci": [
+      0.12868653886665263,
+      3.1255787037037006
+    ],
+    "p_split_better_by_cost": {
+      "0.25": 0.0935,
+      "0.5": 0.288,
+      "0.7": 0.4975,
+      "1.0": 0.6645,
+      "1.5": 0.8315,
+      "2.0": 0.9065
+    },
+    "B": 2000,
+    "seed": 42
+  },
+  "paired_body": {
+    "a": "results/q38_body_v1",
+    "b": "results/q38_body_v2",
+    "labels": [
+      "body single-field (3.8)",
+      "body clock-split (3.8)"
+    ],
+    "rule": "R4_identity",
+    "events": 16,
+    "input_corpus_invariant": true,
+    "articles_attempted_A": 2099,
+    "articles_attempted_B": 2099,
+    "point": {
+      "nA": 1286,
+      "tpA": 894,
+      "fpA": 392,
+      "nB": 923,
+      "tpB": 681,
+      "fpB": 242,
+      "precision_A": 0.6951788491446346,
+      "precision_B": 0.7378114842903575,
+      "d_precision": 0.04263263514572291,
+      "d_tp": -213,
+      "d_fp": -150
+    },
+    "paired": {
+      "d_precision_ci": [
+        0.0013911573552586184,
+        0.09816020357451644
+      ],
+      "d_tp_ci": [
+        -339.025,
+        -100.97500000000014
+      ],
+      "d_fp_ci": [
+        -240.05,
+        -80.0
+      ],
+      "p_precision_rises": 0.9795,
+      "p_fp_falls": 1.0
+    },
+    "c_star": 1.42,
+    "c_star_ci": [
+      0.5111891139631978,
+      3.3005808080808046
+    ],
+    "p_split_better_by_cost": {
+      "0.25": 0.0,
+      "0.5": 0.0135,
+      "0.7": 0.0585,
+      "1.0": 0.2235,
+      "1.5": 0.5375,
+      "2.0": 0.7715
+    },
+    "B": 2000,
+    "seed": 42
+  },
+  "confidence": {
+    "rule": "R4_identity",
+    "window_days": 180,
+    "quantisation": {
+      "q38_slug_v1": {
+        "n": 386,
+        "distinct": 8,
+        "mode": 0.85,
+        "mode_share": 0.6062176165803109,
+        "top3": [
+          [
+            0.85,
+            234
+          ],
+          [
+            0.65,
+            49
+          ],
+          [
+            0.75,
+            44
+          ]
+        ]
+      },
+      "q38_slug_v2": {
+        "n": 284,
+        "distinct": 7,
+        "mode": 0.85,
+        "mode_share": 0.6690140845070423,
+        "top3": [
+          [
+            0.85,
+            190
+          ],
+          [
+            0.65,
+            34
+          ],
+          [
+            0.75,
+            27
+          ]
+        ]
+      },
+      "q38_body_v1": {
+        "n": 1286,
+        "distinct": 8,
+        "mode": 0.85,
+        "mode_share": 0.5124416796267496,
+        "top3": [
+          [
+            0.85,
+            659
+          ],
+          [
+            0.9,
+            263
+          ],
+          [
+            0.95,
+            187
+          ]
+        ]
+      },
+      "q38_body_v2": {
+        "n": 923,
+        "distinct": 8,
+        "mode": 0.85,
+        "mode_share": 0.49729144095341277,
+        "top3": [
+          [
+            0.85,
+            459
+          ],
+          [
+            0.9,
+            220
+          ],
+          [
+            0.95,
+            165
+          ]
+        ]
+      }
+    },
+    "separation": {
+      "q38_slug_v1": {
+        "n_tp": 271,
+        "n_fp": 115,
+        "median_tp": 0.85,
+        "median_fp": 0.85,
+        "auc": 0.6475212578212739
+      },
+      "q38_slug_v2": {
+        "n_tp": 229,
+        "n_fp": 55,
+        "median_tp": 0.85,
+        "median_fp": 0.85,
+        "auc": 0.5976181024215959
+      },
+      "q38_body_v1": {
+        "n_tp": 894,
+        "n_fp": 392,
+        "median_tp": 0.85,
+        "median_fp": 0.85,
+        "auc": 0.6024331712550792
+      },
+      "q38_body_v2": {
+        "n_tp": 681,
+        "n_fp": 242,
+        "median_tp": 0.85,
+        "median_fp": 0.85,
+        "auc": 0.5871014914867538
+      }
+    }
+  },
+  "edgar": {
+    "n_events": 12,
+    "total_filings": 172,
+    "total_forward_signals": 53,
+    "total_tp": 53,
+    "total_fp": 0,
+    "aggregate_precision": 1.0,
+    "pooled_fwgs": 0.7393,
+    "per_event": [
+      {
+        "event_id": "bbby_bankruptcy_2023",
+        "name": "Bed Bath & Beyond Inc.",
+        "ticker": "BBBY",
+        "onset": "2023-04-23",
+        "n_filings": 34,
+        "n_sig": 17,
+        "tp": 17,
+        "fp": 0,
+        "fwgs": 0.5696,
+        "hit": true,
+        "lead": 108
+      },
+      {
+        "event_id": "rite_aid_bankruptcy_2023",
+        "name": "Rite Aid Corp.",
+        "ticker": "RAD",
+        "onset": "2023-10-15",
+        "n_filings": 12,
+        "n_sig": 5,
+        "tp": 5,
+        "fp": 0,
+        "fwgs": 0.4935,
+        "hit": true,
+        "lead": 178
+      },
+      {
+        "event_id": "party_city_bankruptcy_2023",
+        "name": "Party City Holdco Inc.",
+        "ticker": "PRTY",
+        "onset": "2023-01-17",
+        "n_filings": 10,
+        "n_sig": 0,
+        "tp": 0,
+        "fp": 0,
+        "fwgs": null,
+        "hit": false,
+        "lead": null
+      },
+      {
+        "event_id": "yellow_bankruptcy_2023",
+        "name": "Yellow Corp.",
+        "ticker": "YELL",
+        "onset": "2023-08-06",
+        "n_filings": 16,
+        "n_sig": 0,
+        "tp": 0,
+        "fp": 0,
+        "fwgs": null,
+        "hit": false,
+        "lead": null
+      },
+      {
+        "event_id": "joann_bankruptcy_2024",
+        "name": "JOANN Inc.",
+        "ticker": "JOAN",
+        "onset": "2024-03-18",
+        "n_filings": 5,
+        "n_sig": 2,
+        "tp": 2,
+        "fp": 0,
+        "fwgs": 0.9652,
+        "hit": true,
+        "lead": 150
+      },
+      {
+        "event_id": "big_lots_bankruptcy_2024",
+        "name": "Big Lots Inc.",
+        "ticker": "BIG",
+        "onset": "2024-09-09",
+        "n_filings": 10,
+        "n_sig": 0,
+        "tp": 0,
+        "fp": 0,
+        "fwgs": null,
+        "hit": false,
+        "lead": null
+      },
+      {
+        "event_id": "express_bankruptcy_2024",
+        "name": "Express Inc.",
+        "ticker": "EXPR",
+        "onset": "2024-04-22",
+        "n_filings": 5,
+        "n_sig": 0,
+        "tp": 0,
+        "fp": 0,
+        "fwgs": null,
+        "hit": false,
+        "lead": null
+      },
+      {
+        "event_id": "wework_bankruptcy_2023",
+        "name": "WeWork Inc.",
+        "ticker": "WE",
+        "onset": "2023-11-06",
+        "n_filings": 20,
+        "n_sig": 8,
+        "tp": 8,
+        "fp": 0,
+        "fwgs": 0.7707,
+        "hit": true,
+        "lead": 166
+      },
+      {
+        "event_id": "lordstown_bankruptcy_2023",
+        "name": "Lordstown Motors Corp.",
+        "ticker": "RIDE",
+        "onset": "2023-06-27",
+        "n_filings": 16,
+        "n_sig": 13,
+        "tp": 13,
+        "fp": 0,
+        "fwgs": 0.9052,
+        "hit": true,
+        "lead": 174
+      },
+      {
+        "event_id": "tuesday_morning_bankruptcy_2023",
+        "name": "Tuesday Morning Corp.",
+        "ticker": "TUEM",
+        "onset": "2023-02-14",
+        "n_filings": 19,
+        "n_sig": 2,
+        "tp": 2,
+        "fp": 0,
+        "fwgs": 0.9735,
+        "hit": true,
+        "lead": 151
+      },
+      {
+        "event_id": "smiledirect_bankruptcy_2023",
+        "name": "SmileDirectClub Inc.",
+        "ticker": "SDC",
+        "onset": "2023-09-29",
+        "n_filings": 11,
+        "n_sig": 1,
+        "tp": 1,
+        "fp": 0,
+        "fwgs": 0.9431,
+        "hit": true,
+        "lead": 86
+      },
+      {
+        "event_id": "audacy_bankruptcy_2024",
+        "name": "Audacy Inc.",
+        "ticker": "AUDA",
+        "onset": "2024-01-07",
+        "n_filings": 14,
+        "n_sig": 5,
+        "tp": 5,
+        "fp": 0,
+        "fwgs": 0.8562,
+        "hit": true,
+        "lead": 97
+      }
+    ]
+  },
+  "derived": {
+    "slug_precision_gain": 0.10426548930891044,
+    "body_precision_gain": 0.04263263514572291,
+    "slug_fp_reduction": 60,
+    "body_fp_reduction": 150,
+    "slug_tp_cost": 42,
+    "body_tp_cost": 213,
+    "slug_tp_cost_relative": 0.15498154981549817,
+    "body_tp_cost_relative": 0.23825503355704697
+  },
+  "consistency_errors": []
+}

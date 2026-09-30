@@ -1,0 +1,57 @@
+{
+  "a": "results/q38_slug_v1",
+  "b": "results/q38_slug_v2",
+  "labels": [
+    "single-field (3.8)",
+    "clock-split (3.8)"
+  ],
+  "rule": "R4_identity",
+  "events": 16,
+  "input_corpus_invariant": true,
+  "articles_attempted_A": 2099,
+  "articles_attempted_B": 2099,
+  "point": {
+    "nA": 386,
+    "tpA": 271,
+    "fpA": 115,
+    "nB": 284,
+    "tpB": 229,
+    "fpB": 55,
+    "precision_A": 0.7020725388601037,
+    "precision_B": 0.8063380281690141,
+    "d_precision": 0.10426548930891044,
+    "d_tp": -42,
+    "d_fp": -60
+  },
+  "paired": {
+    "d_precision_ci": [
+      -0.0016092932244412207,
+      0.22190933802215884
+    ],
+    "d_tp_ci": [
+      -76.0,
+      -11.0
+    ],
+    "d_fp_ci": [
+      -125.0,
+      -20.0
+    ],
+    "p_precision_rises": 0.9725,
+    "p_fp_falls": 1.0
+  },
+  "c_star": 0.7,
+  "c_star_ci": [
+    0.12868653886665263,
+    3.1255787037037006
+  ],
+  "p_split_better_by_cost": {
+    "0.25": 0.0935,
+    "0.5": 0.288,
+    "0.7": 0.4975,
+    "1.0": 0.6645,
+    "1.5": 0.8315,
+    "2.0": 0.9065
+  },
+  "B": 2000,
+  "seed": 42
+}

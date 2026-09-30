@@ -1,0 +1,57 @@
+{
+  "a": "results/q38_body_v1",
+  "b": "results/q38_body_v2",
+  "labels": [
+    "body single-field (3.8)",
+    "body clock-split (3.8)"
+  ],
+  "rule": "R4_identity",
+  "events": 16,
+  "input_corpus_invariant": true,
+  "articles_attempted_A": 2099,
+  "articles_attempted_B": 2099,
+  "point": {
+    "nA": 1286,
+    "tpA": 894,
+    "fpA": 392,
+    "nB": 923,
+    "tpB": 681,
+    "fpB": 242,
+    "precision_A": 0.6951788491446346,
+    "precision_B": 0.7378114842903575,
+    "d_precision": 0.04263263514572291,
+    "d_tp": -213,
+    "d_fp": -150
+  },
+  "paired": {
+    "d_precision_ci": [
+      0.0013911573552586184,
+      0.09816020357451644
+    ],
+    "d_tp_ci": [
+      -339.025,
+      -100.97500000000014
+    ],
+    "d_fp_ci": [
+      -240.05,
+      -80.0
+    ],
+    "p_precision_rises": 0.9795,
+    "p_fp_falls": 1.0
+  },
+  "c_star": 1.42,
+  "c_star_ci": [
+    0.5111891139631978,
+    3.3005808080808046
+  ],
+  "p_split_better_by_cost": {
+    "0.25": 0.0,
+    "0.5": 0.0135,
+    "0.7": 0.0585,
+    "1.0": 0.2235,
+    "1.5": 0.5375,
+    "2.0": 0.7715
+  },
+  "B": 2000,
+  "seed": 42
+}
