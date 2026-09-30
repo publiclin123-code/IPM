@@ -29,6 +29,31 @@ The break-even cost `c*` at which splitting the label schema repays the precurso
 it discards is derived from the two schemas' own error counts; see
 `results/MANIFEST.json` under `paired_slug` and `paired_body`.
 
+## Onset provenance
+
+Every lead-time figure is measured against the onset dates in
+`validation/gt_events.json`, so those dates are the measurement instrument. Each
+event carries:
+
+| Field | Meaning |
+|---|---|
+| `gt_onset_date` | the onset used as the reference clock |
+| `onset_status` | `verified` for all seventeen events as of 2026-09-30 |
+| `onset_evidence` | prose statement of what the source says |
+| `onset_source` | registered source URL, where one exists |
+| `onset_source_accessed` | ISO date on which that URL was checked |
+
+`reports/onset_registry.md` renders these as a readable registry;
+`analysis/onset_registry.py --check` audits them and `--latex` emits the
+supplementary table. `reports/onsets_verify_20260930.md` is the raw evidence
+trail assembled by `pipeline/verify_onsets.py --all` from Wikipedia.
+
+Thirteen of the seventeen events have a registered source URL. The remaining four
+rest on the primary authority named in their evidence field (a White House
+announcement, a USTR Section 301 notice, a DGFT notification, and BLS CPI data)
+rather than on a URL. No onset date was changed by the 2026-09-30 verification
+pass.
+
 ## Layout
 
 ```

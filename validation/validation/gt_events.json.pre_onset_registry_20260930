@@ -8,8 +8,8 @@
       "event_id": "red_sea_crisis_2023",
       "event_name": "Red Sea shipping crisis (Houthi attacks)",
       "gt_onset_date": "2023-11-19",
-      "onset_status": "verified",
-      "onset_evidence": "Houthi forces seized the vehicle carrier Galaxy Leader near Hodeidah on 2023-11-19; Wikipedia records that Houthi attacks on commercial shipping in the Red Sea began that day. Corroborated by the Wikipedia articles 'Red Sea crisis' and 'Galaxy Leader' (checked 2026-09-30); the stored date matches both.",
+      "onset_status": "draft-needs-verification",
+      "onset_evidence": "Galaxy Leader 号被胡塞武装劫持 (2023-11-19)；随后多艘商船遇袭，主要航运公司 12 月中起绕行好望角。待核实精确日期与权威来源。",
       "event_type": "geopolitical",
       "commodities": [
         "semiconductors",
@@ -29,16 +29,14 @@
         "Bab el-Mandeb"
       ],
       "affected_region": "Asia-Europe trade",
-      "notes": "经典 geoeconomic 中断；预警信号可能出现在袭击开始前（地缘紧张、胡塞声明、保险费用上涨）。",
-      "onset_source": "https://en.wikipedia.org/wiki/Galaxy_Leader",
-      "onset_source_accessed": "2026-09-30"
+      "notes": "经典 geoeconomic 中断；预警信号可能出现在袭击开始前（地缘紧张、胡塞声明、保险费用上涨）。"
     },
     {
       "event_id": "suez_ever_given_2021",
       "event_name": "Ever Given blockage of Suez Canal",
       "gt_onset_date": "2021-03-23",
-      "onset_status": "verified",
-      "onset_evidence": "Ever Given ran aground in the Suez Canal on 2021-03-23 and was refloated on 2021-03-29, closing the canal for six days. Corroborated by the Wikipedia article '2021 Suez Canal obstruction' (checked 2026-09-30); the stored date matches the grounding date.",
+      "onset_status": "confirmed-known",
+      "onset_evidence": "Ever Given 于 2021-03-23 搁浅堵塞苏伊士运河，2021-03-29 脱浅。该日期为公开确认事实。",
       "event_type": "logistics",
       "commodities": [
         "containerized goods",
@@ -53,16 +51,14 @@
         "Egypt"
       ],
       "affected_region": "Global container shipping",
-      "notes": "突发型事件，几乎无预警信号（黑天鹅）。作为 baseline：验证集中应含此类'难预警'事件以检验系统性。",
-      "onset_source": "https://en.wikipedia.org/wiki/2021_Suez_Canal_obstruction",
-      "onset_source_accessed": "2026-09-30"
+      "notes": "突发型事件，几乎无预警信号（黑天鹅）。作为 baseline：验证集中应含此类'难预警'事件以检验系统性。"
     },
     {
       "event_id": "us_chip_export_controls_2022",
       "event_name": "US semiconductor export controls on China",
       "gt_onset_date": "2022-10-07",
-      "onset_status": "verified",
-      "onset_evidence": "The Bureau of Industry and Security issued the new advanced-computing and semiconductor manufacturing export controls for immediate release on 2022-10-07; compliance deadlines followed on 2022-10-12 and 2022-10-21. Corroborated by the Wikipedia article 'United States New Export Controls on Advanced Computing and Semiconductors to China' (checked 2026-09-30); the stored date matches the announced issue date.",
+      "onset_status": "draft-needs-verification",
+      "onset_evidence": "BIS 于 2022-10-07 发布对华先进计算芯片出口管制新规。待核实精确发布日期。",
       "event_type": "regulatory",
       "commodities": [
         "semiconductors",
@@ -81,16 +77,14 @@
         "United States"
       ],
       "affected_region": "Global semiconductor supply chain",
-      "notes": "法规型事件，预警信号可能在发布前（政策草案、媒体报道、游说新闻）出现。",
-      "onset_source": "https://en.wikipedia.org/wiki/United_States_New_Export_Controls_on_Advanced_Computing_and_Semiconductors_to_China",
-      "onset_source_accessed": "2026-09-30"
+      "notes": "法规型事件，预警信号可能在发布前（政策草案、媒体报道、游说新闻）出现。"
     },
     {
       "event_id": "covid_supply_disruption_2020",
       "event_name": "COVID-19 global supply chain disruption",
       "gt_onset_date": "2020-01-23",
-      "onset_status": "verified",
-      "onset_evidence": "The Wuhan municipal government announced a lockdown of the city effective 10:00 on 2020-01-23, extended to other cities in Hubei. Corroborated by the Wikipedia article 'COVID-19 pandemic in Hubei' (checked 2026-09-30); the stored date matches the announced effective date.",
+      "onset_status": "draft-needs-verification",
+      "onset_evidence": "武汉封城 (2020-01-23)，随后中国工厂大面积停摆、全球供应链中断。封城日期为公开事实。",
       "event_type": "natural_disaster",
       "commodities": [
         "PPE",
@@ -105,16 +99,14 @@
         "Hubei"
       ],
       "affected_region": "Global manufacturing",
-      "notes": "大范围系统性事件；预警信号可能在封城前（疫情早期报道、世卫声明）。",
-      "onset_source": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Hubei",
-      "onset_source_accessed": "2026-09-30"
+      "notes": "大范围系统性事件；预警信号可能在封城前（疫情早期报道、世卫声明）。"
     },
     {
       "event_id": "renesas_earthquake_2016",
       "event_name": "Renesas Kumamoto earthquake halts chip plant",
       "gt_onset_date": "2016-04-16",
-      "onset_status": "verified",
-      "onset_evidence": "The Kumamoto mainshock is timestamped 2016-04-15 16:25:06 UTC, i.e. 2016-04-16 01:25 JST; the stored date is the local (JST) calendar date, which is the convention used throughout this table. Corroborated by the Wikipedia article '2016 Kumamoto earthquakes' (checked 2026-09-30). NOTE: a UTC-dated series would place this onset on 2016-04-15, one day earlier.",
+      "onset_status": "draft-needs-verification",
+      "onset_evidence": "2016-04-16 熊本地震导致瑞萨电子工厂停产，冲击汽车芯片供应。待核实。",
       "event_type": "natural_disaster",
       "commodities": [
         "automotive microcontrollers",
@@ -131,9 +123,7 @@
         "Kumamoto"
       ],
       "affected_region": "Global automotive supply chain",
-      "notes": "突发型；地震预警难以提前，但工厂库存/供应链依赖度报道可能在事前存在。",
-      "onset_source": "https://en.wikipedia.org/wiki/2016_Kumamoto_earthquakes",
-      "onset_source_accessed": "2026-09-30"
+      "notes": "突发型；地震预警难以提前，但工厂库存/供应链依赖度报道可能在事前存在。"
     },
     {
       "event_id": "port_los_angeles_backlog_2021",
@@ -164,8 +154,8 @@
       "event_id": "europe_energy_crisis_2022",
       "event_name": "European energy crisis (Russian gas cutoff)",
       "gt_onset_date": "2022-09-02",
-      "onset_status": "verified",
-      "onset_evidence": "Gazprom announced on 2022-09-02 that flows through Nord Stream 1 would remain shut off indefinitely pending repair of the Portovaya compressor turbine, converting an earlier maintenance halt into an open-ended cutoff. Corroborated by the Wikipedia article 'Nord Stream 1' (checked 2026-09-30); the stored date matches the announcement date.",
+      "onset_status": "draft-needs-verification",
+      "onset_evidence": "2022 年俄罗斯对欧供气持续削减（4 月底切断波兰/保加利亚、6-7 月北溪 1 号降至 40%/20%、7 月停运检修），2022-09-02 俄气宣布北溪 1 号因 Portovaya 压气站'漏油'无限期停供（2022-09-26 北溪 1/2 号遭蓄意破坏）。欧洲天然气/电价暴涨，BASF 等能耗密集制造业减产停产。待核实精确日期与权威来源。",
       "event_type": "geopolitical",
       "commodities": [
         "natural gas",
@@ -187,16 +177,14 @@
         "Russia"
       ],
       "affected_region": "European industrial supply chain",
-      "notes": "渐进爬行型事件：供气数月递减、气价电价持续攀升，断供前应有大量可观测前兆（气价、库存、减产公告）。补 port_los_angeles_backlog_2021 / rhine 的爬行类孤例，并新增 geopolitical/energy 维度。",
-      "onset_source": "https://en.wikipedia.org/wiki/Nord_Stream_1",
-      "onset_source_accessed": "2026-09-30"
+      "notes": "渐进爬行型事件：供气数月递减、气价电价持续攀升，断供前应有大量可观测前兆（气价、库存、减产公告）。补 port_los_angeles_backlog_2021 / rhine 的爬行类孤例，并新增 geopolitical/energy 维度。"
     },
     {
       "event_id": "renesas_naka_plant_fire_2021",
       "event_name": "Renesas Naka fab fire halts auto chip supply",
       "gt_onset_date": "2021-03-19",
-      "onset_status": "verified",
-      "onset_evidence": "Renesas reported a fire on 2021-03-19 in the N3 building (300 mm line) of its Naka factory in Hitachinaka, Ibaraki, halting automotive microcontroller production. Corroborated by the manufacturer's own press release, which dates the fire to Friday 2021-03-19 (checked 2026-09-30), and by the Wikipedia article '2020-2023 global chip shortage', which records the fire in March 2021.",
+      "onset_status": "draft-needs-verification",
+      "onset_evidence": "2021-03-19 瑞萨电子那珂工厂 N3 楼火灾，导致车用微控制器停产数月，加剧全球汽车芯片短缺。火灾日期为公开报道事实，待核实精确来源。",
       "event_type": "quality",
       "commodities": [
         "automotive microcontrollers",
@@ -214,16 +202,14 @@
         "Naka"
       ],
       "affected_region": "Global automotive semiconductor supply chain",
-      "notes": "突发型工厂事故；与 renesas_earthquake_2016（地震）同公司不同成因，补 toyota_steel_explosion_2019 的质量/事故类孤例，检验事故类预警的可复现性。",
-      "onset_source": "https://www.renesas.com/en/about/press-room/update-6-notice-regarding-semiconductor-manufacturing-factory-naka-factory-fire",
-      "onset_source_accessed": "2026-09-30"
+      "notes": "突发型工厂事故；与 renesas_earthquake_2016（地震）同公司不同成因，补 toyota_steel_explosion_2019 的质量/事故类孤例，检验事故类预警的可复现性。"
     },
     {
       "event_id": "taiwan_strait_crisis_2022",
       "event_name": "Taiwan Strait crisis (Pelosi visit and PLA drills)",
       "gt_onset_date": "2022-08-02",
       "onset_status": "verified",
-      "onset_evidence": "Wikipedia states that Pelosi visited Taiwan on August 2, 2022 (checked 2026-09-30); the stored date matches her arrival.",
+      "onset_evidence": "US House Speaker Pelosi arrived in Taipei 2022-08-02 (UTC); PLA live-fire drills announced and began 2022-08-04.",
       "event_type": "geopolitical",
       "risk_class": "slow-burn",
       "commodities": [
@@ -239,9 +225,7 @@
         "China"
       ],
       "affected_region": "Global semiconductor supply chain, Taiwan Strait shipping lanes",
-      "notes": "Visit rumored from 2022-07-19 (FT report), confirmed late July: two weeks of documented precursor coverage. Semiconductor supply risk ties the case to this journal.",
-      "onset_source": "https://en.wikipedia.org/wiki/2022_visit_by_Nancy_Pelosi_to_Taiwan",
-      "onset_source_accessed": "2026-09-30"
+      "notes": "Visit rumored from 2022-07-19 (FT report), confirmed late July: two weeks of documented precursor coverage. Semiconductor supply risk ties the case to this journal."
     },
     {
       "event_id": "us_china_tariff_war_2018",
@@ -271,7 +255,7 @@
       "event_name": "Hurricane Maria hits Puerto Rico (pharma manufacturing)",
       "gt_onset_date": "2017-09-20",
       "onset_status": "verified",
-      "onset_evidence": "Wikipedia records that Maria made landfall near Yabucoa, Puerto Rico, as a Category 4 hurricane at 10:15 UTC on 2017-09-20 (checked 2026-09-30); the stored date matches the landfall date.",
+      "onset_evidence": "Hurricane Maria made landfall in Puerto Rico (Yabucoa) as Category 4 on 2017-09-20 (NOAA).",
       "event_type": "natural_disaster",
       "risk_class": "sudden",
       "commodities": [
@@ -291,16 +275,14 @@
         "Caribbean"
       ],
       "affected_region": "US hospital supply",
-      "notes": "Sudden; pharma angle fits the journal's HS&E stakes.",
-      "onset_source": "https://en.wikipedia.org/wiki/Hurricane_Maria",
-      "onset_source_accessed": "2026-09-30"
+      "notes": "Sudden; pharma angle fits the journal's HS&E stakes."
     },
     {
       "event_id": "uaw_auto_strike_2023",
       "event_name": "UAW targeted strike against Detroit Three automakers",
       "gt_onset_date": "2023-09-15",
       "onset_status": "verified",
-      "onset_evidence": "Wikipedia records that the strike began on September 15, 2023, when the union was unable to reach a deal with the three automakers (checked 2026-09-30); the stored date matches.",
+      "onset_evidence": "UAW launched simultaneous targeted strikes at GM Wentzville, Ford Wayne, and Stellantis Toledo plants on 2023-09-15 after contract expiry 2023-09-14.",
       "event_type": "labor",
       "risk_class": "slow_burn",
       "commodities": [
@@ -320,16 +302,14 @@
         "Ohio"
       ],
       "affected_region": "North American auto supply chain",
-      "notes": "Slow-burn: contract negotiations and strike authorization votes covered from July 2023.",
-      "onset_source": "https://en.wikipedia.org/wiki/2023_United_Auto_Workers_strike",
-      "onset_source_accessed": "2026-09-30"
+      "notes": "Slow-burn: contract negotiations and strike authorization votes covered from July 2023."
     },
     {
       "event_id": "black_sea_grain_exit_2023",
       "event_name": "Russia exits Black Sea Grain Initiative",
       "gt_onset_date": "2023-07-17",
       "onset_status": "verified",
-      "onset_evidence": "Wikipedia records that the Joint Coordination Centre was disbanded with the expiration of the initiative on 17 July 2023 (checked 2026-09-30); the stored date matches Russia's withdrawal.",
+      "onset_evidence": "Russia formally announced withdrawal from the Black Sea Grain Initiative on 2023-07-17, halting Ukrainian grain corridor shipments.",
       "event_type": "geopolitical",
       "risk_class": "slow_burn",
       "commodities": [
@@ -347,9 +327,7 @@
         "Turkey"
       ],
       "affected_region": "Global grain trade",
-      "notes": "Slow-burn: Russia issued repeated exit threats across renewal cycles since Nov 2022.",
-      "onset_source": "https://en.wikipedia.org/wiki/Black_Sea_Grain_Initiative",
-      "onset_source_accessed": "2026-09-30"
+      "notes": "Slow-burn: Russia issued repeated exit threats across renewal cycles since Nov 2022."
     },
     {
       "event_id": "india_wheat_export_ban_2022",
@@ -401,7 +379,7 @@
       "event_name": "Russia's full-scale invasion of Ukraine",
       "gt_onset_date": "2022-02-24",
       "onset_status": "verified",
-      "onset_evidence": "Wikipedia dates the invasion 24 February 2022 to present (checked 2026-09-30); the stored date matches the start of the invasion.",
+      "onset_evidence": "Russia launched a full-scale invasion of Ukraine on 2022-02-24 after months of military build-up along the border from November 2021.",
       "event_type": "geopolitical",
       "risk_class": "slow_burn",
       "commodities": [
@@ -422,16 +400,14 @@
         "Europe"
       ],
       "affected_region": "Global energy, food, and metals supply",
-      "notes": "Slow-burn: Russian troop build-up and invasion threats covered from November 2021; impact spans energy, grain, metals, and semiconductor neon gas.",
-      "onset_source": "https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine",
-      "onset_source_accessed": "2026-09-30"
+      "notes": "Slow-burn: Russian troop build-up and invasion threats covered from November 2021; impact spans energy, grain, metals, and semiconductor neon gas."
     },
     {
       "event_id": "beirut_port_explosion_2020",
       "event_name": "Beirut port ammonium-nitrate explosion",
       "gt_onset_date": "2020-08-04",
       "onset_status": "verified",
-      "onset_evidence": "Wikipedia states that a major explosion caused by the ignition of 2,750 tonnes of ammonium nitrate occurred in Beirut on 2020-08-04 (checked 2026-09-30); the stored date matches.",
+      "onset_evidence": "A large quantity of ammonium nitrate stored at Beirut port detonated on 2020-08-04, destroying the port and nearby grain silos.",
       "event_type": "logistics",
       "risk_class": "sudden",
       "commodities": [
@@ -447,9 +423,7 @@
         "Lebanon"
       ],
       "affected_region": "Lebanese imports and grain supply",
-      "notes": "Sudden: port infrastructure destruction with no textual precursors expected; designed negative for a logistics accident.",
-      "onset_source": "https://en.wikipedia.org/wiki/2020_Beirut_explosion",
-      "onset_source_accessed": "2026-09-30"
+      "notes": "Sudden: port infrastructure destruction with no textual precursors expected; designed negative for a logistics accident."
     }
   ],
   "n_events": 17,
@@ -459,24 +433,6 @@
       "action": "retract",
       "event_id": "toyota_steel_explosion_2019",
       "reason": "Onset and event itself unverifiable. Ten Wikipedia searches (en+ja) find no 2019 Toyota engine-plant explosion or fire; the corpus contains no title with both 'toyota' and ('explosion'|'fire'); the nearest real analogue is the 1997 Aisin fire. Real 2019 incidents do not match: Sandvika hydrogen station explosion (Norway, June 2019) and a Daihatsu Nakatsu plant fire (2019-03-14). Retained hits were US steel-tariff articles under loose matching (DI-8)."
-    },
-    {
-      "date": "2026-09-30",
-      "action": "verify-onsets",
-      "reason": "Onset provenance registry completed. 7 entries previously marked draft-needs-verification (or confirmed-known) carried Chinese-language evidence and no citable source; all seven were re-verified against public sources and promoted to 'verified', with the source URL and access date recorded in onset_source / onset_source_accessed. No onset date was changed.",
-      "n_updated": 7
-    },
-    {
-      "date": "2026-09-30",
-      "action": "verify-onsets-batch2",
-      "reason": "Registered source URLs for four further events whose dates were confirmed at content level against Wikipedia (Beirut explosion, Russian invasion, Black Sea Grain Initiative, Pelosi visit).",
-      "n_updated": 4
-    },
-    {
-      "date": "2026-09-30",
-      "action": "verify-onsets-batch3",
-      "reason": "Registered source URLs for Hurricane Maria (landfall) and the 2023 UAW strike, both confirmed at content level.",
-      "n_updated": 2
     }
   ]
 }
